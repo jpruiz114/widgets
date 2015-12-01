@@ -9,13 +9,19 @@ By Jean Paul Ruiz <jpruiz114@gmail.com>
 
 ### Some considerations for Composer
 
-To download composer:
+To download composer if you don't have it:
 `tasks\composer\download-phar.sh`
+
+#### Clarification for the Mandrill library
 
 The Mandrill dependency was declared in the composer.json file.
 
+It will allow to actually send emails with this form through the Mandrill API.
+
 For more info regarding the Mandrill library:
 https://mandrillapp.com/api/docs/index.php.html
+
+#### Instructions with Composer
 
 To download the libraries:
 `tasks\composer\install-dependencies.sh`
@@ -27,7 +33,7 @@ To update the libraries
 
 ### Some considerations for Bower
 
-To install bower if you don't have it
+To install Bower if you don't have it
 `tasks\bower\install.sh`
 
 #### Clarification for the tag component
@@ -40,7 +46,7 @@ https://github.com/jpruiz114/jQuery-Tags-Input-Custom
 
 The custom repo from above was added to the bower.json file as a dependency for the project.
 
-#### Instructions with bower
+#### Instructions with Bower
 
 To list the project frontend dependencies
 `tasks\bower\list-dependencies.sh`
