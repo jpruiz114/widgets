@@ -38,6 +38,8 @@ https://github.com/xoxco/jQuery-Tags-Input
 ... and changed the library here:
 https://github.com/jpruiz114/jQuery-Tags-Input-Custom
 
+#### Instructions with bower
+
 To list the project frontend dependencies
 `tasks\bower\list-dependencies.sh`
 
