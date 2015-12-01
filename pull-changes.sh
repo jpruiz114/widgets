@@ -1,29 +1,29 @@
 #!/usr/bin/env bash
 
-printf "***** ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** *****<br>"
-printf "List of files<br>"
-printf "***** ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** *****<br>"
+printf "***** ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** *****\n"
+printf "List of files\n"
+printf "***** ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** *****\n"
 
-printf "<br>"
+printf "\n"
 
 ls -al
 
-printf "<br>"
+printf "\n"
 
-printf "***** ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** *****<br>"
-printf "Local git version<br>"
-printf "***** ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** *****<br>"
+printf "***** ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** *****\n"
+printf "Local git version\n"
+printf "***** ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** *****\n"
 
-printf "<br>"
+printf "\n"
 
 ~/opt/usr/libexec/git-core/git --version
 
-printf "<br>"
+printf "\n"
 
-printf "***** ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** *****<br>"
-printf "Pull from repo result<br>"
-printf "***** ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** *****<br>"
+printf "***** ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** *****\n"
+printf "Pull from repo result\n"
+printf "***** ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** *****\n"
 
-printf "<br>"
+printf "\n"
 
 ~/opt/usr/libexec/git-core/git pull origin master
