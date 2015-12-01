@@ -35,7 +35,7 @@ To install bower if you don't have it
 For the tag component, forked this repo:
 https://github.com/xoxco/jQuery-Tags-Input
 
-... and changed the library here:
+...and changed the library here:
 https://github.com/jpruiz114/jQuery-Tags-Input-Custom
 
 #### Instructions with bower
