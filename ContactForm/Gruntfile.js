@@ -3,11 +3,11 @@ module.exports = function(grunt) {
 	
 	grunt.initConfig({
 		jsonlint: {
-			checkConfig: {
-				src: ["www/config.json"]
+			checkBowerJSON: {
+				src: ["bower.json"]
 			},
-			checkEnUsTranslation: {
-				src: ["www/locales/en-US/translation.json"]
+			checkComposerJSON: {
+				src: ["composer.json"]
 			}
 		}
 	});

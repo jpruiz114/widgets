@@ -42,3 +42,6 @@ npm install -g grunt-cli
 Install the grunt plugins
 npm install grunt --save-dev
 
+npm install grunt-jsonlint --save-dev
+npm install load-grunt-tasks --save-dev
+
