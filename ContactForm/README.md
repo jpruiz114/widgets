@@ -42,6 +42,8 @@ To install the frontend dependencies
 
 With the .bowerrc file we setup the folder where you want to hold the frontend dependencies.
 
+## Build & Validation Automation with Grunt
+
 Install the command line interface for grunt
 `npm install -g grunt-cli`
 
