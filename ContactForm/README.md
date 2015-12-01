@@ -79,9 +79,13 @@ Install the **load-grunt-tasks** package
 
 ## SEO Considerations
 
+Multi-regional and multilingual sites
+
+https://support.google.com/webmasters/answer/182192?hl=en
+
 ~~Please refer to the "Working with multi-regional websites" article from the Official Google Webmaster blog:~~
 
-http://googlewebmastercentral.blogspot.com.co/2010/03/working-with-multi-regional-websites.html
+~~http://googlewebmastercentral.blogspot.com.co/2010/03/working-with-multi-regional-websites.html~~
 
 ~~The best way to handle multiple languages is not to dynamically return different languages, but rather to have distinct domains or distinct URLs for each language.~~
 
