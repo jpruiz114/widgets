@@ -16,7 +16,7 @@ To download composer, if you don't have it:
 
 The Mandrill dependency was declared in the composer.json file.
 
-It will allow to actually send emails with this form through the Mandrill API.
+It will allow to actually send email messages with this form through the Mandrill API.
 
 For more info regarding the Mandrill library:
 https://mandrillapp.com/api/docs/index.php.html
