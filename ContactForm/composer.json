@@ -1,0 +1,8 @@
+{
+	"config": {
+		"vendor-dir": "library"
+	},
+	"require": {
+		"mandrill/mandrill": "1.0.*"
+	}
+}

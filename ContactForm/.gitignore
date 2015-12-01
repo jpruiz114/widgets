@@ -1,0 +1,14 @@
+# Exclude components folder (This holds the dependencies installed with bower)
+components
+
+# Exclude library folder (This holds the dependencies installed with composer)
+library
+
+# Exclude the node_modules folder
+node_modules
+
+# Exclude composer.lock
+composer.lock
+
+# Exclude composer.phar
+composer.phar
