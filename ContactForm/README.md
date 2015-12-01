@@ -29,7 +29,9 @@ To download the libraries:
 To update the libraries
 `tasks\composer\update-dependencies.sh`
 
-* Notice that the **library** folder (Setup in composer.json) was excluded from the repository in the **.gitignore** file.
+~~Notice that the **library** folder (Setup in composer.json) was excluded from the repository in the **.gitignore** file.~~
+
+This folder had to be added again so the deployment on the server side could have the dependencies.
 
 ### Some considerations for Bower
 
@@ -56,7 +58,9 @@ To install the frontend dependencies
 
 With the .bowerrc file we setup the folder where you want to hold the frontend dependencies.
 
-* Notice that the **components** folder (Setup in .bowerrc) was excluded from the repository in the **.gitignore** file.
+~~Notice that the **components** folder (Setup in .bowerrc) was excluded from the repository in the **.gitignore** file.~~
+
+This folder had to be added again so the deployment on the server side could have the dependencies.
 
 ## Build & Validation Automation with Grunt
 
