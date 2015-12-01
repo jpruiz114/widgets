@@ -64,5 +64,5 @@ Install the grunt-jsonlint package
 Install the load-grunt-tasks package
 `npm install load-grunt-tasks --save-dev`
 
-* Notice that the **node_modules** folder (Created when you install the grunt packages) was excluded from the repository in the **.gitignore** file.
+* Notice that the **node_modules** folder (Created for grunt) was excluded from the repository in the **.gitignore** file.
 
