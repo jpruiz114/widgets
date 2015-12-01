@@ -1,11 +1,11 @@
-# Contact Form #
+# Contact Form
 
-## Dependency Handling ##
+## Dependency Handling
 
 * [Composer](https://getcomposer.org/) for the backend libraries
 * [Bower](http://bower.io/) for the frontend libraries
 
-### Some considerations for Composer ###
+### Some considerations for Composer
 
 To download composer:
 `tasks\composer\download-phar.sh`
@@ -21,12 +21,12 @@ To download the libraries:
 To update the libraries
 `tasks\composer\update-dependencies.sh`
 
-### Some considerations for Bower ###
+### Some considerations for Bower
 
 To install bower if you don't have it
 `tasks\bower\install.sh`
 
-#### Clarification for the tag component #### 
+#### Clarification for the tag component
 
 For the tag component, forked this repo:
 https://github.com/xoxco/jQuery-Tags-Input
