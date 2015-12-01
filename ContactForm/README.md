@@ -9,7 +9,7 @@ By Jean Paul Ruiz <jpruiz114@gmail.com>
 
 ### Some considerations for Composer
 
-To download composer if you don't have it:
+To download composer, if you don't have it:
 `tasks\composer\download-phar.sh`
 
 #### Clarification for the Mandrill library
@@ -33,7 +33,7 @@ To update the libraries
 
 ### Some considerations for Bower
 
-To install Bower if you don't have it
+To install Bower, if you don't have it
 `tasks\bower\install.sh`
 
 #### Clarification for the tag component
