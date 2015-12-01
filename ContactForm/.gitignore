@@ -1,3 +1,6 @@
+# Exclude the sass cache folder generated when the scss files are compiled
+.sass-cache
+
 # Exclude components folder (This holds the dependencies installed with bower)
 components
 
