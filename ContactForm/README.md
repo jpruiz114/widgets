@@ -38,6 +38,8 @@ https://github.com/xoxco/jQuery-Tags-Input
 ...and changed the library here:
 https://github.com/jpruiz114/jQuery-Tags-Input-Custom
 
+The custom repo from above was added to the bower.json file as a dependency for the project.
+
 #### Instructions with bower
 
 To list the project frontend dependencies
