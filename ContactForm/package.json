@@ -2,9 +2,6 @@
   "name": "contact-form",
   "description": "Contact Form",
   "author": "Jean Paul Ruiz <jpruiz114@gmail.com>",
-  "dependencies": {
-    "grunt-jsonlint": "*"
-  },
   "devDependencies": {
     "grunt": "^0.4.5",
     "grunt-jsonlint": "^1.0.6",
