@@ -8,6 +8,9 @@ module.exports = function(grunt) {
 			},
 			checkComposerJSON: {
 				src: ["composer.json"]
+			},
+			checkLocales: {
+				src: ["locales/en/translation.json", "locales/es/translation.json"]
 			}
 		}
 	});
