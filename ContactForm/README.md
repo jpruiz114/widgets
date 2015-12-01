@@ -66,10 +66,13 @@ Install the command line interface for Grunt
 Install the latest version of Grunt in your project folder
 `npm install grunt --save-dev`
 
-Install the grunt-jsonlint package
+Install the **grunt-contrib-sass** package
+`npm install grunt-contrib-sass --save-dev`
+
+Install the **grunt-jsonlint** package
 `npm install grunt-jsonlint --save-dev`
 
-Install the load-grunt-tasks package
+Install the **load-grunt-tasks** package
 `npm install load-grunt-tasks --save-dev`
 
 * Notice that the **node_modules** folder (Created for Grunt) was excluded from the repository in the **.gitignore** file.

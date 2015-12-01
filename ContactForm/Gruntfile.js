@@ -12,8 +12,18 @@ module.exports = function(grunt) {
 			checkLocales: {
 				src: ["locales/en/translation.json", "locales/es/translation.json"]
 			}
-		}
+		},
+		sass: {
+			dist: {
+				options: {
+					style: "compressed"
+				},
+				files: {
+					"css/index.css": "sass/index.scss"
+				}
+			}
+		},
 	});
 	
-	grunt.registerTask("default", ["jsonlint"]);
+	grunt.registerTask("default", ["jsonlint", "sass"]);
 };
