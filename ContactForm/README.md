@@ -82,7 +82,7 @@ Install the **load-grunt-tasks** package
 
 ## SEO Considerations
 
-Multi-regional and multilingual sites
+Multi-regional and multilingual sites:
 
 https://support.google.com/webmasters/answer/182192?hl=en
 

@@ -2,10 +2,10 @@
 .sass-cache
 
 # Exclude components folder (This holds the dependencies installed with bower)
-components
+# components
 
 # Exclude library folder (This holds the dependencies installed with composer)
-library
+# library
 
 # Exclude the node_modules folder
 node_modules
