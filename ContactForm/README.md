@@ -23,7 +23,7 @@ To download the libraries:
 To update the libraries
 `tasks\composer\update-dependencies.sh`
 
-* Notice that the **library** folder (Setup in composer.json) was excluded from the repository in the .gitignore file.
+* Notice that the **library** folder (Setup in composer.json) was excluded from the repository in the **.gitignore** file.
 
 ### Some considerations for Bower
 
@@ -48,7 +48,7 @@ To install the frontend dependencies
 
 With the .bowerrc file we setup the folder where you want to hold the frontend dependencies.
 
-* Notice that the **components** folder (Setup in .bowerrc) was excluded from the repository in the .gitignore file.
+* Notice that the **components** folder (Setup in .bowerrc) was excluded from the repository in the **.gitignore** file.
 
 ## Build & Validation Automation with Grunt
 
@@ -63,4 +63,6 @@ Install the grunt-jsonlint package
 
 Install the load-grunt-tasks package
 `npm install load-grunt-tasks --save-dev`
+
+* Notice that the **node_modules** folder (Created when you install the grunt packages) was excluded from the repository in the **.gitignore** file.
 
