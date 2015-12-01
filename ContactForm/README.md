@@ -47,7 +47,7 @@ With the .bowerrc file we setup the folder where you want to hold the frontend d
 Install the command line interface for grunt
 `npm install -g grunt-cli`
 
-Install the grunt plugins
+Install the latest version of Grunt in your project folder
 `npm install grunt --save-dev`
 
 Install the grunt-jsonlint package
