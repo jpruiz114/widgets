@@ -8,7 +8,7 @@
 		"i18next": "*",
 		"jquery": "*",
 		"jqueryui": "*",
-		"jQuery-Tags-Input": "git://github.com/jpruiz114/jQuery-Tags-Input-Custom.git#master",
+		"jQuery-Tags-Input-Custom": "git://github.com/jpruiz114/jQuery-Tags-Input-Custom.git#master",
 		"ladda": "*",
 		"toastr": "*"
 	}
