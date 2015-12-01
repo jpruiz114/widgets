@@ -1,5 +1,7 @@
 {
-	"app": {
-		"contacts": "Contacts"
+	"contact-form": {
+		"contacts": "Contacts",
+		"subject": "Subject",
+		"message": "Message"
 	}
 }

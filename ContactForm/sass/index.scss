@@ -1,17 +1,39 @@
+// Contact Form
+// ============
+//
+// The content of this file holds the styles for the contact form.
+
+// Import the colors.
+@import "_colors";
+
 #wrapper {
 	text-align: center;
 	width: 100%;
 }
 
-#container {
-	background-color: white;
-	border: #BEBEBE 2px solid;
+#form-container {
+	background-color: $form-background-color;
+	border-radius: $form-border-radius;
+	height: 460px;
 	left: 50%;
 	margin-left: -172px;
 	margin-top: -230px;
-	opacity: 0.9;
 	padding: 10px;
 	position: absolute;
 	top: 50%;
-	width: 320px;
+	width: 370px;
 }
+
+.full-size-row {
+	float: left;
+	width: 100%;
+}
+
+.full-size-row label {
+	font-family: "Open Sans";
+	font-size: 16px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+}
+

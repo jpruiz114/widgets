@@ -72,6 +72,9 @@ Install the **grunt-contrib-sass** package
 Install the **grunt-jsonlint** package
 `npm install grunt-jsonlint --save-dev`
 
+Install the **grunt-jsvalidate** package
+`npm install grunt-jsvalidate --save-dev`
+
 Install the **load-grunt-tasks** package
 `npm install load-grunt-tasks --save-dev`
 
@@ -83,13 +86,13 @@ Multi-regional and multilingual sites
 
 https://support.google.com/webmasters/answer/182192?hl=en
 
-~~Please refer to the "Working with multi-regional websites" article from the Official Google Webmaster blog:~~
+## Styles Considerations
 
-~~http://googlewebmastercentral.blogspot.com.co/2010/03/working-with-multi-regional-websites.html~~
+For the styles [SMACSS](https://smacss.com/book/type-layout) guideline is used.
 
-~~The best way to handle multiple languages is not to dynamically return different languages, but rather to have distinct domains or distinct URLs for each language.~~
+## Languages Considerations
 
-~~If you want to give visitors a single landing page, consider having that page redirect to the language-specific page.~~
+navigator.language list of all languages should match the ISO 639-1:
 
-~~Also, to maximize crawling, consider having links that easily allow a user to switch to different language version of the same page.~~
+https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes
 

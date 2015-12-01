@@ -13,6 +13,18 @@ module.exports = function(grunt) {
 				src: ["locales/en/translation.json", "locales/es/translation.json"]
 			}
 		},
+		jsvalidate: {
+			options:{
+				esprimaOptions: {},
+				globals: {},
+				verbose: true
+			},
+			targetName:{
+				files:{
+					src:["js/index.js"]
+				}
+			}
+		},
 		sass: {
 			dist: {
 				options: {
@@ -25,5 +37,5 @@ module.exports = function(grunt) {
 		},
 	});
 	
-	grunt.registerTask("default", ["jsonlint", "sass"]);
+	grunt.registerTask("default", ["jsonlint", "jsvalidate", "sass"]);
 };
