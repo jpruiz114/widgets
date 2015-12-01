@@ -1,5 +1,7 @@
 # Contact Form
 
+By Jean Paul Ruiz <jpruiz114@gmail.com>
+
 ## Dependency Handling
 
 * [Composer](https://getcomposer.org/) for the backend libraries
@@ -21,6 +23,8 @@ To download the libraries:
 To update the libraries
 `tasks\composer\update-dependencies.sh`
 
+* Notice that the **library** folder (Setup in composer.json) was excluded from the repository in the .gitignore file.
+
 ### Some considerations for Bower
 
 To install bower if you don't have it
@@ -41,6 +45,8 @@ To install the frontend dependencies
 `tasks\bower\update-dependencies.sh`
 
 With the .bowerrc file we setup the folder where you want to hold the frontend dependencies.
+
+* Notice that the **components** folder (Setup in .bowerrc) was excluded from the repository in the .gitignore file.
 
 ## Build & Validation Automation with Grunt
 
