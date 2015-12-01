@@ -1,7 +1,4 @@
-var language = window.navigator.userLanguage || window.navigator.language;
-
-Composer for the libraries
-
+Composer for the backend libraries
 Bower for the frontend libraries
 
 To download composer:

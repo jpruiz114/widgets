@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-git add *
+git add .
 
 if [ -z "$1" ]; then
 	git commit -m "New commit - No comments provided"
