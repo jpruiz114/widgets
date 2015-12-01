@@ -50,9 +50,9 @@ Install the command line interface for grunt
 Install the grunt plugins
 `npm install grunt --save-dev`
 
-Install the grunt-jsonlint plugin
+Install the grunt-jsonlint package
 `npm install grunt-jsonlint --save-dev`
 
-Install the load-grunt-tasks plugin
+Install the load-grunt-tasks package
 `npm install load-grunt-tasks --save-dev`
 
