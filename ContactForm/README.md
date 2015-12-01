@@ -79,11 +79,13 @@ Install the **load-grunt-tasks** package
 
 ## SEO Considerations
 
-Please refer to the "Working with multi-regional websites" article from the Official Google Webmaster blog:
+~~Please refer to the "Working with multi-regional websites" article from the Official Google Webmaster blog:~~
 
 http://googlewebmastercentral.blogspot.com.co/2010/03/working-with-multi-regional-websites.html
 
-The best way to handle multiple languages is not to dynamically return different languages, but rather to have distinct domains or distinct URLs for each language.
-If you want to give visitors a single landing page, consider having that page redirect to the language-specific page.
-Also, to maximize crawling, consider having links that easily allow a user to switch to different language version of the same page.
+~~The best way to handle multiple languages is not to dynamically return different languages, but rather to have distinct domains or distinct URLs for each language.~~
+
+~~If you want to give visitors a single landing page, consider having that page redirect to the language-specific page.~~
+
+~~Also, to maximize crawling, consider having links that easily allow a user to switch to different language version of the same page.~~
 
