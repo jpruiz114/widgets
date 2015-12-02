@@ -137,6 +137,12 @@ http://lab.hakim.se/ladda/
 
 :octocat: https://github.com/hakimel/Ladda
 
+For the alerts, the same library used by Slack (The collaboration tool) was used:
+
+http://codeseven.github.io/toastr/demo.html
+
+:octocat: https://github.com/CodeSeven/toastr
+
 ## Languages Considerations
 
 navigator.language value should be found in the ISO 639-1:
