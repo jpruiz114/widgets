@@ -64,7 +64,7 @@ if (!empty($params)) {
 
 					app.initialize(chosenLang);
 
-					$("#tags_1").tagsInput({width:"auto", defaultText: "Another"});
+					$("#tags_1").tagsInput({width:"auto", defaultText: ""});
 				}
 			);
 		</script>
