@@ -44,7 +44,7 @@ body {
 
 .full-size-row {
   float: left;
-  margin-bottom: 8px;
+  margin-bottom: 6px;
   padding-left: 20px;
   padding-right: 20px;
   text-align: left;
@@ -79,7 +79,7 @@ body {
   width: calc(100% - (15px * 2 + 1px * 2)); }
 
 .full-size-row:nth-child(even) {
-  margin-bottom: 16px; }
+  margin-bottom: 12px; }
 
 .tags-holder {
   border-style: solid;

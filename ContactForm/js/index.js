@@ -24,25 +24,6 @@ var app = {
 				app.addAnotherContact();
 			}
 		);
-
-		$("#email-tokenizer").focusin(
-			function() {
-				var listOfContacts = app.getCurrentEmails();
-				console.log("listOfContacts" + " = " + listOfContacts);
-
-				if (listOfContacts) {
-					var numberOfContacts = listOfContacts.length;
-					console.log("numberOfContacts" + " = " + numberOfContacts);
-
-					if (numberOfContacts > 0) {
-						var lastContact = listOfContacts[numberOfContacts - 1];
-						console.log("lastContact" + " = " + lastContact);
-
-
-					}
-				}
-			}
-		);
 	},
 
 	/**
@@ -177,5 +158,22 @@ var app = {
 		var listOfContacts = data.split(",");
 
 		return listOfContacts;
+	},
+
+	/**
+	 *
+	 */
+	validateContacts: function() {
+		var listOfContacts = app.getCurrentEmails();
+		console.log("listOfContacts" + " = " + listOfContacts);
+
+		if (listOfContacts) {
+			var numberOfContacts = listOfContacts.length;
+			console.log("numberOfContacts" + " = " + numberOfContacts);
+
+			if (numberOfContacts > 0) {
+
+			}
+		}
 	}
 };
