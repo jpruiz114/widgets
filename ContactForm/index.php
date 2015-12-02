@@ -48,8 +48,6 @@ if (!empty($params)) {
 
 		<script type="text/javascript" src="components/i18next/i18next.min.js"></script>
 
-		<script type="text/javascript" src="components/bootstrap/dist/js/bootstrap.min.js"></script>
-
 		<link href="components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
 
 		<script type="text/javascript" src="components/bootstrap-tokenizer/js/bootstrap-tokenizer.js"></script>
