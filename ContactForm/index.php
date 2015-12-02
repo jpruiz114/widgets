@@ -63,9 +63,13 @@ if (!empty($params)) {
 	<body>
 		<div id="wrapper">
 			<div id="language-container">
-				<span class="flag-icon flag-icon-us flag-icon-squared"></span>
+				<div class="flag-container">
+					<span class="flag-icon flag-icon-us"></span>
+				</div>
 
-				<span class="flag-icon flag-icon-es flag-icon-squared"></span>
+				<div class="flag-container">
+					<span class="flag-icon flag-icon-es"></span>
+				</div>
 			</div>
 
 			<div id="form-container">

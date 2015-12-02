@@ -20,11 +20,15 @@ html {
 }
 
 #language-container {
-	background-color: white;
-	border: solid 2px #bebebe;
 	left: 10px;
 	position: fixed;
 	width: 80px;
+}
+
+.flag-container {
+	border: solid 2px #bebebe;
+	float: left;
+	width: calc(100% - 4px);
 }
 
 #form-container {
