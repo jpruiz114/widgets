@@ -125,5 +125,8 @@ body {
   display: inline;
   font-family: "Open Sans";
   font-size: 16px; }
+.bottom-form-row .icheckbox_minimal-green {
+  margin-right: 4px;
+  margin-top: -4px; }
 
 /*# sourceMappingURL=index.css.map */
