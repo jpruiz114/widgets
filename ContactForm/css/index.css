@@ -90,6 +90,13 @@ body {
 .tags-holder .email-tags {
   float: left;
   width: 88%; }
+.tags-holder .email-tags .tokenizer {
+  border: none;
+  margin: 0;
+  padding: 0;
+  width: 100%; }
+.tags-holder .email-tags .tokenizer span {
+  padding: 12px; }
 .tags-holder .add-another {
   color: #ede3dd;
   font-size: 40px; }

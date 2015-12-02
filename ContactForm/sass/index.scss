@@ -121,6 +121,17 @@ body {
   	.email-tags {
 	  	float: left;
 	  	width: 88%;
+
+	  	.tokenizer {
+			border: none;
+			margin: 0;
+			padding: 0;
+			width: 100%;
+	  	}
+
+	  	.tokenizer span {
+		  	padding: 12px;
+	  	}
 	}
 
 	.add-another {
