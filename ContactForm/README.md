@@ -120,3 +120,49 @@ http://lab.hakim.se/ladda/
 navigator.language list of all languages should match the ISO 639-1:
 
 https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes
+
+## Automation ##
+
+In order to save time, a shell script named **push-and-deploy.sh** was created.
+
+This script calls **Grunt** and pushes the changes to the GitHub repo.
+
+The repo was setup so after every push to the master branch, a web hook is called that performs an automatic deployment on the server side.
+
+**Grunt**, as listed above, uses several tasks to automate:
+
+* Validation of json files.
+* Validation of JavaScript files.
+* Remove the logging from JavaScript (Console.log() calls that developers use).
+* Compile the sass files into css files.
+
+Inside the **tasks** folder other shell scripts can be found.
+
+There are several shell scripts for:
+
+* bower
+* composer
+* git
+* recess
+
+The shell scripts for **bower** allow to:
+
+* Install bower
+* List the current dependencies
+* Install & update dependencies
+
+The shell scripts for composer allow to:
+
+* Download the phar file
+* Install the dependencies
+* Update the dependencies
+
+The shell scripts for git allow to:
+
+* Push the current changes to the repo with a custom or generic comment.
+
+The shell scripts for recess allow to:
+
+* Compile the less files for the bootstrap tokenizer
+* See the current less compiler version
+
