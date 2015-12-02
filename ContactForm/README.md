@@ -131,10 +131,10 @@ The repo was setup so after every push to the master branch, a web hook is calle
 
 **Grunt**, as listed above, uses several tasks to automate:
 
-* Validation of json files.
-* Validation of JavaScript files.
-* Remove the logging from JavaScript (Console.log() calls that developers use).
-* Compile the sass files into css files.
+* Validating of json files.
+* Validating of JavaScript files.
+* Removing the logging from JavaScript (Console.log() calls that developers use).
+* Compiling the sass files into css files.
 
 Inside the **tasks** folder other shell scripts can be found.
 
