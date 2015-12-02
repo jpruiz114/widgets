@@ -50,6 +50,8 @@ if (!empty($params)) {
 
 		<script type="text/javascript" src="components/taggingJS/tagging.js"></script>
 
+		<link rel="stylesheet" type="text/css" href="components/taggingJS/example/tag-basic-style.css">
+
 		<script type="text/javascript" src="js/index.js"></script>
 		
 		<script type="text/javascript">
