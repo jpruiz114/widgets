@@ -309,6 +309,12 @@ var app = {
 	 * Function that handles the form validation.
 	 */
 	validateFormData: function() {
+		// Clear the possible toastr alerts from previous attempts.
+		toastr.clear();
+
+		// Show the new on a more natural order.
+		toastr.options.newestOnTop = false;
+
 		// Validate the contacts.
 		var contactsValid = app.validateContacts();
 
