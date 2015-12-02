@@ -1,13 +1,15 @@
 {
-	"contact-form": {
-	  	"english-website": "Inglés",
-	  	"spanish-website": "Español",
+  "contact-form": {
+	"english-website": "Inglés",
+	"spanish-website": "Español",
 
-		"contacts": "Contactos",
-		"subject": "Asunto",
-		"message": "Mensaje",
+	"contacts": "Contactos",
+	"subject": "Asunto",
+	"message": "Mensaje",
 
-	  	"add-subject": "Escribe aquí el asunto",
-	  	"leave-message": "Escribe aquí tu mensaje"
-	}
+	"add-subject": "Escribe aquí el asunto",
+	"leave-message": "Escribe aquí tu mensaje",
+
+	"save-copy": "Guardar copia"
+  }
 }

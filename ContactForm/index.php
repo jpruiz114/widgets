@@ -74,7 +74,11 @@ if (!empty($params)) {
 
 					$("#email-tokenizer").tokenizer();
 
-					
+					$('input').iCheck({
+						checkboxClass: 'icheckbox_minimal-green',
+						radioClass: 'iradio_minimal-green',
+						increaseArea: '20%' // optional
+					});
 				}
 			);
 		</script>
@@ -127,9 +131,9 @@ if (!empty($params)) {
 				
 				<div class="bottom-form-row">
 					<div class="half-row">
-						<input checked id="save-a-copy" type="checkbox">
+						<label for="save-a-copy" data-i18n="contact-form.save-copy"></label>
 
-
+						<input checked id="save-a-copy" type="radio">
 					</div>
 
 					<div class="half-row">
