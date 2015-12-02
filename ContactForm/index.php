@@ -120,7 +120,7 @@ if (!empty($params)) {
 				</div>
 				
 				<div class="bottom-form-row">
-					
+					<label>Bottom stuff goes here</label>
 				</div>
 			</div>
 		</div>
