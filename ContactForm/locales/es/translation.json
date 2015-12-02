@@ -10,6 +10,7 @@
 	"add-subject": "Escribe aquí el asunto",
 	"leave-message": "Escribe aquí tu mensaje",
 
-	"save-copy": "Guardar copia"
+	"save-copy": "Guardar copia",
+	"send-mail": "Enviar correo"
   }
 }

@@ -10,6 +10,7 @@
 	"add-subject": "You can add a subject",
 	"leave-message": "Leave your message here",
 
-	"save-copy": "Save a copy"
+	"save-copy": "Save a copy",
+	"send-mail": "Send Mail"
   }
 }

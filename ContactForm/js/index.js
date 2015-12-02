@@ -17,13 +17,25 @@ var app = {
 		// Load the defined language.
 		app.loadLanguage();
 
-		/* ***** */
-
+		// Handle the click event for the tokenizer.
 		$("#add-another").click(
 			function() {
 				app.addAnotherContact();
 			}
 		);
+
+		// Initialize the tokenizer.
+		$("#email-tokenizer").tokenizer();
+
+		// Initialize the green checkbox.
+		$("input").iCheck({
+			checkboxClass: "icheckbox_minimal-green",
+			radioClass: "iradio_minimal-green",
+			increaseArea: "20%"
+		});
+
+		// Initialize the ladda button.
+		var l = Ladda.create(document.querySelector(".send-mail"));
 	},
 
 	/**

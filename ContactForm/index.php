@@ -60,6 +60,12 @@ if (!empty($params)) {
 
 		<script type="text/javascript" src="components/iCheck/icheck.min.js"></script>
 
+		<link href="components/ladda/dist/ladda.min.css" rel="stylesheet">
+
+		<script type="text/javascript" src="components/ladda/dist/spin.min.js"></script>
+
+		<script type="text/javascript" src="components/ladda/dist/ladda.min.js"></script>
+
 		<script type="text/javascript" src="js/index.js"></script>
 
 		<script type="text/javascript">
@@ -71,14 +77,6 @@ if (!empty($params)) {
 					var chosenLang = "<?php echo($lang); ?>";
 
 					app.initialize(chosenLang);
-
-					$("#email-tokenizer").tokenizer();
-
-					$("input").iCheck({
-						checkboxClass: "icheckbox_minimal-green",
-						radioClass: "iradio_minimal-green",
-						increaseArea: "20%"
-					});
 				}
 			);
 		</script>
@@ -137,7 +135,9 @@ if (!empty($params)) {
 					</div>
 
 					<div class="half-row">
-						<label>Button goes here</label>
+						<button class="ladda-button send-mail" data-style="slide-right">
+							<span class="ladda-label" data-i18n="contact-form.send-mail"></span>
+						</button>
 					</div>
 				</div>
 			</div>
