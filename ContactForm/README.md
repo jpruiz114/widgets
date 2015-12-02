@@ -206,3 +206,18 @@ http://www.chromevox.com/
 
 ChromeVox is a screen reader for Chrome which brings the speed, versatility, and security of Chrome to visually impaired users.
 
+Toastr alerts have three elements to take into account:
+
+* Color
+* Icon
+* Message
+
+For a regular user the color can be enough to indicate that something is wrong or right, but is als complemented with an icon and a clear message.
+
+For the current form, you can see orange boxes for alerts, and green boxes for success.
+
+If it happens that a daltonic user reaches the form, the icon and the clear messages must indicate that something is wrong or right.
+
+* Alert icon: :warning:
+* Success icon: :white_check_mark:
+
