@@ -90,7 +90,11 @@ if (!empty($params)) {
 				</div>
 				
 				<div class="full-size-row">
-					<input id="tags_1" type="text" class="tags" value="data1,data2,data3" />
+					<div>
+						<input id="tags_1" type="text" class="tags" value="data1,data2,data3" />
+
+						<i class='add-another fa fa-plus-square'></i>
+					</div>
 				</div>
 				
 				<div class="full-size-row">

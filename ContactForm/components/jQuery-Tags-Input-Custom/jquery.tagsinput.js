@@ -1,17 +1,17 @@
 /*
+
 	jQuery Tags Input Plugin 1.3.3
-	
+
 	Copyright (c) 2011 XOXCO, Inc
-	
+
 	Documentation for this plugin lives here:
 	http://xoxco.com/clickable/jquery-tags-input
-	
+
 	Licensed under the MIT license:
 	http://www.opensource.org/licenses/mit-license.php
-	
+
 	ben@xoxco.com
-	
-	Modification added by Jean Paul Ruiz <jpruiz114@gmail.com>
+
 */
 
 (function($) {
@@ -233,7 +233,6 @@
 			if (settings.interactive) {
 				markup = markup + '<input id="'+id+'_tag" value="" data-default="'+settings.defaultText+'" />';
 			}
-			markup += "<i class='add-another fa fa-plus-square'></i>";
 
 			markup = markup + '</div><div class="tags_clear"></div></div>';
 
@@ -258,7 +257,6 @@
 				$(data.fake_input).bind('focus',data,function(event) {
 					if ($(event.data.fake_input).val()==$(event.data.fake_input).attr('data-default')) {
 						$(event.data.fake_input).val('');
-						$(".add-another").hide();
 					}
 					$(event.data.fake_input).css('color','#000000');
 				});
@@ -296,7 +294,6 @@
 							} else {
 								$(event.data.fake_input).val($(event.data.fake_input).attr('data-default'));
 								$(event.data.fake_input).css('color',settings.placeholderColor);
-								$(".add-another").show();
 							}
 							return false;
 						});
