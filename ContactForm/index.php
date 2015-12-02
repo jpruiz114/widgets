@@ -64,7 +64,7 @@ if (!empty($params)) {
 
 					app.initialize(chosenLang);
 
-					$("#tags_1").tagsInput({width: "80%", defaultText: ""});
+
 				}
 			);
 		</script>
@@ -90,8 +90,10 @@ if (!empty($params)) {
 				</div>
 				
 				<div class="full-size-row">
-					<div>
-						<input id="tags_1" type="text" class="tags" value="data1,data2,data3" />
+					<div class="tags-holder">
+						<div class="email-tags">
+							<label>Here go the tags</label>
+						</div>
 
 						<i class='add-another fa fa-plus-square'></i>
 					</div>

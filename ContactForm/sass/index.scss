@@ -81,11 +81,6 @@ body {
 		font-weight: 500;
 	}
 
-  	.add-another {
-		color: #ede3dd;
-		font-size: 3em;
-  	}
-
   	input[type=text] {
 	  	border-color: $input-border-color;
 	  	border-radius: $input-border-radius;
@@ -114,4 +109,22 @@ body {
 
 .full-size-row:nth-child(even) {
   	margin-bottom: $full-size-row-bottom-margin * 2;
+}
+
+.tags-holder {
+  	border-style: solid;
+  	border-width: $input-border-width;
+  	border-radius: $input-border-radius;
+  	border-color: $input-border-color;
+  	padding: $tag-holder-padding;
+
+  	.email-tags {
+	  	float: left;
+	  	width: 85%;
+	}
+
+	.add-another {
+		color: #ede3dd;
+		font-size: 40px;
+	}
 }
