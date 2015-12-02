@@ -63,7 +63,7 @@ if (!empty($params)) {
 			<div id="top-bar">
 				<ul class="langs">
 					<li class="langs-item">
-						<a class="lang-link" href="/frontend-test/ContactForm/en" target="_self" data-i18n="contact-form.english-website"></a>
+						<a class="langs-link" href="/frontend-test/ContactForm/en" target="_self" data-i18n="contact-form.english-website"></a>
 					</li>
 
 					<li class="langs-item">
