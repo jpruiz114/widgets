@@ -6,6 +6,10 @@
 // Import the colors.
 @import "_colors";
 
+body {
+	background-color: $page-background-color;
+}
+
 #wrapper {
 	text-align: center;
 	width: 100%;
