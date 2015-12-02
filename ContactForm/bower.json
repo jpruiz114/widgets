@@ -4,11 +4,12 @@
 	"authors": ["Jean Paul Ruiz Vallejo <jpruiz114@gmail.com>"],
 	"main": "index.html",
 	"dependencies": {
+	  	"bootstrap": "*",
 	  	"fontawesome": "*",
 		"i18next": "*",
 		"jquery": "*",
 		"jqueryui": "*",
-		"taggingJS": "git://github.com/sniperwolf/taggingJS#master",
+		"bootstrap-tokenizer": "git://github.com/fmmfonseca/bootstrap-tokenizer#master",
 		"ladda": "*",
 		"toastr": "*"
 	}

@@ -48,9 +48,13 @@ if (!empty($params)) {
 
 		<script type="text/javascript" src="components/i18next/i18next.min.js"></script>
 
-		<script type="text/javascript" src="components/taggingJS/tagging.js"></script>
+		<script type="text/javascript" src="components/bootstrap/dist/js/bootstrap.min.js"></script>
 
-		<link rel="stylesheet" type="text/css" href="components/taggingJS/example/tag-basic-style.css">
+		<link href="components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+
+		<script type="text/javascript" src="components/bootstrap-tokenizer/js/bootstrap-tokenizer.js"></script>
+
+		<link href="components/bootstrap-tokenizer/css/tokenizer.css" rel="stylesheet">
 
 		<script type="text/javascript" src="js/index.js"></script>
 		
@@ -64,7 +68,7 @@ if (!empty($params)) {
 
 					app.initialize(chosenLang);
 
-					$("#tagBox").tagging();
+					$("input").tokenizer();
 				}
 			);
 		</script>
@@ -92,7 +96,7 @@ if (!empty($params)) {
 				<div class="full-size-row">
 					<div class="tags-holder">
 						<div class="email-tags">
-							<div data-tags-input-name="tag" id="tagBox">preexisting-tag</div>
+							<input type="text" data-provide="tokenizer">
 						</div>
 
 						<i class='add-another fa fa-plus-square'></i>
