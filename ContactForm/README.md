@@ -29,7 +29,7 @@ To download the libraries:
 To update the libraries
 `tasks\composer\update-dependencies.sh`
 
-The folder **library** had to be added to the repo so the deployment on the server side could have the dependencies.
+* The folder **library** had to be added to the repo so the deployment on the server side could have the dependencies.
 
 ### Some considerations for Bower
 
@@ -56,7 +56,7 @@ To install the frontend dependencies
 
 With the .bowerrc file we setup the folder where you want to hold the frontend dependencies.
 
-The folder **components** had to be added to the repo so the deployment on the server side could have the dependencies.
+* The folder **components** had to be added to the repo so the deployment on the server side could have the dependencies.
 
 ## Build & Validation Automation with Grunt
 
