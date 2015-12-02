@@ -60,6 +60,16 @@ if (!empty($params)) {
 	
 	<body>
 		<div id="wrapper">
+			<div id="top-bar">
+				<a>
+					<label data-i18n="contact-form.message"></label>
+				</a>
+
+				<a>
+					<label data-i18n="contact-form.message"></label>
+				</a>
+			</div>
+
 			<div id="form-container">
 				<div class="full-size-row">
 					<label data-i18n="contact-form.contacts"></label>

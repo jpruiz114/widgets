@@ -9,6 +9,10 @@ html {
   text-align: center;
   width: 100%; }
 
+#top-bar {
+  float: left;
+  width: 100%; }
+
 #form-container {
   background-color: #ffffff;
   border-radius: 5px;
