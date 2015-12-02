@@ -74,11 +74,7 @@ if (!empty($params)) {
 
 					$("#email-tokenizer").tokenizer();
 
-					$('input').iCheck({
-						checkboxClass: 'icheckbox_minimal-green',
-						radioClass: 'iradio_minimal-green',
-						increaseArea: '20%' // optional
-					});
+					
 				}
 			);
 		</script>
