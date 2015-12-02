@@ -318,6 +318,8 @@ var app = {
 		if (contactsValid && subjectValid && messageValid) {
 			var laddaButton = app.getCurrentLaddaButton();
 
+			$(".fa-play-circle").hide();
+
 			laddaButton.start();
 
 
