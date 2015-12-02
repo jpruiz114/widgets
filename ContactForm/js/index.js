@@ -25,7 +25,7 @@ var app = {
 			}
 		);
 
-		$("#email-tokenizer").change(
+		$("#email-tokenizer").focusin(
 			function() {
 				var listOfContacts = app.getCurrentEmails();
 				console.log("listOfContacts" + " = " + listOfContacts);
@@ -38,7 +38,7 @@ var app = {
 						var lastContact = listOfContacts[numberOfContacts - 1];
 						console.log("lastContact" + " = " + lastContact);
 
-						
+
 					}
 				}
 			}
