@@ -95,8 +95,7 @@ body {
   margin: 0;
   padding: 0;
   width: 98% !important; }
-.tags-holder .email-tags .tokenizer span.label {
-  background-color: #5e90af;
+.tags-holder .email-tags .tokenizer span {
   padding: 12px; }
 .tags-holder .add-another {
   color: #ede3dd;

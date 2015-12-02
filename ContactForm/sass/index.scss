@@ -129,10 +129,9 @@ body {
 			width: 98% !important;
 	  	}
 
-	  	.tokenizer span.label {
-		  	background-color: #5e90af;
-		  	padding: 12px;
-	  	}
+	  	.tokenizer span {
+			padding: 12px;
+		}
 	}
 
 	.add-another {
