@@ -60,13 +60,13 @@ if (!empty($params)) {
 	
 	<body>
 		<div id="wrapper">
-			<div class="language-container">
-				<a href="" target="_self">
-					<img alt="" src="">
+			<div id="language-container">
+				<a href="/en" target="_self">
+					<span class="flag-icon flag-icon-us flag-icon-squared"></span>
 				</a>
 
-				<a href="" target="_self">
-					<img alt="" src="">
+				<a href="/es" target="_self">
+					<span class="flag-icon flag-icon-es flag-icon-squared"></span>
 				</a>
 			</div>
 

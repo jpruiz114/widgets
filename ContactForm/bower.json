@@ -4,6 +4,7 @@
 	"authors": ["Jean Paul Ruiz Vallejo <jpruiz114@gmail.com>"],
 	"main": "index.html",
 	"dependencies": {
+	  	"flag-icon-css": "git://github.com/lipis/flag-icon-css",
 		"fontawesome": "*",
 		"i18next": "*",
 		"jquery": "*",

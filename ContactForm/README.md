@@ -100,3 +100,16 @@ navigator.language list of all languages should match the ISO 639-1:
 
 https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes
 
+For the flags, the following project was added with bower:
+
+flag-icon-css
+
+https://github.com/lipis/flag-icon-css
+
+The country codes are the ones from the ISO 3166-1 that can be seen here:
+
+http://www.iso.org/iso/country_names_and_code_elements
+
+For spanish, the flag for the country Spain (ES) will be used.
+
+For english, the flag for the country USA (US) will be used.
