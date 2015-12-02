@@ -4,6 +4,7 @@
 	"authors": ["Jean Paul Ruiz Vallejo <jpruiz114@gmail.com>"],
 	"main": "index.html",
 	"dependencies": {
+	  	"bootstrap": "2.3.1",
 	  	"fontawesome": "*",
 		"i18next": "*",
 		"jquery": "*",
