@@ -6,7 +6,7 @@ var app = {
 		if (chosenLang) {
 			// It wont make any sense to show the link for the current lang.
 			app.hideLanguageLinkNotNeeded(chosenLang);
-			
+
 			// Set the given language as the preferred one.
 			app.setPreferredLanguage(chosenLang);
 		} else {
@@ -20,6 +20,7 @@ var app = {
 
 	/**
 	 * Function that hides the lang of the current url if it's the case.
+	 * @param currentLang
 	 */
 	hideLanguageLinkNotNeeded: function(currentLang) {
 		if (currentLang == app.LANGUAGE_CODE_FOR_ENGLISH) {
