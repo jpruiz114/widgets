@@ -95,15 +95,15 @@ Google advices not to have a unique URL with several languages but to have diffe
 
 If possible, Google also advices not only to have different urls but different domain names.
 
-For this case, a default URL was provided.
+For this case, a default URL was provided (See the demo URL).
 
 When a user opens this default URL, the preferred language will be asked and the page will load with that language.
 
-The two possible options are english or spanish. More languages could be added if needed.
+The two possible options are **english** or **spanish**. More languages could be added if needed.
 
-The default language for this base URL will be english.
+The default language for this base URL will be **english**.
 
-Other two urls are provided and setup with the help of the htaccess from Apache.
+Other two urls are provided and setup with the help of the htaccess from Apache (See above).
 
 The same page will be opened but a GET param will differentiate which language has to be loaded.
 
