@@ -74,11 +74,7 @@ if (!empty($params)) {
 
 					$("#email-tokenizer").tokenizer();
 
-					$("#save-a-copy").iCheck({
-						checkboxClass: "icheckbox_minimal",
-						radioClass: "iradio_minimal",
-						increaseArea: "20%"
-					});
+					
 				}
 			);
 		</script>
