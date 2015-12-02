@@ -131,9 +131,9 @@ if (!empty($params)) {
 				
 				<div class="bottom-form-row">
 					<div class="half-row">
-						<label for="save-a-copy" data-i18n="contact-form.save-copy"></label>
-
 						<input checked id="save-a-copy" type="checkbox">
+
+						<label for="save-a-copy" data-i18n="contact-form.save-copy"></label>
 					</div>
 
 					<div class="half-row">

@@ -122,6 +122,7 @@ body {
   width: 50%; }
 .bottom-form-row label {
   color: #8e8071;
+  display: inline;
   font-family: "Open Sans";
   font-size: 16px; }
 
