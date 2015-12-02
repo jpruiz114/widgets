@@ -143,6 +143,6 @@ if (!empty($params)) {
 			</div>
 		</div>
 
-		<?php include_once("../analyticstracking.php") ?>
+		<?php include_once("../ga-tracking.php") ?>
 	</body>
 </html>

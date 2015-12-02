@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: /assets/
+Disallow: /components/
+Disallow: /css/
+Disallow: /js/
+Disallow: /library/
+Disallow: /locales/
+Disallow: /sass/
+Disallow: /tasks/

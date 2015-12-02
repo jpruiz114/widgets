@@ -85,11 +85,33 @@ With the .bowerrc file we setup the folder where you want to hold the frontend d
 
 ## SEO Considerations
 
-Multi-regional and multilingual sites:
+About multi-regional and multilingual sites:
 
 https://support.google.com/webmasters/answer/182192?hl=en
 
 The trick here was achieved in part by using the htaccess file under the Apache server.
+
+Google advices not to have a unique URL with several languages but to have different urls.
+
+If possible, Google also advices not only to have different urls but different domain names.
+
+For this case, a default URL was provided.
+
+When a user opens this default URL, the preferred language will be asked and the page will load with that language.
+
+The two possible options are english or spanish. More languages could be added if needed.
+
+The default language for this base URL will be english.
+
+Other two urls are provided and setup with the help of the htaccess from Apache.
+
+The same page will be opened but a GET param will differentiate which language has to be loaded.
+
+A robots.txt file was added to hide some folders from the web spiders.
+
+The meta tags **author**, **description**, **keywords**, **robots** and **revisit-after** were added.
+
+* A Google Analytics script was added but that has to do more with tracking than anything else.
 
 ## Styles Considerations
 
