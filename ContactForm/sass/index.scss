@@ -17,6 +17,11 @@ html {
   -webkit-background-size: cover;
 }
 
+body {
+  	background-color: $top-bar-background-color;
+	border: 0;
+}
+
 #wrapper {
 	text-align: center;
 	width: 100%;

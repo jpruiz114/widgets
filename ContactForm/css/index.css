@@ -5,6 +5,10 @@ html {
   -o-background-size: cover;
   -webkit-background-size: cover; }
 
+body {
+  background-color: #ededed;
+  border: 0; }
+
 #wrapper {
   text-align: center;
   width: 100%; }
