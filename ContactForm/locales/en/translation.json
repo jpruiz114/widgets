@@ -11,6 +11,10 @@
 	"leave-message": "Leave your message here",
 
 	"save-copy": "Save a copy",
-	"send-mail": "Send Mail"
+	"send-mail": "Send Mail",
+
+	"contacts-error-1": "Couldn't get the list of contacts",
+	"contacts-error-2": "There has to be at least one contact",
+	"contacts-error-3": " is not a valid email address."
   }
 }

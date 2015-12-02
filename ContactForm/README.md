@@ -2,6 +2,15 @@
 
 By Jean Paul Ruiz <jpruiz114@gmail.com>
 
+Live demo can be seen here:
+
+:link: http://jeanpaulruizvallejo.com/frontend-test/ContactForm/
+
+English and Spanish links:
+
+:link: http://jeanpaulruizvallejo.com/frontend-test/ContactForm/en
+:link: http://jeanpaulruizvallejo.com/frontend-test/ContactForm/es
+
 ## Dependency Handling
 
 * [Composer](https://getcomposer.org/) for the backend libraries
@@ -14,7 +23,7 @@ To download composer, if you don't have it:
 
 #### Clarification for the Mandrill library
 
-The Mandrill dependency was declared in the composer.json file.
+:email: The Mandrill dependency was declared in the composer.json file.
 
 It will allow to actually send email messages with this form through the Mandrill API.
 

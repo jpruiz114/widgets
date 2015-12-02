@@ -179,22 +179,81 @@ var app = {
 	},
 
 	/**
+	 * Function that indicates if a string contains a valid email.
+	 * @param email - String that contains the email address.
+	 * @returns {boolean}
+	 */
+	emailIsValid: function(email) {
+		if (email) {
+			var re = /^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$/i;
+			return re.test(email);
+		} else {
+			return false;
+		}
+	},
+
+	/**
 	 * Function that validates the provided contacts.
+	 * @returns {boolean}
 	 */
 	validateContacts: function() {
 		var listOfContacts = app.getCurrentEmails();
 		console.log("listOfContacts" + " = " + listOfContacts);
+
+		var contactsValid = true;
+
+		var textObject = app.getTextObject();
 
 		if (listOfContacts) {
 			var numberOfContacts = listOfContacts.length;
 			console.log("numberOfContacts" + " = " + numberOfContacts);
 
 			if (numberOfContacts > 0) {
+				var currentContact = "";
 
+				for (var i=0; i<numberOfContacts; i++) {
+					currentContact = listOfContacts[i];
+
+					if (!app.emailIsValid(currentContact)) {
+						toastr.warning(currentContact + textObject("contact-form.contacts-error-3"))
+
+						contactsValid = false;
+					}
+				}
 			} else {
+				toastr.warning(textObject("contact-form.contacts-error-2"));
 
+				contactsValid = false;
 			}
+		} else {
+			toastr.warning(textObject("contact-form.contacts-error-1"));
+
+			contactsValid = false;
 		}
+
+		return contactsValid;
+	},
+
+	/**
+	 * Function that validates the subject.
+	 * @returns {boolean}
+	 */
+	validateSubject: function() {
+		var subjectValid = true;
+
+
+
+		return subjectValid;
+	},
+
+	/**
+	 * Function that validates the message.
+	 * @returns {boolean}
+	 */
+	validateMessage: function() {
+		var messageValid = true;
+
+		return messageValid;
 	},
 
 	/**
@@ -202,8 +261,16 @@ var app = {
 	 */
 	validateFormData: function() {
 		// Validate the contacts.
-		app.validateContacts();
+		var contactsValid = app.validateContacts();
 
+		// Validate the subject.
+		var subjectValid = app.validateSubject();
 
+		// Validate the message.
+		var messageValid = app.validateMessage();
+
+		if (contactsValid && subjectValid && messageValid) {
+
+		}
 	}
 };

@@ -11,6 +11,10 @@
 	"leave-message": "Escribe aquí tu mensaje",
 
 	"save-copy": "Guardar copia",
-	"send-mail": "Enviar correo"
+	"send-mail": "Enviar correo",
+
+	"contacts-error-1": "No fue posible obtener la lista de contactos",
+	"contacts-error-2": "Debe indicar por lo menos un contacto",
+	"contacts-error-3": " no es una dirección de email válida."
   }
 }
