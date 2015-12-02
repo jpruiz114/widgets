@@ -109,7 +109,7 @@ body {
 
 .bottom-form-row {
   background-color: #f8f3f0;
-  border-radius: 0, 0, 5px, 5px;
+  border-radius: 0 0 5px 5px;
   /* top left, top right, bottom right, bottom left */
   float: left;
   height: 80px;
