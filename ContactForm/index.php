@@ -42,7 +42,7 @@ if (!empty($params)) {
 		
 		<script type="text/javascript" src="components/i18next/i18next.min.js"></script>
 
-		<link rel="stylesheet" type="text/css" href="components/flag-icon-css/flag-icon.min.css">
+		<link rel="stylesheet" type="text/css" href="components/flag-icon-css/css/flag-icon.min.css">
 		
 		<script type="text/javascript" src="js/index.js"></script>
 		
