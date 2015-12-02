@@ -96,7 +96,7 @@ if (!empty($params)) {
 
 			<div id="form-container">
 				<div class="full-size-row">
-					<label data-i18n="contact-form.contacts"></label>
+					<label data-i18n="contact-form.contacts" for="email-tokenizer"></label>
 				</div>
 				
 				<div class="full-size-row">
@@ -110,7 +110,7 @@ if (!empty($params)) {
 				</div>
 				
 				<div class="full-size-row">
-					<label data-i18n="contact-form.subject"></label>
+					<label data-i18n="contact-form.subject" for="subject"></label>
 				</div>
 				
 				<div class="full-size-row">
@@ -118,7 +118,7 @@ if (!empty($params)) {
 				</div>
 				
 				<div class="full-size-row">
-					<label data-i18n="contact-form.message"></label>
+					<label data-i18n="contact-form.message" for="message"></label>
 				</div>
 				
 				<div class="full-size-row">
@@ -129,7 +129,7 @@ if (!empty($params)) {
 					<div class="half-row">
 						<input checked id="save-a-copy" type="checkbox">
 
-						<label for="save-a-copy" data-i18n="contact-form.save-copy"></label>
+						<label data-i18n="contact-form.save-copy" for="save-a-copy"></label>
 					</div>
 
 					<div class="half-row">
