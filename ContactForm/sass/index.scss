@@ -157,12 +157,14 @@ body {
 .bottom-form-row {
   	background-color: $submit-container-background-color;
   	border-radius: 0 0 $form-border-radius $form-border-radius; /* top left, top right, bottom right, bottom left */
+  	display: table;
   	float: left;
   	height: $bottom-form-row;
   	width: 100%;
 
   	.half-row {
-		float: left;
+	  	display: table-cell;
+	  	vertical-align: middle;
 		width: 50%;
   	}
 

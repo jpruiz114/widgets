@@ -112,11 +112,13 @@ body {
   background-color: #f8f3f0;
   border-radius: 0 0 5px 5px;
   /* top left, top right, bottom right, bottom left */
+  display: table;
   float: left;
   height: 88px;
   width: 100%; }
 .bottom-form-row .half-row {
-  float: left;
+  display: table-cell;
+  vertical-align: middle;
   width: 50%; }
 .bottom-form-row label {
   color: #8e8071;
