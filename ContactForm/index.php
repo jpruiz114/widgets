@@ -105,7 +105,7 @@ if (!empty($params)) {
 				</div>
 				
 				<div class="full-size-row">
-					<textarea></textarea>
+					<textarea data-i18n="[placeholder]leave-message" id="message"></textarea>
 				</div>
 				
 				<div class="full-size-row">
