@@ -50,8 +50,6 @@ if (!empty($params)) {
 
 		<link href="assets/components/bootstrap-tokenizer/bootstrap.css" rel="stylesheet">
 
-		<link href="assets/components/bootstrap-tokenizer/bootstrap-responsive.css" rel="stylesheet">
-
 		<link href="assets/components/bootstrap-tokenizer/bootstrap-tokenizer.css" rel="stylesheet">
 
 		<script type="text/javascript" src="assets/components/bootstrap-tokenizer/bootstrap-tokenizer.js"></script>
