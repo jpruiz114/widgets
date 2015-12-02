@@ -16,7 +16,10 @@
 	"contacts-error-1": "Couldn't get the list of contacts",
 	"contacts-error-2": "There has to be at least one contact",
 	"contacts-error-3": " is not a valid email address.",
-	"contacts-error-4": "You must indicate your subject.",
-	"contacts-error-5": "You must indicate your message."
+	"subject-error-1": "You must indicate your subject.",
+	"message-error-1": "You must indicate your message.",
+
+	"contact-success": "Your message was sent",
+	"contact-error": "Your message couldn't be sent"
   }
 }

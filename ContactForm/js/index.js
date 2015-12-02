@@ -274,7 +274,7 @@ var app = {
 		if (!subject) {
 			var textObject = app.getTextObject();
 
-			toastr.warning(textObject("contact-form.contacts-error-4"));
+			toastr.warning(textObject("contact-form.subject-error-1"));
 
 			subjectValid = false;
 		}
@@ -294,7 +294,7 @@ var app = {
 		if (!message) {
 			var textObject = app.getTextObject();
 
-			toastr.warning(textObject("contact-form.contacts-error-5"));
+			toastr.warning(textObject("contact-form.message-error-1"));
 
 			messageValid = false;
 		}
@@ -328,17 +328,41 @@ var app = {
 				url: "ContactController.php",
 				type: "POST",
 				data: postData,
+				dataType: "json",
 				success: function(data, textStatus, jqXHR) {
 					console.log("data" + " = " + data);
 
 					laddaButton.stop();
 
 					$(".fa-play-circle").show();
+
+					var textObject = app.getTextObject();
+
+					if (data.success == "1") {
+						toastr.success(textObject("contact-form.contact-success"));
+
+						app.cleanFormFields();
+					} else {
+						toastr.warning(textObject("contact-form.contact-error"));
+					}
 				},
 				error: function (jqXHR, textStatus, errorThrown) {
 
 				}
 			});
 		}
+	},
+
+	/**
+	 * Function that cleans the form input elements.
+	 */
+	cleanFormFields: function() {
+		$("#email-tokenizer").val("");
+
+		$(".tokenizer .label").remove();
+
+		$("#subject").val("");
+
+		$("#message").val("");
 	}
 };

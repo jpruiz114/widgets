@@ -16,7 +16,10 @@
 	"contacts-error-1": "No fue posible obtener la lista de contactos",
 	"contacts-error-2": "Debe indicar por lo menos un contacto",
 	"contacts-error-3": " no es una dirección de email válida.",
-	"contacts-error-4": "Debe indicar su asunto",
-	"contacts-error-5": "Debe indicar su mensaje"
+	"subject-error-1": "Debe indicar su asunto",
+	"message-error-1": "Debe indicar su mensaje",
+
+	"contact-success": "Su mensaje fue enviado",
+	"contact-error": "Su mensaje no pudo ser enviado"
   }
 }
