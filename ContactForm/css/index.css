@@ -106,4 +106,9 @@ body {
   cursor: pointer;
   font-size: 40px; }
 
+.bottom-form-row {
+  background-color: #f8f3f0;
+  float: left;
+  width: 100%; }
+
 /*# sourceMappingURL=index.css.map */

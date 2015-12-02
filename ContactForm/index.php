@@ -119,7 +119,7 @@ if (!empty($params)) {
 					<textarea data-i18n="[placeholder]contact-form.leave-message" id="message"></textarea>
 				</div>
 				
-				<div class="full-size-row">
+				<div class="bottom-form-row">
 					
 				</div>
 			</div>
