@@ -18,7 +18,7 @@ html {
 }
 
 body {
-	border: 0;
+	margin: 0;
 }
 
 #wrapper {
@@ -30,6 +30,12 @@ body {
 	background-color: $top-bar-background-color;
   	float: left;
 	width: 100%;
+
+	a label {
+		color: $top-bar-links-color;
+		font-family: "Open Sans";
+		font-size: 12px;
+	}
 }
 
 #form-container {

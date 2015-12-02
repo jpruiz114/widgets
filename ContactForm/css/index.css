@@ -6,7 +6,7 @@ html {
   -webkit-background-size: cover; }
 
 body {
-  border: 0; }
+  margin: 0; }
 
 #wrapper {
   text-align: center;
@@ -16,6 +16,10 @@ body {
   background-color: #ededed;
   float: left;
   width: 100%; }
+#top-bar a label {
+  color: #636363;
+  font-family: "Open Sans";
+  font-size: 12px; }
 
 #form-container {
   background-color: #ffffff;
