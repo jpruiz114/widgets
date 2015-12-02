@@ -55,7 +55,8 @@ body {
   font-size: 16px;
   font-style: normal;
   font-variant: normal;
-  font-weight: 500; }
+  font-weight: 500;
+  margin-bottom: 0; }
 .full-size-row input[type=text] {
   border-color: #e5d4c2;
   border-radius: 5px;
@@ -80,7 +81,7 @@ body {
   width: calc(100% - (15px * 2 + 1px * 2)); }
 
 .full-size-row:nth-child(even) {
-  margin-bottom: 16px; }
+  margin-bottom: 15px; }
 
 .tags-holder {
   border-style: solid;
@@ -112,7 +113,7 @@ body {
   border-radius: 0 0 5px 5px;
   /* top left, top right, bottom right, bottom left */
   float: left;
-  height: 80px;
+  height: 88px;
   width: 100%; }
 
 /*# sourceMappingURL=index.css.map */
