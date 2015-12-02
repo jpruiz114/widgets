@@ -92,7 +92,7 @@ if (!empty($params)) {
 				<div class="full-size-row">
 					<div class="tags-holder">
 						<div class="email-tags">
-							<label>Here go the tags</label>
+							
 						</div>
 
 						<i class='add-another fa fa-plus-square'></i>
