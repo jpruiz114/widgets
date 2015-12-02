@@ -93,7 +93,8 @@ body {
 .tags-holder .email-tags .tokenizer {
   border: none;
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  width: 98% !important; }
 .tags-holder .email-tags .tokenizer span {
   padding: 12px; }
 .tags-holder .add-another {
