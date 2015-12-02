@@ -1,49 +1,71 @@
-/*
-Error: Invalid CSS after "		margin-bottom": expected ";", was ": 5px;"
-        on line 84 of sass/index.scss
+html {
+  background: url("../assets/background-image.jpg") no-repeat center center fixed;
+  background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover; }
 
-79: 		font-variant: normal;
-80: 		font-weight: 500;
-81: 	}
-82: 
-83:   	label:after
-84: 		margin-bottom: 5px;
-85: 	}
-86: 
-87:   	input[type=text] {
-88: 	  	border-color: $input-border-color;
-89: 	  	border-radius: $input-border-radius;
+body {
+  margin: 0; }
 
-Backtrace:
-sass/index.scss:84
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.13/lib/sass/scss/parser.rb:1165:in `expected'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.13/lib/sass/scss/parser.rb:1101:in `expected'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.13/lib/sass/scss/parser.rb:1096:in `tok!'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.13/lib/sass/scss/parser.rb:761:in `block in try_declaration'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.13/lib/sass/scss/parser.rb:1141:in `call'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.13/lib/sass/scss/parser.rb:1141:in `rethrow'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.13/lib/sass/scss/parser.rb:771:in `try_declaration'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.13/lib/sass/scss/parser.rb:696:in `declaration_or_ruleset'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.13/lib/sass/scss/parser.rb:661:in `block_child'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.13/lib/sass/scss/parser.rb:653:in `block_contents'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.13/lib/sass/scss/parser.rb:642:in `block'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.13/lib/sass/scss/parser.rb:635:in `ruleset'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.13/lib/sass/scss/parser.rb:660:in `block_child'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.13/lib/sass/scss/parser.rb:653:in `block_contents'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.13/lib/sass/scss/parser.rb:117:in `stylesheet'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.13/lib/sass/scss/parser.rb:42:in `parse'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.13/lib/sass/engine.rb:393:in `_to_tree'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.13/lib/sass/engine.rb:368:in `_render_with_sourcemap'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.13/lib/sass/engine.rb:285:in `render_with_sourcemap'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.13/lib/sass/exec/sass_scss.rb:407:in `run'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.13/lib/sass/exec/sass_scss.rb:63:in `process_result'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.13/lib/sass/exec/base.rb:52:in `parse'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.13/lib/sass/exec/base.rb:19:in `parse!'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.13/bin/sass:13:in `<top (required)>'
-c:/Ruby22/bin/sass:23:in `load'
-c:/Ruby22/bin/sass:23:in `<main>'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Invalid CSS after \"		margin-bottom\": expected \";\", was \": 5px;\"\A         on line 84 of sass/index.scss\A \A 79: 		font-variant: normal;\A 80: 		font-weight: 500;\A 81: 	}\A 82: \A 83:   	label:after\A 84: 		margin-bottom: 5px;\A 85: 	}\A 86: \A 87:   	input[type=text] {\A 88: 	  	border-color: $input-border-color;\A 89: 	  	border-radius: $input-border-radius;"; }
+#wrapper {
+  text-align: center;
+  width: 100%; }
+
+#top-bar {
+  background-color: #ededed;
+  float: left;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  width: 100%; }
+#top-bar .langs {
+  margin: 0;
+  padding: 0; }
+#top-bar .langs-item {
+  display: inline;
+  list-style: none; }
+#top-bar .langs-link {
+  color: #636363;
+  font-family: "Open Sans";
+  font-size: 12px;
+  text-decoration: none; }
+
+#form-container {
+  background-color: #ffffff;
+  border-radius: 5px;
+  height: 460px;
+  left: 50%;
+  margin-left: -185px;
+  margin-top: -240px;
+  padding-top: 20px;
+  position: absolute;
+  top: 50%;
+  width: 370px; }
+
+.full-size-row {
+  float: left;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: left;
+  width: calc(100% - 40px); }
+.full-size-row label {
+  color: #8e8071;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 500; }
+.full-size-row label:after {
+  margin-bottom: 5px; }
+.full-size-row input[type=text] {
+  border-color: #e5d4c2;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  color: #897765;
+  font-family: "Open Sans";
+  font-size: 14px;
+  padding: 10px;
+  width: calc(100% - (10px * 2)); }
+
+/*# sourceMappingURL=index.css.map */
