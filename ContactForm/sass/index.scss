@@ -79,4 +79,10 @@ body {
 		font-variant: normal;
 		font-weight: 500;
 	}
+
+  	input[type=text] {
+	  	border-color: $input-border-color;
+	  	border-radius: $input-border-radius;
+	  	border-width: $input-border-width;
+  	}
 }

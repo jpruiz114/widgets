@@ -55,5 +55,9 @@ body {
   font-style: normal;
   font-variant: normal;
   font-weight: 500; }
+.full-size-row input[type=text] {
+  border-color: #e5d4c2;
+  border-radius: 5px;
+  border-width: 1px; }
 
 /*# sourceMappingURL=index.css.map */
