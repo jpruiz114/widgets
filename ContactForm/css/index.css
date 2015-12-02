@@ -109,6 +109,8 @@ body {
 
 .bottom-form-row {
   background-color: #f8f3f0;
+  -moz-border-radius-bottomleft: 5px;
+  -moz-border-radius-bottomrightt: 5px;
   float: left;
   height: 80px;
   width: 100%; }
