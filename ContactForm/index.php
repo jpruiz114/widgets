@@ -35,12 +35,22 @@ if (!empty($params)) {
 		<link rel="stylesheet" type="text/css" href="css/index.css">
 		
 		<script type="text/javascript" src="components/jquery/dist/jquery.min.js"></script>
-		
-		<link rel="stylesheet" type="text/css" href="components/toastr/toastr.min.css">
-		
+
+		<script type="text/javascript" src="components/jqueryui/jquery-ui.min.js"></script>
+
+		<link rel="stylesheet" type="text/css" href="components/jqueryui/themes/start/jquery-ui.min.css">
+
+		<link rel="stylesheet" type="text/css" href="components/fontawesome/css/font-awesome.min.css">
+
 		<script type="text/javascript" src="components/toastr/toastr.min.js"></script>
-		
+
+		<link rel="stylesheet" type="text/css" href="components/toastr/toastr.min.css">
+
 		<script type="text/javascript" src="components/i18next/i18next.min.js"></script>
+
+		<script type="text/javascript" src="components/jQuery-Tags-Input-Custom/jquery.tagsinput.js"></script>
+
+		<link rel="stylesheet" type="text/css" href="components/jQuery-Tags-Input-Custom/jquery.tagsinput.css">
 
 		<script type="text/javascript" src="js/index.js"></script>
 		
@@ -52,18 +62,9 @@ if (!empty($params)) {
 				function() {
 					var chosenLang = "<?php echo($lang); ?>";
 
-					// It wont make any sense to show the link for the current lang.
-					if (chosenLang) {
-						if (chosenLang == app.LANGUAGE_CODE_FOR_ENGLISH) {
-							$("#go-to-en-page").hide();
-						}
-
-						if (chosenLang == app.LANGUAGE_CODE_FOR_SPANISH) {
-							$("#go-to-es-page").hide();
-						}
-					}
-
 					app.initialize(chosenLang);
+
+					$("#tags_1").tagsInput({width:"auto", defaultText: "Another"});
 				}
 			);
 		</script>
@@ -89,7 +90,7 @@ if (!empty($params)) {
 				</div>
 				
 				<div class="full-size-row">
-					
+					<input id="tags_1" type="text" class="tags" value="data1,data2,data3" />
 				</div>
 				
 				<div class="full-size-row">

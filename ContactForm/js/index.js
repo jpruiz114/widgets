@@ -4,6 +4,10 @@ var app = {
 	 */
 	initialize: function(chosenLang) {
 		if (chosenLang) {
+			// It wont make any sense to show the link for the current lang.
+			app.hideLanguageLinkNotNeeded();
+
+			// Set the given language as the preferred one.
 			app.setPreferredLanguage(chosenLang);
 		} else {
 			// Define the language.
@@ -12,6 +16,19 @@ var app = {
 
 		// Load the defined language.
 		app.loadLanguage();
+	},
+
+	/**
+	 * Function that hides the lang of the current url if it's the case.
+	 */
+	hideLanguageLinkNotNeeded: function() {
+		if (chosenLang == app.LANGUAGE_CODE_FOR_ENGLISH) {
+			$("#go-to-en-page").hide();
+		}
+
+		if (chosenLang == app.LANGUAGE_CODE_FOR_SPANISH) {
+			$("#go-to-es-page").hide();
+		}
 	},
 	
 	/**
