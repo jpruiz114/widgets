@@ -38,7 +38,7 @@ var app = {
 		var l = Ladda.create(document.querySelector(".send-mail"));
 
 		// Save the button to change its states later.
-		app.setCurrentLaddaButton(currentLaddaButton);
+		app.setCurrentLaddaButton(l);
 
 		$(".send-mail").click(
 			function() {
