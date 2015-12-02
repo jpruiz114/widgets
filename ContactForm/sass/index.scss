@@ -152,8 +152,7 @@ body {
 
 .bottom-form-row {
   	background-color: #f8f3f0;
-  	-moz-border-radius-bottomleft: $form-border-radius;
-  	-moz-border-radius-bottomrightt: $form-border-radius;
+  	border-radius: 0, 0, $form-border-radius, $form-border-radius; /* top left, top right, bottom right, bottom left */
   	float: left;
   	height: 80px;
   	width: 100%;
