@@ -30,8 +30,10 @@ body {
 
 .full-size-row {
 	float: left;
+  	padding-left: 10px;
+	padding-right: 10px;
 	text-align: left;
-	width: 100%;
+	width: calc(100% - 20px);
 }
 
 .full-size-row label {
