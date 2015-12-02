@@ -233,7 +233,7 @@
 			if (settings.interactive) {
 				markup = markup + '<input id="'+id+'_tag" value="" data-default="'+settings.defaultText+'" />';
 			}
-			markup += "<i class='add-another fa fa-plus-square fa-3'></i>";
+			markup += "<i class='add-another fa fa-plus-square'></i>";
 
 			markup = markup + '</div><div class="tags_clear"></div></div>';
 

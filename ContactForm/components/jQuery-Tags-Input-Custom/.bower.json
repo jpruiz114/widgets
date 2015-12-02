@@ -1,11 +1,11 @@
 {
   "name": "jQuery-Tags-Input-Custom",
   "homepage": "https://github.com/jpruiz114/jQuery-Tags-Input-Custom",
-  "_release": "d8e4b33177",
+  "_release": "5b1ced8b82",
   "_resolution": {
     "type": "branch",
     "branch": "master",
-    "commit": "d8e4b33177ca5e2ff95c21e7ae5fe5eb38ff33f8"
+    "commit": "5b1ced8b82ea3488c6b709d3792be8f2a8932934"
   },
   "_source": "git://github.com/jpruiz114/jQuery-Tags-Input-Custom.git",
   "_target": "master",
