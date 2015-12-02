@@ -99,7 +99,7 @@ if (!empty($params)) {
 							<input id="email-tokenizer" type="text">
 						</div>
 
-						<i class='add-another fa fa-plus-square'></i>
+						<i class="add-another fa fa-plus-square" id="add-another"></i>
 					</div>
 				</div>
 				

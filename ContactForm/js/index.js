@@ -16,6 +16,14 @@ var app = {
 
 		// Load the defined language.
 		app.loadLanguage();
+
+		/* ***** */
+
+		$("#add-another").click(
+			function() {
+				app.addAnotherContact();
+			}
+		);
 	},
 
 	/**
@@ -131,5 +139,12 @@ var app = {
 		var language = window.navigator.userLanguage || window.navigator.language;
 		
 		return language;
+	},
+
+	/**
+	 * This will be equal to clicking inside the contacts field, thing that will trigger a focus event on it.
+	 */
+	addAnotherContact: function() {
+		$(".tokenizer").click();
 	}
 };
