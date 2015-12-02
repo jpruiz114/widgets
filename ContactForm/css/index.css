@@ -74,6 +74,7 @@ body {
   color: #897765;
   font-family: "Open Sans";
   font-size: 14px;
+  height: 106px;
   padding: 15px;
   width: calc(100% - (15px * 2 + 1px * 2)); }
 

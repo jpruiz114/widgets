@@ -101,6 +101,7 @@ body {
 	  	color: $input-text-color;
 	  	font-family: "Open Sans";
 	  	font-size: 14px;
+	  	height: $text-area-height;
 	  	padding: $input-padding;
 	  	width: calc(100% - (#{$input-padding} * 2 + #{$input-border-width} * 2));
 	}
