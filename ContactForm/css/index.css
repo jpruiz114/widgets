@@ -58,6 +58,9 @@ body {
 .full-size-row input[type=text] {
   border-color: #e5d4c2;
   border-radius: 5px;
-  border-width: 1px; }
+  border-width: 1px;
+  color: #897765;
+  font-family: "Open Sans";
+  font-size: 14px; }
 
 /*# sourceMappingURL=index.css.map */
