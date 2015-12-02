@@ -6,7 +6,6 @@ html {
   -webkit-background-size: cover; }
 
 body {
-  background-color: #ededed;
   border: 0; }
 
 #wrapper {
@@ -14,6 +13,7 @@ body {
   width: 100%; }
 
 #top-bar {
+  background-color: #ededed;
   float: left;
   width: 100%; }
 

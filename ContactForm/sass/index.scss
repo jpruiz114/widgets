@@ -18,7 +18,6 @@ html {
 }
 
 body {
-  	background-color: $top-bar-background-color;
 	border: 0;
 }
 
@@ -28,6 +27,7 @@ body {
 }
 
 #top-bar {
+	background-color: $top-bar-background-color;
   	float: left;
 	width: 100%;
 }
