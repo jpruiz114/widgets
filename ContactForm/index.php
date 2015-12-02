@@ -56,7 +56,7 @@ if (!empty($params)) {
 
 		<script type="text/javascript" src="assets/components/bootstrap-tokenizer/bootstrap-tokenizer.js"></script>
 
-		<link href="components/iCheck/skins/minimal/red.css" rel="stylesheet">
+		<link href="components/iCheck/skins/minimal/green.css" rel="stylesheet">
 
 		<script type="text/javascript" src="components/iCheck/icheck.min.js"></script>
 
@@ -74,7 +74,11 @@ if (!empty($params)) {
 
 					$("#email-tokenizer").tokenizer();
 
-
+					$("input").iCheck({
+						checkboxClass: "icheckbox_minimal-green",
+						radioClass: "iradio_minimal-green",
+						increaseArea: "20%"
+					});
 				}
 			);
 		</script>
