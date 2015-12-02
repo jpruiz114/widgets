@@ -22,7 +22,7 @@ body {
 	left: 50%;
 	margin-left: -172px;
 	margin-top: -230px;
-	padding: 10px;
+	padding-top: 20px;
 	position: absolute;
 	top: 50%;
 	width: 370px;
@@ -34,6 +34,7 @@ body {
 }
 
 .full-size-row label {
+	color: $label-color;
 	font-family: "Open Sans";
 	font-size: 16px;
 	font-style: normal;
