@@ -75,7 +75,7 @@ body {
   color: #897765;
   font-family: "Open Sans";
   font-size: 14px;
-  height: calc(106px - (15px * 2));
+  height: calc(100px - (15px * 2));
   padding: 15px;
   width: calc(100% - (15px * 2 + 1px * 2)); }
 
@@ -110,7 +110,7 @@ body {
 .bottom-form-row {
   background-color: #f8f3f0;
   float: left;
-  height: 90px;
+  height: 80px;
   width: 100%; }
 
 /*# sourceMappingURL=index.css.map */
