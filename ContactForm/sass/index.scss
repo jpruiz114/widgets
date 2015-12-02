@@ -6,6 +6,9 @@
 // Import the colors.
 @import "_colors";
 
+// Import the measures.
+@import "_measures";
+
 html {
   background: url("../assets/background-image.jpg") no-repeat center center fixed;
   background-size: cover;
@@ -22,14 +25,14 @@ html {
 #form-container {
 	background-color: $form-background-color;
 	border-radius: $form-border-radius;
-	height: 460px;
+	height: $form-height;
 	left: 50%;
-	margin-left: -172px;
+	margin-left: $form-width / 2;
 	margin-top: -230px;
 	padding-top: 20px;
 	position: absolute;
 	top: 50%;
-	width: 370px;
+	width: $form-width;
 }
 
 .full-size-row {
@@ -38,14 +41,13 @@ html {
 	padding-right: 20px;
 	text-align: left;
 	width: calc(100% - 40px);
-}
 
-.full-size-row label {
-	color: $label-color;
-	font-family: "Open Sans";
-	font-size: 16px;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: 500;
+	label {
+		color: $label-color;
+		font-family: "Open Sans";
+		font-size: 16px;
+		font-style: normal;
+		font-variant: normal;
+		font-weight: 500;
+	}
 }
-
