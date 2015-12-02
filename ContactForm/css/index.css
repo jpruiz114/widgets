@@ -115,7 +115,8 @@ body {
   display: table;
   float: left;
   height: 88px;
-  width: 100%; }
+  width: 100%;
+  /* This is a fix to align the checkbox with its label */ }
 .bottom-form-row .half-row {
   display: table-cell;
   vertical-align: middle;

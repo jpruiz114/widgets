@@ -175,6 +175,7 @@ body {
 	  	font-size: $bottom-check-label-font-size;
 	}
 
+  	/* This is a fix to align the checkbox with its label */
   	.icheckbox_minimal-green {
 	  	margin-right: 4px;
 	  	margin-top: -4px;
