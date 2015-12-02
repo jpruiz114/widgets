@@ -26,8 +26,11 @@ html {
 }
 
 .flag-container {
+  	background-color: #ffffff;
 	border: solid 2px #bebebe;
 	float: left;
+  	height: 76px;
+  	margin-bottom: 10px;
 	width: calc(100% - 4px);
 }
 
