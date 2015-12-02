@@ -1,8 +1,8 @@
 <?php
 // Remove the directory path we don't want
-$request = str_replace("/frontend-test/ContactForm/", "", $_SERVER['REQUEST_URI']);
+$request = str_replace("/frontend-test/ContactForm/", "", $_SERVER["REQUEST_URI"]);
 
-// Split the path by '/'
+// Split the path by "/"
 $params = explode("/", $request);
 
 $lang = "";
@@ -135,7 +135,7 @@ if (!empty($params)) {
 					</div>
 
 					<div class="half-row">
-						<button class="ladda-button send-mail" data-style="slide-right">
+						<button class="ladda-button send-mail" data-color="red" data-style="slide-right">
 							<span class="ladda-label" data-i18n="contact-form.send-mail"></span>
 						</button>
 					</div>

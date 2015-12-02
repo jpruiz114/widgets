@@ -88,13 +88,19 @@ For the tokenizer, this package was used:
 
 http://miguelfonseca.com/bootstrap-tokenizer/
 
-https://github.com/fmmfonseca/bootstrap-tokenizer
+:octocat: https://github.com/fmmfonseca/bootstrap-tokenizer
 
 For the checkbox, this package was used:
 
 http://fronteed.com/iCheck/
 
-https://github.com/fronteed/iCheck/
+:octocat: https://github.com/fronteed/iCheck/
+
+For the button, this UI pack was used:
+
+http://lab.hakim.se/ladda/
+
+:octocat: https://github.com/hakimel/Ladda
 
 ## Languages Considerations
 

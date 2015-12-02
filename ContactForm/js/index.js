@@ -36,6 +36,12 @@ var app = {
 
 		// Initialize the ladda button.
 		var l = Ladda.create(document.querySelector(".send-mail"));
+
+		$(".send-mail").click(
+			function() {
+				app.validateFormData();
+			}
+		);
 	},
 
 	/**
@@ -69,7 +75,7 @@ var app = {
 	},
 	
 	/**
-	 * 
+	 * Function that loads the json lang file.
 	 */
 	loadLanguage: function() {
 		var language = app.getPreferredLanguage();
@@ -80,7 +86,7 @@ var app = {
 	},
 	
 	/**
-	 *
+	 * Function that handles the loading of the language file.
 	 * @param err
 	 * @param t
 	 */
@@ -94,7 +100,7 @@ var app = {
 	},
 	
 	/**
-	 *
+	 * Variable that holds the i18n language file for JavaScript usage.
 	 */
 	textObject: "",
 	
@@ -115,17 +121,17 @@ var app = {
 	},
 	
 	/**
-	 *
+	 * Default language for the app.
 	 */
 	DEFAULT_LANGUAGE: "en",
 	
 	/**
-	 *
+	 * Language code for english.
 	 */
 	LANGUAGE_CODE_FOR_ENGLISH: "en",
 	
 	/**
-	 *
+	 * Language code for spanish.
 	 */
 	LANGUAGE_CODE_FOR_SPANISH: "es",
 	
@@ -173,7 +179,7 @@ var app = {
 	},
 
 	/**
-	 *
+	 * Function that validates the provided contacts.
 	 */
 	validateContacts: function() {
 		var listOfContacts = app.getCurrentEmails();
@@ -185,7 +191,19 @@ var app = {
 
 			if (numberOfContacts > 0) {
 
+			} else {
+
 			}
 		}
+	},
+
+	/**
+	 * Function that handles the form validation.
+	 */
+	validateFormData: function() {
+		// Validate the contacts.
+		app.validateContacts();
+
+
 	}
 };
