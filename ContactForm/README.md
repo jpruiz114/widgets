@@ -218,6 +218,7 @@ For the current form, you can see orange boxes for alerts, and green boxes for s
 
 If it happens that a daltonic user reaches the form, the icon and the clear messages must indicate that something is wrong or right.
 
-* Alert icon: :warning:
-* Success icon: :white_check_mark:
+Alert icon: :warning:
+
+Success icon: :white_check_mark:
 
