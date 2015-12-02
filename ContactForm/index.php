@@ -68,7 +68,9 @@ if (!empty($params)) {
 
 					app.initialize(chosenLang);
 
-					$("#email-tokenizer").tokenizer();
+					var options = {width: "98%"};
+
+					$("#email-tokenizer").tokenizer(options);
 				}
 			);
 		</script>
