@@ -200,7 +200,7 @@ http://www.sidar.org/hera/
 
 http://juicystudio.com/services/readability.php
 
-The **toastr** alerts can be ready by Chrome plugins like the ChromeVox:
+The **toastr** alerts can be read by Chrome plugins like the ChromeVox:
 
 http://www.chromevox.com/
 
@@ -212,13 +212,13 @@ Toastr alerts have three elements to take into account:
 * Icon
 * Message
 
-For a regular user the color can be enough to indicate that something is wrong or right, but is als complemented with an icon and a clear message.
+For a regular user the color can be enough to indicate that something is wrong or right, but is also complemented with an icon and a clear message.
 
-For the current form, you can see orange boxes for alerts, and green boxes for success.
+For the current form, you can see orange boxes for warning, and green boxes for success.
 
 If it happens that a daltonic user reaches the form, the icon and the clear messages must indicate that something is wrong or right.
 
-Alert icon: :warning:
+:warning: Warning icon
 
-Success icon: :white_check_mark:
+:white_check_mark: Success icon
 
