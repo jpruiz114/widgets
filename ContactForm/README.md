@@ -36,28 +36,6 @@ To update the libraries
 To install Bower, if you don't have it
 `tasks\bower\install.sh`
 
-#### Clarification for the tag component
-
-taggingJS
-
-jQuery plugin to tagging like a charm!
-
-Information
-
-Supports all major browsers in the world (IE 6+, Mozilla Firefox 1+, Google Chrome 1+, Safari 5.1+).
-
-Customizable
-
-Easily customizable for every need. Check out all available options!
-
-Simple
-
-It's a kind of magic! Just use $('#input_zone').tagging();
-
-Environment
-
-Developed with respect for the environment.
-
 #### Instructions with Bower
 
 To list the project frontend dependencies
