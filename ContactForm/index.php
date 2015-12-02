@@ -74,7 +74,7 @@ if (!empty($params)) {
 
 					$("#email-tokenizer").tokenizer();
 
-					
+
 				}
 			);
 		</script>
@@ -129,7 +129,7 @@ if (!empty($params)) {
 					<div class="half-row">
 						<label for="save-a-copy" data-i18n="contact-form.save-copy"></label>
 
-						<input checked id="save-a-copy" type="radio">
+						<input checked id="save-a-copy" type="checkbox">
 					</div>
 
 					<div class="half-row">
