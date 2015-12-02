@@ -66,11 +66,11 @@ body {
 
 .full-size-row {
 	float: left;
-  	margin-bottom: 10px;
-  	padding-left: 20px;
-	padding-right: 20px;
+  	margin-bottom: $full-size-row-bottom-margin;
+  	padding-left: $full-size-row-left-padding;
+	padding-right: $full-size-row-right-padding;
 	text-align: left;
-	width: calc(100% - 40px);
+	width: calc(100% - (#{$full-size-row-left-padding} + #{$full-size-row-right-padding}));
 
 	label {
 		color: $label-color;
