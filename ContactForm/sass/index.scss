@@ -133,11 +133,11 @@ body {
 			padding: 12px;
 		}
 
-	  	.tokenizer span.label:nth-child(even) {
+	  	.tokenizer ul li:nth-child(even) span.label {
 			background-color: #5e90af
 		}
 
-	  	.tokenizer span.label:nth-child(odd) {
+	  	.tokenizer ul li:nth-child(odd) span.label {
 		  	background-color: #4daf7b
 	  	}
 	}
