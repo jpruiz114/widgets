@@ -37,11 +37,35 @@ var app = {
 		// Initialize the ladda button.
 		var l = Ladda.create(document.querySelector(".send-mail"));
 
+		// Save the button to change its states later.
+		app.setCurrentLaddaButton(currentLaddaButton);
+
 		$(".send-mail").click(
 			function() {
 				app.validateFormData();
 			}
 		);
+	},
+
+	/**
+	 *
+	 */
+	currentLaddaButton: null,
+
+	/**
+	 *
+	 * @returns {null}
+	 */
+	getCurrentLaddaButton: function() {
+		return this.currentLaddaButton;
+	},
+
+	/**
+	 *
+	 * @param button
+	 */
+	setCurrentLaddaButton: function(button) {
+		this.currentLaddaButton = button;
 	},
 
 	/**
@@ -292,7 +316,11 @@ var app = {
 		var messageValid = app.validateMessage();
 
 		if (contactsValid && subjectValid && messageValid) {
+			var laddaButton = app.getCurrentLaddaButton();
 
+			laddaButton.start();
+
+			
 		}
 	}
 };
