@@ -136,7 +136,7 @@ if (!empty($params)) {
 
 					<div class="half-row">
 						<button class="ladda-button send-mail" data-color="red" data-style="slide-right">
-							<i class="fa fa-play-circle"></i>
+							<i class="fa fa-play-circle-o"></i>
 
 							<span class="ladda-label" data-i18n="contact-form.send-mail"></span>
 						</button>
