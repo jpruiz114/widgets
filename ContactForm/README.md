@@ -133,7 +133,7 @@ The repo was setup so after every push to the master branch, a web hook is calle
 
 * Validating the json files.
 * Validating the JavaScript files.
-* Removing the logging from JavaScript (Console.log() calls that developers use).
+* Removing the logging from JavaScript (console.log() calls that developers use).
 * Compiling the sass files into css files.
 
 Inside the **tasks** folder other shell scripts can be found.
