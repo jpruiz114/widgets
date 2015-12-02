@@ -188,3 +188,15 @@ The shell scripts for recess allow to:
 * Compile the less files for the bootstrap tokenizer
 * See the current less compiler version
 
+## Accessibility Evaluation ##
+
+Tools used:
+
+http://wave.webaim.org/
+
+http://www.cynthiasays.com/
+
+http://www.sidar.org/hera/
+
+http://juicystudio.com/services/readability.php
+
