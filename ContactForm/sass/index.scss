@@ -109,7 +109,7 @@ body {
 }
 
 .full-size-row:nth-child(even) {
-  	margin-bottom: $full-size-row-bottom-margin * 2;
+  	margin-bottom: $full-size-row-bottom-margin-larger;
 }
 
 .tags-holder {
