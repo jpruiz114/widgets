@@ -19,21 +19,6 @@ html {
 	width: 100%;
 }
 
-#language-container {
-	left: 10px;
-	position: fixed;
-	width: 80px;
-}
-
-.flag-container {
-  	background-color: #ffffff;
-	border: solid 2px #bebebe;
-	float: left;
-  	height: 76px;
-  	margin-bottom: 10px;
-	width: calc(100% - 4px);
-}
-
 #form-container {
 	background-color: $form-background-color;
 	border-radius: $form-border-radius;

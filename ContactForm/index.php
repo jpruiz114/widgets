@@ -42,8 +42,6 @@ if (!empty($params)) {
 		
 		<script type="text/javascript" src="components/i18next/i18next.min.js"></script>
 
-		<link rel="stylesheet" type="text/css" href="components/flag-icon-css/css/flag-icon.min.css">
-		
 		<script type="text/javascript" src="js/index.js"></script>
 		
 		<script type="text/javascript">
@@ -62,16 +60,6 @@ if (!empty($params)) {
 	
 	<body>
 		<div id="wrapper">
-			<div id="language-container">
-				<div class="flag-container">
-					<span class="flag-icon flag-icon-us"></span>
-				</div>
-
-				<div class="flag-container">
-					<span class="flag-icon flag-icon-es"></span>
-				</div>
-			</div>
-
 			<div id="form-container">
 				<div class="full-size-row">
 					<label data-i18n="contact-form.contacts"></label>
