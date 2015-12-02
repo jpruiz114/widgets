@@ -33,6 +33,7 @@ body {
 #form-container {
   background-color: #ffffff;
   border-radius: 5px;
+  display: none;
   height: calc(460px - 30px);
   left: 50%;
   margin-left: -185px;

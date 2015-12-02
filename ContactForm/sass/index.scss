@@ -57,6 +57,7 @@ body {
 #form-container {
 	background-color: $form-background-color;
 	border-radius: $form-border-radius;
+  	display: none;
 	height: calc(#{$form-height} - #{$form-container-top-padding});
 	left: 50%;
 	margin-left: -1 * ($form-width / 2);
