@@ -200,6 +200,10 @@ http://www.sidar.org/hera/
 
 http://juicystudio.com/services/readability.php
 
+A contact form can't provide much in terms of text, this is also a problem for SEO.
+
+The tools from above provide some help when it comes to validate the compliance of some important accessibility issues.
+
 The **toastr** alerts can be read by Chrome plugins like the ChromeVox:
 
 http://www.chromevox.com/
