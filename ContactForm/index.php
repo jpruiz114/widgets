@@ -61,13 +61,15 @@ if (!empty($params)) {
 	<body>
 		<div id="wrapper">
 			<div id="top-bar">
-				<a href="/frontend-test/ContactForm/en" target="_self" title="">
-					<label data-i18n="contact-form.english-website"></label>
-				</a>
+				<ul>
+					<li>
+						<a href="/frontend-test/ContactForm/en" target="_self" data-i18n="contact-form.english-website"></a>
+					</li>
 
-				<a href="/frontend-test/ContactForm/es" target="_self" title="">
-					<label data-i18n="contact-form.spanish-website"></label>
-				</a>
+					<li>
+						<a href="/frontend-test/ContactForm/es" target="_self" data-i18n="contact-form.spanish-website"></a>
+					</li>
+				</ul>
 			</div>
 
 			<div id="form-container">
