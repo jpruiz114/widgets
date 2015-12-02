@@ -27,7 +27,7 @@ html {
 	border-radius: $form-border-radius;
 	height: $form-height;
 	left: 50%;
-	margin-left: $form-width / 2;
+	margin-left: -1 * ($form-width / 2);
 	margin-top: $form-container-top-margin;
 	padding-top: $form-container-top-padding;
 	position: absolute;
