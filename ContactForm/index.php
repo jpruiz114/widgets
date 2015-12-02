@@ -62,11 +62,11 @@ if (!empty($params)) {
 		<div id="wrapper">
 			<div class="language-container">
 				<a href="" target="_self">
-					<img alt="" src="public/images/social-networks/github.png">
+					<img alt="" src="">
 				</a>
 
 				<a href="" target="_self">
-					<img alt="" src="public/images/social-networks/github.png">
+					<img alt="" src="">
 				</a>
 			</div>
 

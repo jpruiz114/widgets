@@ -19,6 +19,14 @@ html {
 	width: 100%;
 }
 
+#language-container {
+	background-color: white;
+	border: solid 2px #bebebe;
+	left: 10px;
+	position: fixed;
+	width: 80px;
+}
+
 #form-container {
 	background-color: $form-background-color;
 	border-radius: $form-border-radius;
