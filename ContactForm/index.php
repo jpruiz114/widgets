@@ -48,14 +48,16 @@ if (!empty($params)) {
 
 		<script type="text/javascript" src="components/i18next/i18next.min.js"></script>
 
-		<link href="components/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+		<link href="assets/components/bootstrap-tokenizer/bootstrap.css" rel="stylesheet">
 
-		<script type="text/javascript" src="components/bootstrap-tokenizer/js/bootstrap-tokenizer.js"></script>
+		<link href="assets/components/bootstrap-tokenizer/bootstrap-responsive.css" rel="stylesheet">
 
-		<link href="components/bootstrap-tokenizer/css/tokenizer.css" rel="stylesheet">
+		<link href="assets/components/bootstrap-tokenizer/bootstrap-tokenizer.css" rel="stylesheet">
+
+		<script type="text/javascript" src="assets/components/bootstrap-tokenizer/bootstrap-tokenizer.js"></script>
 
 		<script type="text/javascript" src="js/index.js"></script>
-		
+
 		<script type="text/javascript">
 			/**
 			 * When all the website resources (Images, scripts) have been loaded.
