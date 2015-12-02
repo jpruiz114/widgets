@@ -1,6 +1,6 @@
 # Contact Form
 
-By Jean Paul Ruiz <jpruiz114@gmail.com>
+By Jean Paul Ruiz :smiley_cat: <jpruiz114@gmail.com>
 
 Live demo can be seen here:
 
@@ -117,7 +117,7 @@ http://lab.hakim.se/ladda/
 
 ## Languages Considerations
 
-navigator.language list of all languages should match the ISO 639-1:
+navigator.language value should be found in the ISO 639-1:
 
 https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes
 
