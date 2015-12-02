@@ -179,11 +179,11 @@ The shell scripts for **Composer** allow to:
 * Install the dependencies
 * Update the dependencies
 
-The shell scripts for git allow to:
+The shell scripts for **git** allow to:
 
 * Push the current changes to the repo with a custom or generic comment.
 
-The shell scripts for recess allow to:
+The shell scripts for **recess** allow to:
 
 * Compile the less files for the bootstrap tokenizer
 * See the current less compiler version
@@ -225,4 +225,8 @@ If it happens that a daltonic user reaches the form, the icon and the clear mess
 :warning: Warning icon
 
 :white_check_mark: Success icon
+
+## W3C Validation ##
+
+https://validator.w3.org/nu/?doc=http://jeanpaulruizvallejo.com/frontend-test/ContactForm/
 
