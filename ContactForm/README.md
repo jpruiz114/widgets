@@ -8,8 +8,9 @@ Live demo can be seen here:
 
 English and Spanish links:
 
-:link: http://jeanpaulruizvallejo.com/frontend-test/ContactForm/en
-:link: http://jeanpaulruizvallejo.com/frontend-test/ContactForm/es
+:us: http://jeanpaulruizvallejo.com/frontend-test/ContactForm/en
+
+:es: http://jeanpaulruizvallejo.com/frontend-test/ContactForm/es
 
 ## Dependency Handling
 
