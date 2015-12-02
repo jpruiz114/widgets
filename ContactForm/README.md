@@ -140,14 +140,14 @@ Inside the **tasks** folder other shell scripts can be found.
 
 There are several shell scripts for:
 
-* bower
+* Bower
 * composer
 * git
 * recess
 
-The shell scripts for **bower** allow to:
+The shell scripts for **Bower** allow to:
 
-* Install bower
+* Install Bower
 * List the current dependencies
 * Install & update dependencies
 
