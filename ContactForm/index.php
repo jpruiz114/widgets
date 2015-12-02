@@ -55,11 +55,11 @@ if (!empty($params)) {
 					// It wont make any sense to show the link for the current lang.
 					if (chosenLang) {
 						if (chosenLang == app.LANGUAGE_CODE_FOR_ENGLISH) {
-							$("go-to-en-page").hide();
+							$("#go-to-en-page").hide();
 						}
 
 						if (chosenLang == app.LANGUAGE_CODE_FOR_SPANISH) {
-							$("go-to-es-page").hide();
+							$("#go-to-es-page").hide();
 						}
 					}
 
