@@ -6,6 +6,9 @@
 // Import the colors.
 @import "_colors";
 
+// Import the typography's.
+@import "_typos";
+
 // Import the measures.
 @import "_measures";
 
@@ -45,7 +48,7 @@ body {
 
   	.langs-link {
 	  	color: $top-bar-links-color;
-	  	font-family: "Open Sans";
+	  	font-family: $open-sans-typography;
 	  	font-size: 12px;
 	  	text-decoration: none;
 	}
@@ -74,7 +77,7 @@ body {
 
 	label {
 		color: $label-color;
-		font-family: "Open Sans";
+		font-family: $open-sans-typography;
 		font-size: 16px;
 		font-style: normal;
 		font-variant: normal;
@@ -88,7 +91,7 @@ body {
 	  	border-style: solid;
 	  	border-width: $input-border-width;
 	  	color: $input-text-color;
-	  	font-family: "Open Sans";
+	  	font-family: $open-sans-typography;
 	  	font-size: 14px;
 	  	margin: 0;
 	  	padding: $input-padding;
@@ -101,7 +104,7 @@ body {
 	  	border-style: solid;
 	  	border-width: $input-border-width;
 	  	color: $input-text-color;
-	  	font-family: "Open Sans";
+	  	font-family: $open-sans-typography;
 	  	font-size: 14px;
 	  	height: calc(#{$text-area-height} - (#{$input-padding} * 2 + #{$input-border-width} * 2));
 	  	padding: $input-padding;
@@ -163,5 +166,9 @@ body {
 		width: 50%;
   	}
 
-
+  	label {
+	  	color: $bottom-check-label-font-color;
+	  	font-family: $open-sans-typography;
+	  	font-size: $bottom-check-label-font-size;
+	}
 }
