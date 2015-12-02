@@ -245,7 +245,15 @@ var app = {
 	validateSubject: function() {
 		var subjectValid = true;
 
+		var subject = $("#subject").val();
 
+		if (!subject) {
+			var textObject = app.getTextObject();
+
+			toastr.warning(textObject("contact-form.contacts-error-4"));
+
+			subjectValid = false;
+		}
 
 		return subjectValid;
 	},
@@ -256,6 +264,16 @@ var app = {
 	 */
 	validateMessage: function() {
 		var messageValid = true;
+
+		var message = $("#message").val();
+
+		if (!message) {
+			var textObject = app.getTextObject();
+
+			toastr.warning(textObject("contact-form.contacts-error-5"));
+
+			messageValid = false;
+		}
 
 		return messageValid;
 	},
