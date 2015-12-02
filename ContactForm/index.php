@@ -78,6 +78,8 @@ if (!empty($params)) {
 				}
 			);
 		</script>
+
+		<?php include_once("../ga-tracking.php") ?>
 	</head>
 
 	<body>
@@ -142,7 +144,5 @@ if (!empty($params)) {
 				</div>
 			</div>
 		</div>
-
-		<?php include_once("../ga-tracking.php") ?>
 	</body>
 </html>
