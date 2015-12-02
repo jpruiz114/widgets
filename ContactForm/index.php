@@ -97,7 +97,7 @@ if (!empty($params)) {
 				</div>
 				
 				<div class="full-size-row">
-					<input data-i18n="[placeholder]add-subject" id="subject" type="text" />
+					<input data-i18n="[placeholder]contact-form.add-subject" id="subject" type="text" />
 				</div>
 				
 				<div class="full-size-row">
@@ -105,7 +105,7 @@ if (!empty($params)) {
 				</div>
 				
 				<div class="full-size-row">
-					<textarea data-i18n="[placeholder]leave-message" id="message"></textarea>
+					<textarea data-i18n="[placeholder]contact-form.leave-message" id="message"></textarea>
 				</div>
 				
 				<div class="full-size-row">
