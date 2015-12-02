@@ -2,8 +2,12 @@
 	"contact-form": {
 	  	"english-website": "English",
 	  	"spanish-website": "Spanish",
+
 		"contacts": "Contacts",
 		"subject": "Subject",
-		"message": "Message"
+		"message": "Message",
+
+	  	"add-subject": "You can add a subject",
+	  	"leave-message": "You can leave a message"
 	}
 }

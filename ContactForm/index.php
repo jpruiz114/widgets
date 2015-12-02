@@ -97,7 +97,7 @@ if (!empty($params)) {
 				</div>
 				
 				<div class="full-size-row">
-					<input id="" type="text" />
+					<input data-i18n="[placeholder]add-subject" id="subject" type="text" />
 				</div>
 				
 				<div class="full-size-row">
@@ -105,7 +105,7 @@ if (!empty($params)) {
 				</div>
 				
 				<div class="full-size-row">
-					
+					<textarea></textarea>
 				</div>
 				
 				<div class="full-size-row">
