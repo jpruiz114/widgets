@@ -103,6 +103,7 @@ body {
   background-color: #4daf7b; }
 .tags-holder .add-another {
   color: #ede3dd;
+  cursor: pointer;
   font-size: 40px; }
 
 /*# sourceMappingURL=index.css.map */

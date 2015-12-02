@@ -24,6 +24,25 @@ var app = {
 				app.addAnotherContact();
 			}
 		);
+
+		$("#email-tokenizer").change(
+			function() {
+				var listOfContacts = app.getCurrentEmails();
+				console.log("listOfContacts" + " = " + listOfContacts);
+
+				if (listOfContacts) {
+					var numberOfContacts = listOfContacts.length;
+					console.log("numberOfContacts" + " = " + numberOfContacts);
+
+					if (numberOfContacts > 0) {
+						var lastContact = listOfContacts[numberOfContacts - 1];
+						console.log("lastContact" + " = " + lastContact);
+
+						
+					}
+				}
+			}
+		);
 	},
 
 	/**
@@ -146,5 +165,17 @@ var app = {
 	 */
 	addAnotherContact: function() {
 		$(".tokenizer").click();
+	},
+
+	/**
+	 * This function retrieves the values inside the contact field.
+	 * @returns Array with the values inside the contact field.
+	 */
+	getCurrentEmails: function() {
+		var data = $("#email-tokenizer").val();
+
+		var listOfContacts = data.split(",");
+
+		return listOfContacts;
 	}
 };
