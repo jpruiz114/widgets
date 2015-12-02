@@ -90,6 +90,8 @@ Multi-regional and multilingual sites:
 
 https://support.google.com/webmasters/answer/182192?hl=en
 
+The trick here was achieved in part by using the htaccess file under the Apache server.
+
 ## Styles Considerations
 
 For the styles [SMACSS](https://smacss.com/book/type-layout) guideline is used.

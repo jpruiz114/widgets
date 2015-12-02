@@ -52,6 +52,17 @@ if (!empty($params)) {
 				function() {
 					var chosenLang = "<?php echo($lang); ?>";
 
+					// It wont make any sense to show the link for the current lang.
+					if (chosenLang) {
+						if (chosenLang == app.LANGUAGE_CODE_FOR_ENGLISH) {
+							$("go-to-en-page").hide();
+						}
+
+						if (chosenLang == app.LANGUAGE_CODE_FOR_SPANISH) {
+							$("go-to-es-page").hide();
+						}
+					}
+
 					app.initialize(chosenLang);
 				}
 			);
@@ -63,11 +74,11 @@ if (!empty($params)) {
 			<div id="top-bar">
 				<ul class="langs">
 					<li class="langs-item">
-						<a class="langs-link" href="/frontend-test/ContactForm/en" target="_self" data-i18n="[title]contact-form.english-website;contact-form.english-website"></a>
+						<a class="langs-link" href="/frontend-test/ContactForm/en" id="go-to-en-page" target="_self" data-i18n="[title]contact-form.english-website;contact-form.english-website"></a>
 					</li>
 
 					<li class="langs-item">
-						<a class="langs-link" href="/frontend-test/ContactForm/es" target="_self" data-i18n="[title]contact-form.spanish-website;contact-form.spanish-website"></a>
+						<a class="langs-link" href="/frontend-test/ContactForm/es" id="go-to-es-page" target="_self" data-i18n="[title]contact-form.spanish-website;contact-form.spanish-website"></a>
 					</li>
 				</ul>
 			</div>

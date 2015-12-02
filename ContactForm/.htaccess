@@ -1,3 +1,4 @@
+# This will allow to hide the index.php from the URL and pass the language for SEO purposes.
 RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^ index.php [QSA,L]
