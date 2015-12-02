@@ -360,7 +360,11 @@ var app = {
 	 * Function that cleans the form input elements.
 	 */
 	cleanFormFields: function() {
+		$(".email-tags").empty();
 
+		$(".email-tags").append('<input id="email-tokenizer" type="text">');
+
+		$("#email-tokenizer").tokenizer();
 
 		$("#subject").val("");
 
