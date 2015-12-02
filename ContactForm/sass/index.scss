@@ -80,10 +80,6 @@ body {
 		font-weight: 500;
 	}
 
-  	label:after {
-		margin-bottom: 5px;
-	}
-
   	input[type=text] {
 	  	border-color: $input-border-color;
 	  	border-radius: $input-border-radius;
@@ -93,6 +89,6 @@ body {
 	  	font-family: "Open Sans";
 	  	font-size: 14px;
 	  	padding: $input-padding;
-	  	width: calc(100% - (#{$input-padding} * 2));
+	  	width: calc(100% - (#{$input-padding} * 2 + #{$input-border-width} * 2));
   	}
 }
