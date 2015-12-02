@@ -43,6 +43,9 @@ body {
 	}
 
   	.langs-link {
+	  	color: $top-bar-links-color;
+	  	font-family: "Open Sans";
+	  	font-size: 12px;
 	  	text-decoration: none;
 	}
 }

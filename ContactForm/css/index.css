@@ -22,6 +22,9 @@ body {
   display: inline;
   list-style: none; }
 #top-bar .langs-link {
+  color: #636363;
+  font-family: "Open Sans";
+  font-size: 12px;
   text-decoration: none; }
 
 #form-container {
