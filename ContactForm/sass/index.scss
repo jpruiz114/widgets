@@ -28,7 +28,7 @@ html {
 	height: $form-height;
 	left: 50%;
 	margin-left: -1 * ($form-width / 2);
-	margin-top: $form-container-top-margin;
+	margin-top: -1 * ($form-height / 2);
 	padding-top: $form-container-top-padding;
 	position: absolute;
 	top: 50%;
