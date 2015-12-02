@@ -76,7 +76,7 @@ With the .bowerrc file we setup the folder where you want to hold the frontend d
 `npm install grunt-jsvalidate --save-dev`
 
 :bulb: Install the **grunt-remove-logging** packkage
-`npm install grunt-remove-logging`
+`npm install grunt-remove-logging --save-dev`
 
 :bulb: Install the **load-grunt-tasks** package
 `npm install load-grunt-tasks --save-dev`
