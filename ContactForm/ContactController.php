@@ -1,4 +1,6 @@
 <?php
+require_once "library/autoload.php";
+
 // Get the list of email addresses.
 $emailList = $_POST["emailList"];
 
