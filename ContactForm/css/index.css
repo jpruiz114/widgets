@@ -115,5 +115,8 @@ body {
   float: left;
   height: 88px;
   width: 100%; }
+.bottom-form-row .half-row {
+  float: left;
+  width: 50%; }
 
 /*# sourceMappingURL=index.css.map */

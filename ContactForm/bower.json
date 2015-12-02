@@ -5,6 +5,7 @@
 	"main": "index.html",
 	"dependencies": {
 	  	"fontawesome": "*",
+	  	"iCheck": "git://github.com/fronteed/iCheck.git",
 		"i18next": "*",
 		"jquery": "*",
 		"jqueryui": "*",

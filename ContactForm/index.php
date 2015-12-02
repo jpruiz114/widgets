@@ -56,6 +56,10 @@ if (!empty($params)) {
 
 		<script type="text/javascript" src="assets/components/bootstrap-tokenizer/bootstrap-tokenizer.js"></script>
 
+		<link href="components/iCheck/skins/minimal/red.css" rel="stylesheet">
+
+		<script type="text/javascript" src="components/iCheck/icheck.min.js"></script>
+
 		<script type="text/javascript" src="js/index.js"></script>
 
 		<script type="text/javascript">
@@ -69,6 +73,12 @@ if (!empty($params)) {
 					app.initialize(chosenLang);
 
 					$("#email-tokenizer").tokenizer();
+
+					$("#save-a-copy").iCheck({
+						checkboxClass: "icheckbox_minimal",
+						radioClass: "iradio_minimal",
+						increaseArea: "20%"
+					});
 				}
 			);
 		</script>
@@ -120,7 +130,15 @@ if (!empty($params)) {
 				</div>
 				
 				<div class="bottom-form-row">
-					<label>Bottom stuff goes here</label>
+					<div class="half-row">
+						<input checked id="save-a-copy" type="checkbox">
+
+
+					</div>
+
+					<div class="half-row">
+
+					</div>
 				</div>
 			</div>
 		</div>

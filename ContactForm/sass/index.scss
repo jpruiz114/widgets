@@ -152,9 +152,16 @@ body {
 }
 
 .bottom-form-row {
-  	background-color: #f8f3f0;
+  	background-color: $submit-container-background-color;
   	border-radius: 0 0 $form-border-radius $form-border-radius; /* top left, top right, bottom right, bottom left */
   	float: left;
-  	height: 88px;
+  	height: $bottom-form-row;
   	width: 100%;
+
+  	.half-row {
+		float: left;
+		width: 50%;
+  	}
+
+
 }

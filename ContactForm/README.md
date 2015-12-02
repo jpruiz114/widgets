@@ -82,9 +82,22 @@ The trick here was achieved in part by using the htaccess file under the Apache 
 
 For the styles [SMACSS](https://smacss.com/book/type-layout) guideline is used.
 
+### Packages Used
+
+For the tokenizer, this package was used:
+
+http://miguelfonseca.com/bootstrap-tokenizer/
+
+https://github.com/fmmfonseca/bootstrap-tokenizer
+
+For the checkbox, this package was used:
+
+http://fronteed.com/iCheck/
+
+https://github.com/fronteed/iCheck/
+
 ## Languages Considerations
 
 navigator.language list of all languages should match the ISO 639-1:
 
 https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes
-
