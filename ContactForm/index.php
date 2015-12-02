@@ -57,16 +57,16 @@ if (!empty($params)) {
 			);
 		</script>
 	</head>
-	
+
 	<body>
 		<div id="wrapper">
 			<div id="top-bar">
-				<a>
-					<label data-i18n="contact-form.message"></label>
+				<a href="/en" target="_self" title="">
+					<label data-i18n="contact-form.english-website"></label>
 				</a>
 
-				<a>
-					<label data-i18n="contact-form.message"></label>
+				<a href="/es" target="_self" title="">
+					<label data-i18n="contact-form.spanish-website"></label>
 				</a>
 			</div>
 

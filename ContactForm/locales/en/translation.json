@@ -1,5 +1,7 @@
 {
 	"contact-form": {
+	  	"english-website": "English",
+	  	"spanish-website": "Spanish",
 		"contacts": "Contacts",
 		"subject": "Subject",
 		"message": "Message"

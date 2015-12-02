@@ -19,7 +19,9 @@ body {
 #top-bar a label {
   color: #636363;
   font-family: "Open Sans";
-  font-size: 12px; }
+  font-size: 12px;
+  margin-left: 5px;
+  margin-right: 5px; }
 
 #form-container {
   background-color: #ffffff;
