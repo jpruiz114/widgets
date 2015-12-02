@@ -75,7 +75,7 @@ body {
   color: #897765;
   font-family: "Open Sans";
   font-size: 14px;
-  height: calc(100px - (15px * 2 + 1px * 2));
+  height: calc(106px - (15px * 2 + 1px * 2));
   padding: 15px;
   width: calc(100% - (15px * 2 + 1px * 2)); }
 
