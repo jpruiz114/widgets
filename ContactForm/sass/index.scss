@@ -72,10 +72,6 @@ body {
 	text-align: left;
 	width: calc(100% - (#{$full-size-row-left-padding} + #{$full-size-row-right-padding}));
 
-  	.extra-space {
-	  	margin-bottom: $full-size-row-bottom-margin * 2;
-	}
-
 	label {
 		color: $label-color;
 		font-family: "Open Sans";
@@ -108,4 +104,8 @@ body {
 	  	padding: $input-padding;
 	  	width: calc(100% - (#{$input-padding} * 2 + #{$input-border-width} * 2));
 	}
+}
+
+.full-size-row:nth-child(odd) {
+  	margin-bottom: $full-size-row-bottom-margin * 2;
 }
