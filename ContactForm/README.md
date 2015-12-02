@@ -190,7 +190,7 @@ The shell scripts for recess allow to:
 
 ## Accessibility Evaluation ##
 
-Tools used:
+Tools used to validate compliance:
 
 http://wave.webaim.org/
 
@@ -199,4 +199,10 @@ http://www.cynthiasays.com/
 http://www.sidar.org/hera/
 
 http://juicystudio.com/services/readability.php
+
+The **toastr** alerts can be ready by Chrome plugins like the ChromeVox:
+
+http://www.chromevox.com/
+
+ChromeVox is a screen reader for Chrome which brings the speed, versatility, and security of Chrome to visually impaired users.
 
