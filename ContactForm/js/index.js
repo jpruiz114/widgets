@@ -2,18 +2,20 @@ var app = {
 	/**
 	 * Method that initializes the app.
 	 */
-	initialize: function() {
-		// Define the language.
-		app.defineLanguage();
-		
+	initialize: function(chosenLang) {
+		if (chosenLang) {
+			app.setPreferredLanguage(chosenLang);
+		} else {
+			// Define the language.
+			app.defineLanguage();
+		}
+
 		// Load the defined language.
 		app.loadLanguage();
-		
-		
 	},
 	
 	/**
-	 * 
+	 * Function that defines the form language based on the browser setup language.
 	 */
 	defineLanguage: function() {
 		var language = app.getBrowserLanguage();
@@ -45,7 +47,7 @@ var app = {
 	 * @param t
 	 */
 	callback_i18n: function(err, t) {
-		$("#form-container").i18n();
+		$("#wrapper").i18n();
 		
 		// Save the text object for later usage.
 		app.setTextObject(t);

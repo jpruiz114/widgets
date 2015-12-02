@@ -6,8 +6,12 @@
 // Import the colors.
 @import "_colors";
 
-body {
-	background-color: $page-background-color;
+html {
+  background: url("../assets/background-image.jpg") no-repeat center center fixed;
+  background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
 }
 
 #wrapper {

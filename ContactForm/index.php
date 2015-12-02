@@ -4,12 +4,13 @@ $request = str_replace("/frontend-test/ContactForm/", "", $_SERVER['REQUEST_URI'
 
 // Split the path by '/'
 $params = explode("/", $request);
-print_r($params);
 
-$lang = null;
+$lang = "";
 
 if (!empty($params)) {
-	
+	if (sizeof($params) >= 1) {
+		$lang = $params[0];
+	}
 }
 ?>
 <!DOCTYPE HTML>
@@ -49,7 +50,9 @@ if (!empty($params)) {
 			 */
 			$(window).load(
 				function() {
-					app.initialize();
+					var chosenLang = "<?php echo($lang); ?>";
+
+					app.initialize(chosenLang);
 				}
 			);
 		</script>
@@ -57,6 +60,16 @@ if (!empty($params)) {
 	
 	<body>
 		<div id="wrapper">
+			<div class="language-container">
+				<a href="" target="_self">
+					<img alt="" src="public/images/social-networks/github.png">
+				</a>
+
+				<a href="" target="_self">
+					<img alt="" src="public/images/social-networks/github.png">
+				</a>
+			</div>
+
 			<div id="form-container">
 				<div class="full-size-row">
 					<label data-i18n="contact-form.contacts"></label>
