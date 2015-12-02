@@ -322,7 +322,23 @@ var app = {
 
 			laddaButton.start();
 
+			var postData = {emailList: $("#email-tokenizer").val(), subject: $("#subject").val(), message: $("#message").val()};
 
+			$.ajax({
+				url: "ContactController.php",
+				type: "POST",
+				data: postData,
+				success: function(data, textStatus, jqXHR) {
+					console.log("data" + " = " + data);
+
+					laddaButton.stop();
+
+					$(".fa-play-circle").show();
+				},
+				error: function (jqXHR, textStatus, errorThrown) {
+
+				}
+			});
 		}
 	}
 };
