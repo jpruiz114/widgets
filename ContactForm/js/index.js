@@ -357,7 +357,8 @@ var app = {
 	 * Function that cleans the form input elements.
 	 */
 	cleanFormFields: function() {
-		$("#email-tokenizer").val("");
+		// Hack that had to be used becase $("#email-tokenizer").val("") didn't do the trick.
+		$("#email-tokenizer").replaceWith('<input id="email-tokenizer" type="text" style="display: none;" value="">');
 
 		$(".tokenizer .label").remove();
 
