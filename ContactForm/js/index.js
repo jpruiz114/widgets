@@ -360,7 +360,7 @@ var app = {
 	 * Function that cleans the form input elements.
 	 */
 	cleanFormFields: function() {
-		
+
 
 		$("#subject").val("");
 

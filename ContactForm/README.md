@@ -19,7 +19,7 @@ English and Spanish links:
 
 ### Some considerations for Composer
 
-To download composer, if you don't have it:
+To download Composer, if you don't have it:
 `tasks\composer\download-phar.sh`
 
 #### Clarification for the Mandrill library
@@ -141,7 +141,7 @@ Inside the **tasks** folder other shell scripts can be found.
 There are several shell scripts for:
 
 * Bower
-* composer
+* Composer
 * git
 * recess
 
@@ -151,7 +151,7 @@ The shell scripts for **Bower** allow to:
 * List the current dependencies
 * Install & update dependencies
 
-The shell scripts for composer allow to:
+The shell scripts for **Composer** allow to:
 
 * Download the phar file
 * Install the dependencies
