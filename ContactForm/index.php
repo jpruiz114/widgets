@@ -68,7 +68,7 @@ if (!empty($params)) {
 
 					app.initialize(chosenLang);
 
-					$("input").tokenizer();
+					$("#email-tokenizer").tokenizer();
 				}
 			);
 		</script>
@@ -96,7 +96,7 @@ if (!empty($params)) {
 				<div class="full-size-row">
 					<div class="tags-holder">
 						<div class="email-tags">
-							<input type="text" data-provide="tokenizer">
+							<input data-provide="tokenizer" id="email-tokenizer" type="text">
 						</div>
 
 						<i class='add-another fa fa-plus-square'></i>
