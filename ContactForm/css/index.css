@@ -44,7 +44,7 @@ body {
 
 .full-size-row {
   float: left;
-  margin-bottom: 10px;
+  margin-bottom: 8px;
   padding-left: 30px;
   padding-right: 30px;
   text-align: left;
@@ -79,7 +79,7 @@ body {
   width: calc(100% - (15px * 2 + 1px * 2)); }
 
 .full-size-row:nth-child(even) {
-  margin-bottom: 20px; }
+  margin-bottom: 16px; }
 
 .tags-holder {
   border-style: solid;
@@ -109,7 +109,7 @@ body {
 .bottom-form-row {
   background-color: #f8f3f0;
   float: left;
-  height: 70px;
+  height: 90px;
   width: 100%; }
 
 /*# sourceMappingURL=index.css.map */
