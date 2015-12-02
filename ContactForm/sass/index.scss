@@ -29,7 +29,13 @@ body {
 #top-bar {
 	background-color: $top-bar-background-color;
   	float: left;
+  	padding-bottom: 5px;
+  	padding-top: 5px;
 	width: 100%;
+
+  	a {
+	  	text-decoration: none;
+	}
 
 	a label {
 		color: $top-bar-links-color;

@@ -15,7 +15,11 @@ body {
 #top-bar {
   background-color: #ededed;
   float: left;
+  padding-bottom: 5px;
+  padding-top: 5px;
   width: 100%; }
+#top-bar a {
+  text-decoration: none; }
 #top-bar a label {
   color: #636363;
   font-family: "Open Sans";
