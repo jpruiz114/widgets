@@ -173,7 +173,11 @@ var app = {
 	getCurrentEmails: function() {
 		var data = $("#email-tokenizer").val();
 
-		var listOfContacts = data.split(",");
+		var listOfContacts = null;
+
+		if (data) {
+			listOfContacts = data.split(",");
+		}
 
 		return listOfContacts;
 	},
