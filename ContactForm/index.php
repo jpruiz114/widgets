@@ -133,7 +133,7 @@ if (!empty($params)) {
 					</div>
 
 					<div class="half-row">
-
+						<label>Button goes here</label>
 					</div>
 				</div>
 			</div>
