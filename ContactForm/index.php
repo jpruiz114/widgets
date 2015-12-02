@@ -48,9 +48,7 @@ if (!empty($params)) {
 
 		<script type="text/javascript" src="components/i18next/i18next.min.js"></script>
 
-		<script type="text/javascript" src="components/jQuery-Tags-Input-Custom/jquery.tagsinput.js"></script>
-
-		<link rel="stylesheet" type="text/css" href="components/jQuery-Tags-Input-Custom/jquery.tagsinput.css">
+		<script type="text/javascript" src="components/taggingJS/tagging.js"></script>
 
 		<script type="text/javascript" src="js/index.js"></script>
 		
@@ -64,7 +62,7 @@ if (!empty($params)) {
 
 					app.initialize(chosenLang);
 
-
+					$("#tagBox").tagging();
 				}
 			);
 		</script>
@@ -92,7 +90,7 @@ if (!empty($params)) {
 				<div class="full-size-row">
 					<div class="tags-holder">
 						<div class="email-tags">
-							
+							<div data-tags-input-name="tag" id="tagBox">preexisting-tag</div>
 						</div>
 
 						<i class='add-another fa fa-plus-square'></i>
