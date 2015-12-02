@@ -88,7 +88,7 @@ if (!empty($params)) {
 					<label data-i18n="contact-form.contacts"></label>
 				</div>
 				
-				<div class="full-size-row">
+				<div class="full-size-row extra-space">
 					
 				</div>
 				
@@ -96,7 +96,7 @@ if (!empty($params)) {
 					<label data-i18n="contact-form.subject"></label>
 				</div>
 				
-				<div class="full-size-row">
+				<div class="full-size-row extra-space">
 					<input data-i18n="[placeholder]contact-form.add-subject" id="subject" type="text" />
 				</div>
 				
@@ -104,7 +104,7 @@ if (!empty($params)) {
 					<label data-i18n="contact-form.message"></label>
 				</div>
 				
-				<div class="full-size-row">
+				<div class="full-size-row extra-space">
 					<textarea data-i18n="[placeholder]contact-form.leave-message" id="message"></textarea>
 				</div>
 				

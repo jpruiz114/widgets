@@ -72,6 +72,10 @@ body {
 	text-align: left;
 	width: calc(100% - (#{$full-size-row-left-padding} + #{$full-size-row-right-padding}));
 
+  	.extra-space {
+	  	margin-bottom: $full-size-row-bottom-margin * 2;
+	}
+
 	label {
 		color: $label-color;
 		font-family: "Open Sans";
