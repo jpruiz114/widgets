@@ -93,6 +93,6 @@ body {
 	  	font-family: "Open Sans";
 	  	font-size: 14px;
 	  	padding: $input-padding;
-	  	width: calc(100% - ($input-padding * 2));
+	  	width: 100% - ($input-padding * 2);
   	}
 }
