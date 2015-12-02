@@ -320,7 +320,7 @@ var app = {
 
 			laddaButton.start();
 
-			
+
 		}
 	}
 };
