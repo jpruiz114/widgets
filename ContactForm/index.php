@@ -64,7 +64,7 @@ if (!empty($params)) {
 
 		<script type="text/javascript" src="components/ladda/dist/ladda.min.js"></script>
 
-		<script type="text/javascript" src="js/index.js"></script>
+		<script type="text/javascript" src="js/dist/index.js"></script>
 
 		<script type="text/javascript">
 			/**

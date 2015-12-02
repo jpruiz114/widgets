@@ -75,6 +75,9 @@ Install the **grunt-jsonlint** package
 Install the **grunt-jsvalidate** package
 `npm install grunt-jsvalidate --save-dev`
 
+Install the **grunt-remove-logging** packkage
+`npm install grunt-remove-logging`
+
 Install the **load-grunt-tasks** package
 `npm install load-grunt-tasks --save-dev`
 

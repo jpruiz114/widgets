@@ -1,6 +1,8 @@
 module.exports = function(grunt) {
 	require("load-grunt-tasks")(grunt);
-	
+
+	grunt.loadNpmTasks("grunt-remove-logging");
+
 	grunt.initConfig({
 		jsonlint: {
 			checkBowerJSON: {
@@ -25,6 +27,12 @@ module.exports = function(grunt) {
 				}
 			}
 		},
+		removelogging: {
+			dist: {
+				src: "js/index.js",
+				dest: "js/dist/index.js"
+			}
+		},
 		sass: {
 			dist: {
 				options: {
@@ -34,8 +42,8 @@ module.exports = function(grunt) {
 					"css/index.css": "sass/index.scss"
 				}
 			}
-		},
+		}
 	});
 	
-	grunt.registerTask("default", ["jsonlint", "jsvalidate", "sass"]);
+	grunt.registerTask("default", ["jsonlint", "jsvalidate", "removelogging", "sass"]);
 };
