@@ -16,6 +16,21 @@ body {
 @media only screen and (max-width: 767px) {
   body {
     background-image: url("../assets/images/background-image-for-mobile.jpg"); } }
+/* Import the styles for the circle profile pic. */
+.circle {
+  -moz-border-radius: 99em;
+  -webkit-border-radius: 99em;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 99em;
+  border: 5px solid #eee;
+  box-shadow: 0 3px 2px rgba(0, 0, 0, 0.3);
+  display: block;
+  height: 150px;
+  margin: 1em auto;
+  width: 150px; }
+
 body {
   margin: 0; }
 
@@ -45,32 +60,51 @@ body {
   background-color: #ffffff;
   border-radius: 5px;
   display: none;
-  height: 460px;
+  height: 392px;
   left: 50%;
   margin-left: -185px;
-  margin-top: -230px;
+  margin-top: -196px;
   position: absolute;
   top: 50%;
   width: 370px; }
 
 #post-picture {
   float: left;
+  height: 204px;
   width: 100%; }
 
 #post-author {
+  display: table;
   float: left;
   height: 140px;
   width: 100%; }
+#post-author .col {
+  display: table-cell;
+  vertical-align: middle; }
+#post-author #post-author-pic {
+  width: 33.33%; }
+#post-author #post-author-data {
+  width: 66.67%; }
+#post-author #post-author-data label {
+  display: block;
+  text-align: left; }
+#post-author #post-author-data p {
+  display: block;
+  text-align: left; }
 
 #post-options {
+  display: table;
   float: left;
   height: 48px;
   width: 100%; }
 #post-options .post-option-column {
   background-color: #f6f1ed;
   display: table-cell;
-  float: left;
   vertical-align: middle; }
+#post-options .post-option-column:nth-child(1) {
+  border-bottom-left-radius: 5px; }
+#post-options .post-option-column:nth-child(3) {
+  border-bottom-right-radius: 5px; }
 #post-options .corner-option-column {
   width: 33%; }
 #post-options .central-option-column {

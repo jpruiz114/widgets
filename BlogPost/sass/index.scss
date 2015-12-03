@@ -15,6 +15,9 @@
 // Import the typography's.
 @import "_typos";
 
+/* Import the styles for the circle profile pic. */
+@import "circle-profile-pic";
+
 body {
 	margin: 0;
 }
@@ -64,16 +67,42 @@ body {
 
 #post-picture {
 	float: left;
+  	height: 204px;
   	width: 100%;
 }
 
 #post-author {
+  	display: table;
   	float: left;
   	height: 140px;
   	width: 100%;
+
+  	.col {
+	  	display: table-cell;
+	  	vertical-align: middle;
+	}
+
+  	#post-author-pic {
+		width: 33.33%;
+	}
+
+  	#post-author-data {
+	  	width: 66.67%;
+
+	  	label {
+			display: block;
+		  	text-align: left;
+		}
+
+	  	p {
+			display: block;
+			text-align: left;
+	  	}
+	}
 }
 
 #post-options {
+  	display: table;
 	float: left;
   	height: 48px;
 	width: 100%;
@@ -81,8 +110,15 @@ body {
 	.post-option-column {
 		background-color: $bottom-column-color;
 		display: table-cell;
-		float: left;
 		vertical-align: middle;
+	}
+
+  	.post-option-column:nth-child(1) {
+		border-bottom-left-radius: $post-border-radius;
+	}
+
+  	.post-option-column:nth-child(3) {
+		border-bottom-right-radius: $post-border-radius;
 	}
 
 	.corner-option-column {

@@ -1,6 +1,6 @@
 <?php
 // Remove the directory path we don't want
-$request = str_replace("/frontend-test/ContactForm/", "", $_SERVER["REQUEST_URI"]);
+$request = str_replace("/frontend-test/BlogPost/", "", $_SERVER["REQUEST_URI"]);
 
 // Split the path by "/"
 $params = explode("/", $request);
@@ -37,24 +37,32 @@ if (!empty($params)) {
 
             <div id="post-container">
                 <div id="post-picture">
-
+                    <img alt="Post picture" src="../assets/images/post-images/post-image-1.jpg" />
                 </div>
 
                 <div id="post-author">
+                    <div class="col" id="post-author-pic">
+                        <div class="circle" style="background-image: url('assets/images/profile-pics/profile-pic-1.jpg')"></div>
+                    </div>
 
+                    <div class="col" id="post-author-data">
+                        <label id="author-name">John Smith</label>
+
+                        <p id="author-comment">Your talent amazes! This is awesome. Excited to see the final product.</p>
+                    </div>
                 </div>
 
                 <div id="post-options">
                     <div class="post-option-column corner-option-column">
-
+                        <label>follow</label>
                     </div>
 
                     <div class="post-option-column central-option-column">
-
+                        <label>comment</label>
                     </div>
 
                     <div class="post-option-column corner-option-column">
-
+                        <label>like</label>
                     </div>
                 </div>
             </div>
