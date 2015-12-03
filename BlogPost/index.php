@@ -33,6 +33,19 @@ if (!empty($params)) {
         <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
 
         <link rel="stylesheet" type="text/css" href="css/index.css">
+
+        <script type="text/javascript">
+            /**
+             * When all the website resources (Images, scripts) have been loaded.
+             */
+            $(window).load(
+                function() {
+                    $("#post-container").fadeIn();
+                }
+            );
+        </script>
+
+        <?php include_once("../ga-tracking.php") ?>
     </head>
 
     <body>
