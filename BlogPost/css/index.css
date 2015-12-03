@@ -19,4 +19,67 @@ body {
 body {
   margin: 0; }
 
+#wrapper {
+  text-align: center;
+  width: 100%; }
+
+#top-bar {
+  background-color: #ededed;
+  float: left;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  width: 100%; }
+#top-bar .langs {
+  margin: 0;
+  padding: 0; }
+#top-bar .langs-item {
+  display: inline;
+  list-style: none; }
+#top-bar .langs-link {
+  color: #636363;
+  font-family: "Open Sans";
+  font-size: 12px;
+  text-decoration: none; }
+
+#post-container {
+  background-color: #ffffff;
+  border-radius: 5px;
+  display: none;
+  height: 460px;
+  left: 50%;
+  margin-left: -185px;
+  margin-top: -230px;
+  position: absolute;
+  top: 50%;
+  width: 370px; }
+
+#post-picture {
+  float: left;
+  width: 100%; }
+
+#post-author {
+  float: left;
+  height: 140px;
+  width: 100%; }
+
+#post-options {
+  float: left;
+  height: 48px;
+  width: 100%; }
+#post-options .post-option-column {
+  background-color: #f6f1ed;
+  display: table-cell;
+  float: left;
+  vertical-align: middle; }
+#post-options .corner-option-column {
+  width: 33%; }
+#post-options .central-option-column {
+  border-color: #ffffff;
+  border-top-width: 0;
+  border-bottom-width: 0;
+  border-left-width: 1px;
+  border-right-widows: 1px;
+  border-style: solid;
+  width: calc(34% - 2px); }
+
 /*# sourceMappingURL=index.css.map */
