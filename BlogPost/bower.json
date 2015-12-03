@@ -1,0 +1,10 @@
+{
+	"name": "Blog Post",
+	"version": "1.0.0",
+	"authors": ["Jean Paul Ruiz Vallejo <jpruiz114@gmail.com>"],
+	"main": "index.php",
+	"dependencies": {
+	  	"i18next": "*",
+		"jquery": "*"
+	}
+}

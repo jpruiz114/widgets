@@ -2,7 +2,7 @@
 	"name": "Contact Form",
 	"version": "1.0.0",
 	"authors": ["Jean Paul Ruiz Vallejo <jpruiz114@gmail.com>"],
-	"main": "index.html",
+	"main": "index.php",
 	"dependencies": {
 	  	"fontawesome": "*",
 	  	"iCheck": "git://github.com/fronteed/iCheck.git",

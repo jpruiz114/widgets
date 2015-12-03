@@ -8,9 +8,6 @@ module.exports = function(grunt) {
 			checkBowerJSON: {
 				src: ["bower.json"]
 			},
-			checkComposerJSON: {
-				src: ["composer.json"]
-			},
 			checkLocales: {
 				src: ["locales/en/translation.json", "locales/es/translation.json"]
 			}
