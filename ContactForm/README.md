@@ -242,27 +242,66 @@ Image processor
 
 http://www.vischeck.com/vischeck/vischeckImage.php
 
-**Original image**
-
-![Original image](https://github.com/jpruiz114/widgets/blob/master/ContactForm/assets/images/color-blindness-analysis/original-image.jpg)
+#### Scenarios Covered ####
 
 * Deuteranope (a form of red/green color deficit)
 * Protanope (another form of red/green color deficit)
 * Tritanope (a blue/yellow deficit - very rare)
 
+#### Color Blind Simulation for Home Page ####
+
+**Original image**
+
+![Original image](https://github.com/jpruiz114/widgets/blob/master/ContactForm/assets/images/color-blindness-analysis/home/original-image.jpg)
+
 **Deuteranope**
 
-![Original image](https://github.com/jpruiz114/widgets/blob/master/ContactForm/assets/images/color-blindness-analysis/deuteranope-simulation.jpg)
+![Original image](https://github.com/jpruiz114/widgets/blob/master/ContactForm/assets/images/color-blindness-analysis/home/deuteranope-simulation.jpg)
 
 **Protanope**
 
-![Original image](https://github.com/jpruiz114/widgets/blob/master/ContactForm/assets/images/color-blindness-analysis/protanope-simulation.jpg)
+![Original image](https://github.com/jpruiz114/widgets/blob/master/ContactForm/assets/images/color-blindness-analysis/home/protanope-simulation.jpg)
 
 **Tritanope**
 
-![Original image](https://github.com/jpruiz114/widgets/blob/master/ContactForm/assets/images/color-blindness-analysis/tritanope-simulation.jpg)
+![Original image](https://github.com/jpruiz114/widgets/blob/master/ContactForm/assets/images/color-blindness-analysis/home/tritanope-simulation.jpg)
+
+#### Color Blind Simulation for Home Page with Warnings ####
+
+**Original image**
+
+![Original image](https://github.com/jpruiz114/widgets/blob/master/ContactForm/assets/images/color-blindness-analysis/error/original-image.jpg)
+
+**Deuteranope**
+
+![Original image](https://github.com/jpruiz114/widgets/blob/master/ContactForm/assets/images/color-blindness-analysis/error/deuteranope-simulation.jpg)
+
+**Protanope**
+
+![Original image](https://github.com/jpruiz114/widgets/blob/master/ContactForm/assets/images/color-blindness-analysis/error/protanope-simulation.jpg)
+
+**Tritanope**
+
+![Original image](https://github.com/jpruiz114/widgets/blob/master/ContactForm/assets/images/color-blindness-analysis/error/tritanope-simulation.jpg)
+
+#### Color Blind Simulation for Home Page with Success Message ####
+
+**Original image**
+
+![Original image](https://github.com/jpruiz114/widgets/blob/master/ContactForm/assets/images/color-blindness-analysis/success/original-image.jpg)
+
+**Deuteranope**
+
+![Original image](https://github.com/jpruiz114/widgets/blob/master/ContactForm/assets/images/color-blindness-analysis/success/deuteranope-simulation.jpg)
+
+**Protanope**
+
+![Original image](https://github.com/jpruiz114/widgets/blob/master/ContactForm/assets/images/color-blindness-analysis/success/protanope-simulation.jpg)
+
+**Tritanope**
+
+![Original image](https://github.com/jpruiz114/widgets/blob/master/ContactForm/assets/images/color-blindness-analysis/success/tritanope-simulation.jpg)
 
 ## W3C Validation ##
 
-https://validator.w3.org/nu/?doc=http://jeanpaulruizvallejo.com/frontend-test/ContactForm/
-
+https://validator.w3.org/nu/?doc=http://jeanpaulruizvallejo.com/frontend-test/ContactForm/Original Image
