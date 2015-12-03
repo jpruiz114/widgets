@@ -125,6 +125,8 @@ http://i18next.com/
 
 For the styles [SMACSS](https://smacss.com/book/type-layout) guideline is used.
 
+BEM could have been used but SMACSS has proven (In my case) to facilitate modularity and re - usability.
+
 ### Packages Used
 
 For the tokenizer, this package was used:
