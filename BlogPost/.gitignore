@@ -3,9 +3,3 @@
 
 # Exclude the node_modules folder
 node_modules
-
-# Exclude composer.lock
-composer.lock
-
-# Exclude composer.phar
-composer.phar
