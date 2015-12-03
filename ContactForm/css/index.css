@@ -23,6 +23,7 @@ body {
   text-align: center;
   width: 100%; }
 
+/* Import the "top bar" styles. */
 #top-bar {
   background-color: #ededed;
   float: left;
