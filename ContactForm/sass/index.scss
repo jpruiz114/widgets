@@ -3,6 +3,9 @@
 //
 // The content of this file holds the styles for the contact form.
 
+// Import the background styles.
+@import "_background";
+
 // Import the colors.
 @import "_colors";
 
@@ -11,14 +14,6 @@
 
 // Import the measures.
 @import "_measures";
-
-html {
-  background: url("../assets/images/background-image.jpg") no-repeat center center fixed;
-  background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  -webkit-background-size: cover;
-}
 
 body {
 	margin: 0;

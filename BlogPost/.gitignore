@@ -1,0 +1,11 @@
+# Exclude the sass cache folder generated when the scss files are compiled
+.sass-cache
+
+# Exclude the node_modules folder
+node_modules
+
+# Exclude composer.lock
+composer.lock
+
+# Exclude composer.phar
+composer.phar
