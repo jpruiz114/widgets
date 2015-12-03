@@ -34,13 +34,19 @@ if (!empty($params)) {
 
         <link rel="stylesheet" type="text/css" href="css/index.css">
 
+        <script type="text/javascript" src="components/jquery/dist/jquery.min.js"></script>
+
+        <script type="text/javascript" src="js/dist/index.js"></script>
+
         <script type="text/javascript">
             /**
              * When all the website resources (Images, scripts) have been loaded.
              */
             $(window).load(
                 function() {
-                    $("#post-container").fadeIn();
+                    var chosenLang = "<?php echo($lang); ?>";
+
+                    app.initialize(chosenLang);
                 }
             );
         </script>
