@@ -232,6 +232,36 @@ If it happens that a daltonic user reaches the form, the icon and the clear mess
 
 :white_check_mark: Success icon
 
+### Color Blindness Simulation ###
+
+Tool used
+
+http://www.vischeck.com/vischeck/
+
+Image simulator
+
+http://www.vischeck.com/vischeck/vischeckImage.php
+
+**Original image**
+
+![Original image](https://github.com/jpruiz114/widgets/blob/master/ContactForm/assets/images/original-image.jpg)
+
+* Deuteranope (a form of red/green color deficit)
+* Protanope (another form of red/green color deficit)
+* Tritanope (a blue/yellow deficit - very rare)
+
+**Deuteranope**
+
+![Original image](https://github.com/jpruiz114/widgets/blob/master/ContactForm/assets/images/deuteranope-simulation.jpg)
+
+**Protanope**
+
+![Original image](https://github.com/jpruiz114/widgets/blob/master/ContactForm/assets/images/protanope-simulation.jpg)
+
+**Tritanope**
+
+![Original image](https://github.com/jpruiz114/widgets/blob/master/ContactForm/assets/images/tritanope-simulation.jpg)
+
 ## W3C Validation ##
 
 https://validator.w3.org/nu/?doc=http://jeanpaulruizvallejo.com/frontend-test/ContactForm/
