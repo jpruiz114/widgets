@@ -238,13 +238,13 @@ Tool used
 
 http://www.vischeck.com/vischeck/
 
-Image simulator
+Image processor
 
 http://www.vischeck.com/vischeck/vischeckImage.php
 
 **Original image**
 
-![Original image](https://github.com/jpruiz114/widgets/blob/master/ContactForm/assets/images/original-image.jpg)
+![Original image](https://github.com/jpruiz114/widgets/blob/master/ContactForm/assets/images/color-blindness-analysis/original-image.jpg)
 
 * Deuteranope (a form of red/green color deficit)
 * Protanope (another form of red/green color deficit)
@@ -252,15 +252,15 @@ http://www.vischeck.com/vischeck/vischeckImage.php
 
 **Deuteranope**
 
-![Original image](https://github.com/jpruiz114/widgets/blob/master/ContactForm/assets/images/deuteranope-simulation.jpg)
+![Original image](https://github.com/jpruiz114/widgets/blob/master/ContactForm/assets/images/color-blindness-analysis/deuteranope-simulation.jpg)
 
 **Protanope**
 
-![Original image](https://github.com/jpruiz114/widgets/blob/master/ContactForm/assets/images/protanope-simulation.jpg)
+![Original image](https://github.com/jpruiz114/widgets/blob/master/ContactForm/assets/images/color-blindness-analysis/protanope-simulation.jpg)
 
 **Tritanope**
 
-![Original image](https://github.com/jpruiz114/widgets/blob/master/ContactForm/assets/images/tritanope-simulation.jpg)
+![Original image](https://github.com/jpruiz114/widgets/blob/master/ContactForm/assets/images/color-blindness-analysis/tritanope-simulation.jpg)
 
 ## W3C Validation ##
 
