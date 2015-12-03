@@ -149,7 +149,7 @@ navigator.language value should be found in the ISO 639-1:
 
 https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes
 
-## Automation ##
+## Automation
 
 In order to save time, a shell script named **push-and-deploy.sh** was created.
 
@@ -194,7 +194,7 @@ The shell scripts for **recess** allow to:
 * Compile the less files for the bootstrap tokenizer
 * See the current less compiler version
 
-## Accessibility Evaluation ##
+## Accessibility Evaluation
 
 Tools used to validate compliance:
 
@@ -232,7 +232,7 @@ If it happens that a daltonic user reaches the form, the icon and the clear mess
 
 :white_check_mark: Success icon
 
-### Color Blindness Simulation ###
+### Color Blindness Simulation
 
 Tool used
 
@@ -242,13 +242,13 @@ Image processor
 
 http://www.vischeck.com/vischeck/vischeckImage.php
 
-#### Scenarios Covered ####
+#### Scenarios Covered
 
 * Deuteranope (a form of red/green color deficit)
 * Protanope (another form of red/green color deficit)
 * Tritanope (a blue/yellow deficit - very rare)
 
-#### Color Blind Simulation for Home Page ####
+#### Color Blind Simulation for Home Page
 
 **Original image**
 
@@ -266,7 +266,7 @@ http://www.vischeck.com/vischeck/vischeckImage.php
 
 ![Original image](https://github.com/jpruiz114/widgets/blob/master/ContactForm/assets/images/color-blindness-analysis/home/tritanope-simulation.jpg)
 
-#### Color Blind Simulation for Home Page with Warnings ####
+#### Color Blind Simulation for Home Page with Warnings
 
 **Original image**
 
@@ -284,7 +284,7 @@ http://www.vischeck.com/vischeck/vischeckImage.php
 
 ![Original image](https://github.com/jpruiz114/widgets/blob/master/ContactForm/assets/images/color-blindness-analysis/error/tritanope-simulation.jpg)
 
-#### Color Blind Simulation for Home Page with Success Message ####
+#### Color Blind Simulation for Home Page with Success Message
 
 **Original image**
 
@@ -302,6 +302,6 @@ http://www.vischeck.com/vischeck/vischeckImage.php
 
 ![Original image](https://github.com/jpruiz114/widgets/blob/master/ContactForm/assets/images/color-blindness-analysis/success/tritanope-simulation.jpg)
 
-## W3C Validation ##
+## W3C Validation 
 
 https://validator.w3.org/nu/?doc=http://jeanpaulruizvallejo.com/frontend-test/ContactForm/Original Image
