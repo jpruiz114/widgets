@@ -68,7 +68,10 @@ body {
 	  	width: 66.67%;
 
 	  	label {
+		  	color: $post-author-name-font-color;
 			display: block;
+		  	font-family: $open-sans-typography;
+		  	font-size: $post-author-name-font-size;
 		  	text-align: left;
 		}
 

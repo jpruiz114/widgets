@@ -87,7 +87,10 @@ body {
 #post-author #post-author-data {
   width: 66.67%; }
 #post-author #post-author-data label {
+  color: #5c5146;
   display: block;
+  font-family: "Open Sans";
+  font-size: 28px;
   text-align: left; }
 #post-author #post-author-data p {
   display: block;
