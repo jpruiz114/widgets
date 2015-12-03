@@ -16,9 +16,9 @@ if (!empty($params)) {
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>Contact Form</title>
-		
 		<meta charset="UTF-8">
+
+		<title>Contact Form</title>
 		
 		<meta name="author" content="Jean Paul Ruiz">
 		

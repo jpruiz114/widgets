@@ -18,7 +18,21 @@ if (!empty($params)) {
     <head lang="en">
         <meta charset="UTF-8">
 
-        <title></title>
+        <title>Blog Post</title>
+
+        <meta name="author" content="Jean Paul Ruiz">
+
+        <meta name="description" content="This is an example of a blog post">
+
+        <meta name="keywords" content="blog post, blog, post">
+
+        <meta name="robots" content="index, follow">
+
+        <meta name="revisit-after" content="7 days">
+
+        <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
+
+        <link rel="stylesheet" type="text/css" href="css/index.css">
     </head>
 
     <body>
