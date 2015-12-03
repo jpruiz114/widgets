@@ -113,6 +113,14 @@ The meta tags **author**, **description**, **keywords**, **robots** and **revisi
 
 * A Google Analytics script was added but that has to do more with tracking than anything else.
 
+## Multi language support
+
+In order to support multiple languages, in this case english and spanish, the i18n library was used.
+
+http://i18next.com/
+
+:octocat: https://github.com/i18next/i18next
+
 ## Styles Considerations
 
 For the styles [SMACSS](https://smacss.com/book/type-layout) guideline is used.
