@@ -83,18 +83,18 @@ if (!empty($params)) {
 
             <div id="post-container">
                 <div id="post-picture">
-                    <img alt="Post picture" src="./assets/images/post-images/post-image-1.jpg" />
+                    <img alt="Post picture" id="post-pic" />
                 </div>
 
                 <div id="post-author">
                     <div class="col" id="post-author-pic">
-                        <div class="circle" style="background-image: url('assets/images/profile-pics/profile-pic-1.jpg')"></div>
+                        <div class="circle" id="profile-pic"></div>
                     </div>
 
                     <div class="col" id="post-author-data">
-                        <label id="author-name">John Smith</label>
+                        <label id="author-name"></label>
 
-                        <p id="author-comment">Your talent amazes! This is awesome. Excited to see the final product.</p>
+                        <p id="author-comment"></p>
                     </div>
                 </div>
 

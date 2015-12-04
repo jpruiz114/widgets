@@ -17,11 +17,160 @@ var app = {
 		// Load the defined language.
 		app.loadLanguage();
 
+		// Load the configuration.
+		app.loadConfig();
+
 		// Setup the click handler for the bottom links.
 		app.setupBottomLinkHandlers();
 
-		// Gracefully show the post container.
-		$("#post-container").fadeIn();
+		// Load the given profile.
+		var profileLoaded = app.loadProfile(chosenId);
+
+		if (profileLoaded) {
+			// Gracefully show the post container.
+			$("#post-container").fadeIn();
+		} else {
+			
+		}
+	},
+
+	/**
+	 *
+	 */
+	profilesInfoLocation: "",
+
+	/**
+	 *
+	 */
+	PROFILES_INFO_LOCATION_DEFAULT: "info/",
+
+	/**
+	 *
+	 */
+	postImagesLocation: "",
+
+	/**
+	 *
+	 */
+	POST_IMAGES_LOCATION_DEFAULT: "assets/images/post-images/",
+
+	/**
+	 *
+	 */
+	profilePicsLocation: "",
+
+	/**
+	 *
+	 */
+	PROFILE_PICS_LOCATION_DEFAULT: "assets/images/profile-pics/",
+
+	/**
+	 *
+	 */
+	loadConfig: function() {
+		$.getJSON(
+			"config.json",
+			function(data) {
+				$.each(
+					data.config,
+					function(index, element) {
+						if (element.name == "profiles-info-location") {
+							app.profilesInfoLocation = element.value;
+						}
+
+						if (element.name == "post-images-location") {
+							app.postImagesLocation = element.value;
+						}
+
+						if (element.name == "profile-pics-location") {
+							app.profilePicsLocation = element.value;
+						}
+					}
+				);
+
+				if (!app.profilesInfoLocation) {
+					app.profilesInfoLocation = app.PROFILES_INFO_LOCATION_DEFAULT;
+				}
+
+				if (!app.postImagesLocation) {
+					app.postImagesLocation = app.POST_IMAGES_LOCATION_DEFAULT;
+				}
+
+				if (!app.profilePicsLocation) {
+					app.profilePicsLocation = app.PROFILE_PICS_LOCATION_DEFAULT;
+				}
+			}
+		).error(
+			function() {
+				app.profilesInfoLocation = app.PROFILES_INFO_LOCATION_DEFAULT;
+
+				app.postImagesLocation = app.POST_IMAGES_LOCATION_DEFAULT;
+
+				app.profilePicsLocation = app.PROFILE_PICS_LOCATION_DEFAULT;
+			}
+		);
+	},
+
+	/**
+	 *
+	 */
+	DEFAULT_PROFILE_ID: "1",
+
+	/**
+	 *
+	 * @param chosenId
+	 */
+	loadProfile: function(chosenId) {
+		if(!chosenId){
+			chosenId = app.DEFAULT_PROFILE_ID;
+		}
+
+		var profileInfoPath = app.profilesInfoLocation + "profile_" + chosenId + ".json";
+
+		$.getJSON(
+			profileInfoPath,
+			function(data) {
+				var postPhoto;
+				var profilePic;
+				var profileName;
+				var postContent;
+
+				$.each(
+					data.config,
+					function(index, element) {
+						if (element.name == "post-photo") {
+							postPhoto = element.value;
+						}
+
+						if (element.name == "profile-pic") {
+							profilePic = element.value;
+						}
+
+						if (element.name == "profile-name") {
+							profileName = element.value;
+						}
+
+						if (element.name == "post-content") {
+							postContent = element.value;
+						}
+					}
+				);
+
+				$("#post-pic").attr("src", app.postImagesLocation + postPhoto);
+
+				$("#profile-pic").css("background-image", "url(" + app.profilePicsLocation + profilePic + ")");
+
+				$("#author-name").html(profileName);
+
+				$("#author-comment").html(postContent);
+
+				return true;
+			}
+		).error(
+			function() {
+				return false;
+			}
+		);
 	},
 
 	/**
@@ -63,6 +212,8 @@ var app = {
 			currentValue -= 1;
 		}
 
+		// If this module was real, an api call could be placed here.
+
 		$("#follow-label").html("" + currentValue);
 	},
 
@@ -84,6 +235,8 @@ var app = {
 		} else {
 			currentValue -= 1;
 		}
+
+		// If this module was real, an api call could be placed here.
 
 		$("#like-label").html("" + currentValue);
 	},

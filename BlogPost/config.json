@@ -1,0 +1,7 @@
+{
+  "config": {
+    "profiles-info-location": "info/",
+    "post-images-location": "assets/images/post-images/",
+    "profile-pics-location": "assets/images/profile-pics/"
+  }
+}
