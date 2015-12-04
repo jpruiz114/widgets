@@ -126,6 +126,7 @@ var app = {
 		}
 
 		var profileInfoPath = app.profilesInfoLocation + "profile_" + chosenId + ".json";
+		alert(profileInfoPath);
 
 		$.getJSON(
 			profileInfoPath,
