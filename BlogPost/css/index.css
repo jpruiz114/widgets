@@ -129,6 +129,7 @@ body {
 
 .bottom-anchor {
   color: #b1a599;
+  cursor: pointer;
   display: inline-table; }
 .bottom-anchor i {
   display: table-cell;
@@ -141,7 +142,6 @@ body {
   vertical-align: middle; }
 
 .bottom-anchor:hover {
-  color: #928f8c;
-  cursor: pointer; }
+  color: #928f8c; }
 
 /*# sourceMappingURL=index.css.map */
