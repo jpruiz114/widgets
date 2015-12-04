@@ -62,7 +62,7 @@ var app = {
 			currentValue -= 1;
 		}
 
-		$("#follow-label").val("" + currentValue);
+		$("#follow-label").html("" + currentValue);
 	},
 
 	/**
@@ -84,7 +84,7 @@ var app = {
 			currentValue -= 1;
 		}
 
-		$("#like-label").val("" + currentValue);
+		$("#like-label").html("" + currentValue);
 	},
 
 	/**
