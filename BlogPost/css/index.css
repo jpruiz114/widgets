@@ -142,7 +142,8 @@ body {
   vertical-align: middle; }
 
 .bottom-anchor:hover {
-  color: #928f8c; }
+  color: #928f8c;
+  cursor: pointer; }
 
 /* Import the hearth styles */
 .post_full .post_control {
