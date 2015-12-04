@@ -138,39 +138,17 @@ var app = {
 				return false;
 			},
 			success: function(data) {
-				var postPhoto;
-				var profilePic;
-				var profileName;
-				var postContent;
+				var postPhoto = data.info["post-photo"];
+				$("#post-pic").attr("src", app.postImagesLocation + postPhoto);
 
-				$.each(
-					data.info,
-					function(index, element) {
-						if (element.name == "post-photo") {
-							postPhoto = element.value;
+				var profilePic = data.info["profile-pic"];
+				$("#profile-pic").css("background-image", "url(" + app.profilePicsLocation + profilePic + ")");
 
-							$("#post-pic").attr("src", app.postImagesLocation + postPhoto);
-						}
+				var profileName = data.info["profile-name"];
+				$("#author-name").html(profileName);
 
-						if (element.name == "profile-pic") {
-							profilePic = element.value;
-
-							$("#profile-pic").css("background-image", "url(" + app.profilePicsLocation + profilePic + ")");
-						}
-
-						if (element.name == "profile-name") {
-							profileName = element.value;
-
-							$("#author-name").html(profileName);
-						}
-
-						if (element.name == "post-content") {
-							postContent = element.value;
-
-							$("#author-comment").html(postContent);
-						}
-					}
-				);
+				var postContent = data.info["post-content"];
+				$("#author-comment").html(postContent);
 
 				return true;
 			}
