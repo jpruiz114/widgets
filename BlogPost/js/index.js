@@ -29,27 +29,62 @@ var app = {
 	setupBottomLinkHandlers: function() {
 		$(".toggle-anchor").click(
 			function()	{
-				$(this).toggleClass("active");
-			}
-		)
+				var currentId = $(this).attr("id");
 
-		$("#follow-anchor").click(
-			function()	{
-				console.log("follow-anchor click");
-			}
-		)
+				if (currentId == "follow-anchor") {
+					$(this).toggleClass("active");
 
-		$("#comment-anchor").click(
-			function()	{
-				console.log("comment-anchor click");
-			}
-		)
+					app.handleFollowAnchorClick();
+				}
 
-		$("#like-anchor").click(
-			function()	{
-				console.log("like-anchor click");
+				if (currentId == "comment-anchor") {
+					app.handleCommentAnchorClick();
+				}
+
+				if (currentId == "like-anchor") {
+					$(this).toggleClass("active");
+
+					app.handleLikeAnchorClick();
+				}
 			}
 		)
+	},
+
+	/**
+	 *
+	 */
+	handleFollowAnchorClick: function() {
+		var currentValue = parseInt($("#follow-anchor").val());
+
+		if ($("#follow-anchor").hasClass("active")) {
+			currentValue += 1;
+		} else {
+			currentValue -= 1;
+		}
+
+		$("#follow-anchor").val("" + currentValue);
+	},
+
+	/**
+	 *
+	 */
+	handleCommentAnchorClick: function() {
+
+	},
+
+	/**
+	 *
+	 */
+	handleLikeAnchorClick: function() {
+		var currentValue = $("#like-anchor").val();
+
+		if ($("#like-anchor").hasClass("active")) {
+			currentValue += 1;
+		} else {
+			currentValue -= 1;
+		}
+
+		$("#like-anchor").val("" + currentValue);
 	},
 
 	/**
