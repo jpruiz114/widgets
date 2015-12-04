@@ -76,6 +76,8 @@ if (!empty($params)) {
 				function() {
 					var chosenLang = "<?php echo($lang); ?>";
 
+					app.setBasePath("<?php echo $basePath; ?>");
+
 					app.initialize(chosenLang);
 				}
 			);

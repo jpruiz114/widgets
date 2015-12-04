@@ -34,12 +34,23 @@ var app = {
 		}
 	},
 
+	/**
+	 *
+	 */
 	basePath: "",
 
+	/**
+	 *
+	 * @param basePath
+	 */
 	setBasePath: function(basePath) {
 		this.basePath = basePath;
 	},
 
+	/**
+	 *
+	 * @returns {string}
+	 */
 	getBasePath: function() {
 		return this.basePath;
 	},
@@ -131,6 +142,7 @@ var app = {
 	/**
 	 *
 	 * @param chosenId
+	 * @returns {*}
 	 */
 	loadProfile: function(chosenId) {
 		if(!chosenId){

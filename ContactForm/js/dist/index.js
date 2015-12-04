@@ -53,6 +53,27 @@ var app = {
 	/**
 	 *
 	 */
+	basePath: "",
+
+	/**
+	 *
+	 * @param basePath
+	 */
+	setBasePath: function(basePath) {
+		this.basePath = basePath;
+	},
+
+	/**
+	 *
+	 * @returns {string}
+	 */
+	getBasePath: function() {
+		return this.basePath;
+	},
+
+	/**
+	 *
+	 */
 	currentLaddaButton: null,
 
 	/**
@@ -106,8 +127,8 @@ var app = {
 	 */
 	loadLanguage: function() {
 		var language = app.getPreferredLanguage();
-		
-		var options = {lng: language, resGetPath: "locales/__lng__/__ns__.json"};
+
+		var options = {lng: language, resGetPath: app.getBasePath() + "locales/__lng__/__ns__.json"};
 		
 		i18n.init(options, app.callback_i18n);
 	},
