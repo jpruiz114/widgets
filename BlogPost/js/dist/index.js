@@ -140,6 +140,29 @@ var app = {
 	DEFAULT_PROFILE_ID: "1",
 
 	/**
+	 * Function that preloads an image.
+	 * @param path
+	 * @returns {boolean}
+	 */
+	preloadImage: function(path) {
+		var imageLoaded;
+
+		if (path) {
+			var downloadingImage = new Image();
+
+			downloadingImage.onload = function(){
+				imageLoaded = true;
+			};
+
+			downloadingImage.src = path;
+		} else {
+			imageLoaded = false;
+		}
+
+		return imageLoaded;
+	},
+
+	/**
 	 *
 	 * @param chosenId
 	 * @returns {*}
@@ -163,7 +186,16 @@ var app = {
 			},
 			success: function(data) {
 				var postPhoto = data.info["post-photo"];
-				$("#post-pic").attr("src", app.getBasePath() + app.postImagesLocation + postPhoto);
+
+				var postPhotoPath = app.getBasePath() + app.postImagesLocation + postPhoto;
+
+				var postPhotoLoaded = app.preloadImage(postPhotoPath);
+
+				if (postPhotoLoaded) {
+					$("#post-pic").attr("src", postPhotoPath);
+				} else {
+					// @todo: Handle this.
+				}
 
 				var profilePic = data.info["profile-pic"];
 				$("#profile-pic").css("background-image", "url(" + app.getBasePath() + app.profilePicsLocation + profilePic + ")");
