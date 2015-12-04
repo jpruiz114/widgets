@@ -202,11 +202,21 @@ var app = {
 	handleFollowAnchorClick: function() {
 		var currentValue = parseInt($("#follow-label").html());
 
+		var title = "";
+
+		var textObject = app.getTextObject();
+
 		if ($("#follow-anchor").hasClass("active")) {
 			currentValue += 1;
+
+			title = textObject("unfollow");
 		} else {
 			currentValue -= 1;
+
+			title = textObject("follow");
 		}
+
+		$("#follow-anchor").attr("title", title);
 
 		// If this module was real, an api call could be placed here.
 
@@ -226,11 +236,21 @@ var app = {
 	handleLikeAnchorClick: function() {
 		var currentValue = parseInt($("#like-label").html());
 
+		var title = "";
+
+		var textObject = app.getTextObject();
+
 		if ($("#like-anchor").hasClass("active")) {
 			currentValue += 1;
+
+			title = textObject("unlike");
 		} else {
 			currentValue -= 1;
+
+			title = textObject("like");
 		}
+
+		$("#like-anchor").attr("title", title);
 
 		// If this module was real, an api call could be placed here.
 
@@ -273,7 +293,7 @@ var app = {
 	loadLanguage: function() {
 		var language = app.getPreferredLanguage();
 
-		var options = {lng: language, resGetPath: "locales/__lng__/__ns__.json"};
+		var options = {lng: language, resGetPath: app.getBasePath() + "locales/__lng__/__ns__.json"};
 
 		i18n.init(options, app.callback_i18n);
 	},

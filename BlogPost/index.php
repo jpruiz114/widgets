@@ -111,7 +111,7 @@ if (!empty($params)) {
                         <div class="bottom-anchor toggle-anchor" id="follow-anchor" data-i18n="[title]blog-post.follow">
                             <i class="fa fa-eye"></i>
 
-                            <label id="follow-label">172</label>
+                            <label id="follow-label"></label>
                         </div>
                     </div>
 
@@ -119,7 +119,7 @@ if (!empty($params)) {
                         <div class="bottom-anchor" id="comment-anchor" data-i18n="[title]blog-post.comment">
                             <i class="fa fa-comment"></i>
 
-                            <label id="comment-label">34</label>
+                            <label id="comment-label"></label>
                         </div>
                     </div>
 
@@ -127,7 +127,7 @@ if (!empty($params)) {
                         <div class="bottom-anchor toggle-anchor" id="like-anchor" data-i18n="[title]blog-post.like">
                             <i class="fa fa-heart"></i>
 
-                            <label id="like-label">210</label>
+                            <label id="like-label"></label>
                         </div>
                     </div>
                 </div>

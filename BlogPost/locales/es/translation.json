@@ -4,7 +4,9 @@
 	"spanish-website": "Español",
 
     "follow": "Seguir",
+    "unfollow": "Dejar de seguir",
     "comment": "Comentar",
-    "like": "Me gusta"
+    "like": "Me gusta",
+    "unlike": "Ya no me gusta"
   }
 }

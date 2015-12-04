@@ -4,7 +4,9 @@
     "spanish-website": "Spanish",
 
     "follow": "Follow",
+    "unfollow": "Unollow",
     "comment": "Comment",
-    "like": "Like"
+    "like": "Like",
+    "unlike": "Unlike"
   }
 }
