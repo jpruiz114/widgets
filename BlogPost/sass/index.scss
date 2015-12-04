@@ -127,6 +127,7 @@ body {
 .bottom-anchor {
   	color: #aaa6a3;
   	cursor: pointer;
+  	display: inline-table;
 	font-size: 1.5em;
 }
 
@@ -134,10 +135,17 @@ body {
   	color: #928f8c;
 }
 
+.bottom-anchor i {
+	display: table-cell;
+  	vertical-align: middle;
+}
+
 .bottom-label {
 	color: $bottom-icons-font-color-normal;
+  	display: table-cell;
   	font-family: $bottom-icons-font-family;
   	font-size: $bottom-icons-font-size;
+  	vertical-align: middle;
 }
 
 @import "hearth";

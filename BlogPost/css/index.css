@@ -130,15 +130,22 @@ body {
 .bottom-anchor {
   color: #aaa6a3;
   cursor: pointer;
+  display: inline-table;
   font-size: 1.5em; }
 
 .bottom-anchor:hover {
   color: #928f8c; }
 
+.bottom-anchor i {
+  display: table-cell;
+  vertical-align: middle; }
+
 .bottom-label {
   color: #8e8071;
+  display: table-cell;
   font-family: "PT Sans", sans-serif;
-  font-size: 16px; }
+  font-size: 16px;
+  vertical-align: middle; }
 
 .post_full .post_control {
   cursor: pointer;

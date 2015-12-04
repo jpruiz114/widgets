@@ -127,19 +127,19 @@ if (!empty($params)) {
 
                 <div id="post-options">
                     <div class="post-option-column corner-option-column">
-                        <a class="bottom-anchor" id="follow-anchor" data-i18n="[title]blog-post.follow">
+                        <div class="bottom-anchor" id="follow-anchor" data-i18n="[title]blog-post.follow">
                             <i class="fa fa-eye"></i>
 
                             <label class="bottom-label" id="follow-label">172</label>
-                        </a>
+                        </div>
                     </div>
 
                     <div class="post-option-column central-option-column">
-                        <a class="bottom-anchor" id="comment-anchor" data-i18n="[title]blog-post.comment">
+                        <div class="bottom-anchor" id="comment-anchor" data-i18n="[title]blog-post.comment">
                             <i class="fa fa-comment"></i>
 
                             <label class="bottom-label" id="comment-label">34</label>
-                        </a>
+                        </div>
                     </div>
 
                     <div class="post-option-column corner-option-column">
