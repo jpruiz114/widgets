@@ -35,6 +35,8 @@ if (!empty($params)) {
         <!-- PT Sans is a close match to the popular Myriad Pro -->
         <link href='//fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
 
+        <link rel="stylesheet" type="text/css" href="components/fontawesome/css/font-awesome.min.css">
+
         <link rel="stylesheet" type="text/css" href="css/index.css">
 
         <script type="text/javascript" src="components/jquery/dist/jquery.min.js"></script>
