@@ -76,7 +76,10 @@ body {
 		}
 
 	  	p {
+		  	color: $post-author-comment-font-color;
 			display: block;
+		  	font-family: $open-sans-typography;
+		  	font-size: $post-author-comment-font-size;
 		  	margin: 0;
 			text-align: left;
 	  	}

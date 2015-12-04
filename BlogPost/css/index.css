@@ -93,7 +93,10 @@ body {
   font-size: 28px;
   text-align: left; }
 #post-author #post-author-data p {
+  color: #8e8071;
   display: block;
+  font-family: "Open Sans";
+  font-size: 13px;
   margin: 0;
   text-align: left; }
 
