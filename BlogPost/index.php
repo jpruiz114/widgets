@@ -1,6 +1,8 @@
 <?php
+$basePath = "/frontend-test/BlogPost/";
+
 // Remove the directory path we don't want
-$request = str_replace("/frontend-test/BlogPost/", "", $_SERVER["REQUEST_URI"]);
+$request = str_replace($basePath, "", $_SERVER["REQUEST_URI"]);
 
 // Split the path by "/"
 $params = explode("/", $request);
@@ -9,7 +11,11 @@ $lang = "";
 
 if (!empty($params)) {
     if (sizeof($params) >= 1) {
-        $lang = $params[0];
+        if (is_numeric($params[0])) {
+            $id = $params[0];
+        } else {
+            $lang = $params[0];
+        }
 
         if (sizeof($params) >= 2) {
             $id = $params[1];
@@ -39,15 +45,15 @@ if (!empty($params)) {
         <!-- PT Sans is a close match to the popular Myriad Pro -->
         <link href='//fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
 
-        <link rel="stylesheet" type="text/css" href="components/fontawesome/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="<?php echo $basePath; ?>components/fontawesome/css/font-awesome.min.css">
 
-        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <link rel="stylesheet" type="text/css" href="<?php echo $basePath; ?>css/index.css">
 
-        <script type="text/javascript" src="components/jquery/dist/jquery.min.js"></script>
+        <script type="text/javascript" src="<?php echo $basePath; ?>components/jquery/dist/jquery.min.js"></script>
 
-        <script type="text/javascript" src="components/i18next/i18next.min.js"></script>
+        <script type="text/javascript" src="<?php echo $basePath; ?>components/i18next/i18next.min.js"></script>
 
-        <script type="text/javascript" src="js/dist/index.js"></script>
+        <script type="text/javascript" src="<?php echo $basePath; ?>js/dist/index.js"></script>
 
         <script type="text/javascript">
             /**
