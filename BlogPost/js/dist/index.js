@@ -148,29 +148,29 @@ var app = {
 					function(index, element) {
 						if (element.name == "post-photo") {
 							postPhoto = element.value;
+
+							$("#post-pic").attr("src", app.postImagesLocation + postPhoto);
 						}
 
 						if (element.name == "profile-pic") {
 							profilePic = element.value;
+
+							$("#profile-pic").css("background-image", "url(" + app.profilePicsLocation + profilePic + ")");
 						}
 
 						if (element.name == "profile-name") {
 							profileName = element.value;
+
+							$("#author-name").html(profileName);
 						}
 
 						if (element.name == "post-content") {
 							postContent = element.value;
+
+							$("#author-comment").html(postContent);
 						}
 					}
 				);
-
-				$("#post-pic").attr("src", app.postImagesLocation + postPhoto);
-
-				$("#profile-pic").css("background-image", "url(" + app.profilePicsLocation + profilePic + ")");
-
-				$("#author-name").html(profileName);
-
-				$("#author-comment").html(postContent);
 
 				return true;
 			}
