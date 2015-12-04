@@ -88,7 +88,9 @@ body {
 #post-author #post-author-pic {
   width: 33.33%; }
 #post-author #post-author-data {
-  width: 66.67%; }
+  padding-left: 10px;
+  padding-right: 10px;
+  width: calc(66.67% - 20px); }
 #post-author #post-author-data label {
   color: #5c5146;
   display: block;

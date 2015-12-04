@@ -68,7 +68,9 @@ body {
 	}
 
   	#post-author-data {
-	  	width: 66.67%;
+	  	padding-left: 10px;
+	  	padding-right: 10px;
+	  	width: calc(66.67% - 20px);
 
 	  	label {
 		  	color: $post-author-name-font-color;
