@@ -55,6 +55,8 @@ body {
   width: 370px; }
 
 #post-picture {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
   float: left;
   height: 204px;
   width: 100%; }
@@ -120,7 +122,7 @@ body {
   border-top-width: 0;
   border-bottom-width: 0;
   border-left-width: 1px;
-  border-right-widows: 1px;
+  border-right-width: 1px;
   border-style: solid;
   width: calc(34% - 2px); }
 

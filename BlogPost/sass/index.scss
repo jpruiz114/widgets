@@ -41,6 +41,8 @@ body {
 }
 
 #post-picture {
+  	border-top-left-radius: $post-border-radius;
+  	border-top-right-radius: $post-border-radius;
 	float: left;
   	height: 204px;
   	width: 100%;
@@ -115,7 +117,7 @@ body {
 	  	border-top-width: 0;
 	  	border-bottom-width: 0;
 	  	border-left-width: 1px;
-	  	border-right-widows: 1px;
+	  	border-right-width: 1px;
 	  	border-style: solid;
 		width: calc(34% - 2px);
 	}
