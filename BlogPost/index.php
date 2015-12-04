@@ -72,7 +72,7 @@ if (!empty($params)) {
 
             <div id="post-container">
                 <div id="post-picture">
-                    <img alt="Post picture" src="../assets/images/post-images/post-image-1.jpg" />
+                    <img alt="Post picture" src="./assets/images/post-images/post-image-1.jpg" />
                 </div>
 
                 <div id="post-author">
