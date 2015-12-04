@@ -9,6 +9,8 @@ $params = explode("/", $request);
 
 $lang = "";
 
+print_r($params);
+
 if (!empty($params)) {
     if (sizeof($params) >= 1) {
         if (is_numeric($params[0])) {
