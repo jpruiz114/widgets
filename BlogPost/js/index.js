@@ -218,11 +218,11 @@ var app = {
 		if ($("#follow-anchor").hasClass("active")) {
 			currentValue += 1;
 
-			title = textObject("unfollow");
+			title = textObject("blog-post.unfollow");
 		} else {
 			currentValue -= 1;
 
-			title = textObject("follow");
+			title = textObject("blog-post.follow");
 		}
 
 		$("#follow-anchor").attr("title", title);
@@ -252,11 +252,11 @@ var app = {
 		if ($("#like-anchor").hasClass("active")) {
 			currentValue += 1;
 
-			title = textObject("unlike");
+			title = textObject("blog-post.unlike");
 		} else {
 			currentValue -= 1;
 
-			title = textObject("like");
+			title = textObject("blog-post.like");
 		}
 
 		$("#like-anchor").attr("title", title);
