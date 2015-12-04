@@ -127,13 +127,18 @@ body {
   border-style: solid;
   width: calc(34% - 2px); }
 
-.bottom-icon {
+.bottom-anchor {
   color: #aaa6a3;
   cursor: pointer;
   font-size: 1.5em; }
 
-.bottom-icon:hover {
+.bottom-anchor:hover {
   color: #928f8c; }
+
+.bottom-label {
+  color: #8e8071;
+  font-family: "PT Sans", sans-serif;
+  font-size: 16px; }
 
 .post_full .post_control {
   cursor: pointer;
