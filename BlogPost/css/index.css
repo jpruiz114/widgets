@@ -140,6 +140,9 @@ body {
   display: table-cell;
   vertical-align: middle; }
 
+.bottom-anchor i:after {
+  margin-right: 5px; }
+
 .bottom-label {
   color: #8e8071;
   display: table-cell;
