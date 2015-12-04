@@ -144,7 +144,7 @@ var app = {
 				var postContent;
 
 				$.each(
-					data.config,
+					data.info,
 					function(index, element) {
 						if (element.name == "post-photo") {
 							postPhoto = element.value;
