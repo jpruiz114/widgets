@@ -128,27 +128,27 @@ body {
   width: calc(34% - 2px); }
 
 .bottom-anchor {
-  color: #8e8071;
+  color: #b1a599;
   cursor: pointer;
   display: inline-table;
   font-size: 1.5em; }
 
 .bottom-anchor:hover {
-  color: #e86741; }
+  color: #928f8c; }
 
 .bottom-anchor i {
   display: table-cell;
   vertical-align: middle; }
 
 .bottom-label {
-  color: #8e8071;
+  color: #b1a599;
   display: table-cell;
   font-family: "PT Sans", sans-serif;
   font-size: 16px;
   vertical-align: middle; }
 
 .bottom-label:hover {
-  color: #e86741; }
+  color: #928f8c; }
 
 /* Import the hearth styles */
 .post_full .post_control {
