@@ -125,14 +125,14 @@ body {
 }
 
 .bottom-anchor {
-  	color: #aaa6a3;
+  	color: $bottom-icons-font-color-normal;
   	cursor: pointer;
   	display: inline-table;
 	font-size: 1.5em;
 }
 
 .bottom-anchor:hover {
-  	color: #928f8c;
+  	color: $bottom-icons-font-color-active;
 }
 
 .bottom-anchor i {
@@ -146,6 +146,10 @@ body {
   	font-family: $bottom-icons-font-family;
   	font-size: $bottom-icons-font-size;
   	vertical-align: middle;
+}
+
+.bottom-label:hover {
+  color: $bottom-icons-font-color-active;
 }
 
 /* Import the hearth styles */
