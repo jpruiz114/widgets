@@ -150,20 +150,20 @@ body {
 /* Import the hearth styles */
 .post_full .post_control {
   cursor: pointer;
-  display: inline-block;
+  display: block;
   height: 20px;
   margin: 0;
   position: relative;
   text-align: left;
-  width: 25px; }
+  width: 28px; }
 
 .post_full .post_control:after {
   background: url(../assets/images/dashboard_master_sprite.png) no-repeat;
   content: '';
   height: 24px;
   left: 50%;
-  margin: -10px 0 0 -13px;
-  opacity: .31;
+  margin: -10px 0 0 -14px;
+  opacity: .30;
   position: absolute;
   top: 50%;
   visibility: visible;
@@ -542,8 +542,5 @@ body {
   height: 20px;
   margin: 0;
   width: 25px; }
-
-.post_full .post_control {
-  display: block; }
 
 /*# sourceMappingURL=index.css.map */
