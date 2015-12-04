@@ -54,7 +54,7 @@ var app = {
 	 *
 	 */
 	handleFollowAnchorClick: function() {
-		var currentValue = parseInt($("#follow-label").val());
+		var currentValue = parseInt($("#follow-label").html());
 
 		if ($("#follow-anchor").hasClass("active")) {
 			currentValue += 1;
@@ -62,7 +62,7 @@ var app = {
 			currentValue -= 1;
 		}
 
-		$("#follow-anchor").val("" + currentValue);
+		$("#follow-label").val("" + currentValue);
 	},
 
 	/**
@@ -76,7 +76,7 @@ var app = {
 	 *
 	 */
 	handleLikeAnchorClick: function() {
-		var currentValue = $("#like-label").val();
+		var currentValue = parseInt($("#like-label").html());
 
 		if ($("#like-anchor").hasClass("active")) {
 			currentValue += 1;
@@ -84,7 +84,7 @@ var app = {
 			currentValue -= 1;
 		}
 
-		$("#like-anchor").val("" + currentValue);
+		$("#like-label").val("" + currentValue);
 	},
 
 	/**
