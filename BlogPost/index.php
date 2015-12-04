@@ -147,8 +147,8 @@ if (!empty($params)) {
                     </div>
 
                     <div class="post-option-column corner-option-column">
-                        <div class="post post_full">
-                            <div class="post_control like unlike" data-i18n="[title]blog-post.like"></div>
+                        <div class="post post_full" data-i18n="[title]blog-post.like">
+                            <div class="post_control like unlike"></div>
 
                             <label class="bottom-label" id="like-label">210</label>
                         </div>
