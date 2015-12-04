@@ -147,8 +147,6 @@ var app = {
 	preloadImage: function(path) {
 		var imageLoaded;
 
-		alert("path" + " = " + path);
-
 		if (path) {
 			$.ajax({
 				async: false,
@@ -156,6 +154,8 @@ var app = {
 				url: path,
 				dataType: "image/jpg",
 				success: function(data) {
+					alert("img loaded");
+
 					imageLoaded = true;
 				},
 				error: function(error, txtStatus) {
