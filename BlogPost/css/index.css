@@ -127,6 +127,10 @@ body {
   border-style: solid;
   width: calc(34% - 2px); }
 
+.bottom-icon {
+  color: #8e8071;
+  font-size: 1.5em; }
+
 .post_full .post_control {
   cursor: pointer;
   display: inline-block;

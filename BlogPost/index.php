@@ -127,11 +127,11 @@ if (!empty($params)) {
 
                 <div id="post-options">
                     <div class="post-option-column corner-option-column">
-                        <i class="fa fa-eye"></i>
+                        <i class="bottom-icon fa fa-eye"></i>
                     </div>
 
                     <div class="post-option-column central-option-column">
-                        <i class="fa fa-comment"></i>
+                        <i class="bottom-icon fa fa-comment"></i>
                     </div>
 
                     <div class="post-option-column corner-option-column">
