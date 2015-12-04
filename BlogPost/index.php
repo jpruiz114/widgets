@@ -38,6 +38,8 @@ if (!empty($params)) {
 
         <script type="text/javascript" src="components/i18next/i18next.min.js"></script>
 
+        <script type="text/javascript" src="assets/components/prefixfree/prefixfree.min.js"></script>
+
         <script type="text/javascript" src="js/dist/index.js"></script>
 
         <script type="text/javascript">
@@ -97,7 +99,9 @@ if (!empty($params)) {
                     </div>
 
                     <div class="post-option-column corner-option-column">
-                        <label>like</label>
+                        <div class="post post_full">
+                            <div class="post_control like unlike" data-i18n="[title]blog-post.like"></div>
+                        </div>
                     </div>
                 </div>
             </div>

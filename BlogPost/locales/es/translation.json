@@ -1,6 +1,8 @@
 {
   "blog-post": {
 	"english-website": "Inglés",
-	"spanish-website": "Español"
+	"spanish-website": "Español",
+
+    "like": "Me gusta"
   }
 }
