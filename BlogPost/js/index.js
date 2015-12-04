@@ -17,13 +17,22 @@ var app = {
 		// Load the defined language.
 		app.loadLanguage();
 
+		// Setup the click handler for the bottom links.
+		app.setupBottomLinkHandlers();
+
 		$("#post-container").fadeIn();
 	},
 
 	/**
-	 *
+	 * Function that setup the click handler for the bottom links.
 	 */
-	currentLaddaButton: null,
+	setupBottomLinkHandlers: function() {
+		$(".bottom-anchor").click(
+			function()	{
+				$(this).toggleClass("active");
+			}
+		)
+	},
 
 	/**
 	 *
