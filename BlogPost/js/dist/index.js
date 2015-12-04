@@ -147,6 +147,8 @@ var app = {
 	preloadImage: function(path) {
 		var imageLoaded;
 
+		alert("path" + " = " + path);
+
 		if (path) {
 			$.ajax({
 				async: false,
@@ -195,7 +197,6 @@ var app = {
 				var postPhotoPath = app.getBasePath() + app.postImagesLocation + postPhoto;
 
 				var postPhotoLoaded = app.preloadImage(postPhotoPath);
-				alert("postPhotoLoaded" + " = " + postPhotoLoaded);
 
 				if (postPhotoLoaded) {
 					$("#post-pic").attr("src", postPhotoPath);
