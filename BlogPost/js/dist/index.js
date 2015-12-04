@@ -128,11 +128,16 @@ var app = {
 		}
 
 		var profileInfoPath = app.profilesInfoLocation + "profile_" + chosenId + ".json";
-		alert(profileInfoPath);
 
-		$.getJSON(
-			profileInfoPath,
-			function(data) {
+		$.ajax({
+			async: false,
+			global: false,
+			url: profileInfoPath,
+			dataType: "json",
+			error: function() {
+				return false;
+			},
+			success: function(data) {
 				var postPhoto;
 				var profilePic;
 				var profileName;
@@ -169,11 +174,7 @@ var app = {
 
 				return true;
 			}
-		).error(
-			function() {
-				return false;
-			}
-		);
+		});
 	},
 
 	/**
