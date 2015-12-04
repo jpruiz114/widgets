@@ -3,6 +3,9 @@
     "post-photo": "post-image-1.jpg",
     "profile-pic": "profile-pic-1.jpg",
     "profile-name": "John Smith",
-    "post-content": "Your talent amazes! This is awesome. Excited to see the final product."
+    "post-content": "Your talent amazes! This is awesome. Excited to see the final product.",
+    "followers-number": 172,
+    "comments-number": 34,
+    "likes-number": 210
   }
 }

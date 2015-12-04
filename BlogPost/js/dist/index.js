@@ -162,6 +162,15 @@ var app = {
 				var postContent = data.info["post-content"];
 				$("#author-comment").html(postContent);
 
+				var followersNumber = data.info["followers-number"];
+				$("#follow-label").html(followersNumber);
+
+				var commentsNumber = data.info["comments-number"];
+				$("#comment-label").html(commentsNumber);
+
+				var likesNumber = data.info["likes-number"];
+				$("#like-label").html(likesNumber);
+
 				profileLoaded = true;
 			}
 		});
