@@ -129,25 +129,19 @@ body {
 
 .bottom-anchor {
   color: #b1a599;
-  cursor: pointer;
-  display: inline-table;
-  font-size: 1.5em; }
-
-.bottom-anchor:hover {
-  color: #928f8c; }
-
+  display: inline-table; }
 .bottom-anchor i {
   display: table-cell;
+  font-size: 1.5em;
   vertical-align: middle; }
-
-.bottom-label {
-  color: #b1a599;
+.bottom-anchor .bottom-label {
+  /*color: $bottom-icons-font-color-normal;*/
   display: table-cell;
   font-family: "PT Sans", sans-serif;
   font-size: 16px;
   vertical-align: middle; }
 
-.bottom-label:hover {
+.bottom-anchor:hover {
   color: #928f8c; }
 
 /* Import the hearth styles */

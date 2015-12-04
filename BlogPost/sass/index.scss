@@ -126,30 +126,25 @@ body {
 
 .bottom-anchor {
   	color: $bottom-icons-font-color-normal;
-  	cursor: pointer;
   	display: inline-table;
-	font-size: 1.5em;
+
+  	i {
+		display: table-cell;
+		font-size: 1.5em;
+		vertical-align: middle;
+  	}
+
+  	.bottom-label {
+		/*color: $bottom-icons-font-color-normal;*/
+		display: table-cell;
+		font-family: $bottom-icons-font-family;
+		font-size: $bottom-icons-font-size;
+		vertical-align: middle;
+  	}
 }
 
 .bottom-anchor:hover {
   	color: $bottom-icons-font-color-over;
-}
-
-.bottom-anchor i {
-	display: table-cell;
-  	vertical-align: middle;
-}
-
-.bottom-label {
-	color: $bottom-icons-font-color-normal;
-  	display: table-cell;
-  	font-family: $bottom-icons-font-family;
-  	font-size: $bottom-icons-font-size;
-  	vertical-align: middle;
-}
-
-.bottom-label:hover {
-	color: $bottom-icons-font-color-over;
 }
 
 /* Import the hearth styles */
