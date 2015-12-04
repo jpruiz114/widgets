@@ -94,7 +94,7 @@ if (!empty($params)) {
 
                 <div id="post-options">
                     <div class="post-option-column corner-option-column">
-                        <div class="bottom-anchor" id="follow-anchor" data-i18n="[title]blog-post.follow">
+                        <div class="bottom-anchor toggle-anchor" id="follow-anchor" data-i18n="[title]blog-post.follow">
                             <i class="fa fa-eye"></i>
 
                             &nbsp;
@@ -114,7 +114,7 @@ if (!empty($params)) {
                     </div>
 
                     <div class="post-option-column corner-option-column">
-                        <div class="bottom-anchor" id="like-anchor" data-i18n="[title]blog-post.like">
+                        <div class="bottom-anchor toggle-anchor" id="like-anchor" data-i18n="[title]blog-post.like">
                             <i class="fa fa-heart"></i>
 
                             &nbsp;

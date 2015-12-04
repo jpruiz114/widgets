@@ -27,27 +27,29 @@ var app = {
 	 * Function that setup the click handler for the bottom links.
 	 */
 	setupBottomLinkHandlers: function() {
-		$(".bottom-anchor").click(
+		$(".toggle-anchor").click(
 			function()	{
 				$(this).toggleClass("active");
 			}
 		)
-	},
 
-	/**
-	 *
-	 * @returns {null}
-	 */
-	getCurrentLaddaButton: function() {
-		return this.currentLaddaButton;
-	},
+		$("#follow-anchor").click(
+			function()	{
+				console.log("follow-anchor click");
+			}
+		)
 
-	/**
-	 *
-	 * @param button
-	 */
-	setCurrentLaddaButton: function(button) {
-		this.currentLaddaButton = button;
+		$("#comment-anchor").click(
+			function()	{
+				console.log("comment-anchor click");
+			}
+		)
+
+		$("#like-anchor").click(
+			function()	{
+				console.log("like-anchor click");
+			}
+		)
 	},
 
 	/**
