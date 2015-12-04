@@ -2,7 +2,7 @@ var app = {
 	/**
 	 * Method that initializes the app.
 	 */
-	initialize: function(chosenLang) {
+	initialize: function(chosenLang, chosenId) {
 		if (chosenLang) {
 			// It wont make any sense to show the link for the current lang.
 			app.hideLanguageLinkNotNeeded(chosenLang);
@@ -20,6 +20,7 @@ var app = {
 		// Setup the click handler for the bottom links.
 		app.setupBottomLinkHandlers();
 
+		// Gracefuly show the post container.
 		$("#post-container").fadeIn();
 	},
 
