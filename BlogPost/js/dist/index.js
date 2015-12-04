@@ -34,6 +34,16 @@ var app = {
 		}
 	},
 
+	basePath: "",
+
+	setBasePath: function(basePath) {
+		this.basePath = basePath;
+	},
+
+	getBasePath: function() {
+		return this.basePath;
+	},
+
 	/**
 	 *
 	 */
@@ -71,7 +81,7 @@ var app = {
 		$.ajax({
 			async: false,
 			global: false,
-			url: "config.json",
+			url: app.getBasePath() + "/config.json",
 			dataType: "json",
 			error: function() {
 				app.profilesInfoLocation = app.PROFILES_INFO_LOCATION_DEFAULT;
@@ -126,8 +136,6 @@ var app = {
 		if(!chosenId){
 			chosenId = app.DEFAULT_PROFILE_ID;
 		}
-
-		alert("chosenId" + " = " + chosenId);
 
 		var profileInfoPath = app.profilesInfoLocation + "profile_" + chosenId + ".json";
 
