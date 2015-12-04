@@ -1,19 +1,19 @@
 .post_full .post_control
 {
   	display: inline-block;
-  	height: 25px;
-  	margin: 10px 0 10px 12px;
+  	height: 20px;
+  	margin: 0;
   	position: relative;
   	text-align: left;
   	width: 25px;
 }
 .post_full .post_control:after
 {
-  	background: url(http://assets.tumblr.com/images/dashboard_master_sprite.png?b4fdf87b377e8617517587ca626d3c81) no-repeat;
+  	background: url(../assets/images/dashboard_master_sprite.png) no-repeat;
   	content: '';
   	height: 24px;
   	left: 50%;
-  	margin: -12px 0 0 -12px;
+  	margin: -10px 0 0 -13px;
   	opacity: .31;
   	position: absolute;
   	top: 50%;

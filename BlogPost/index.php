@@ -55,7 +55,7 @@ if (!empty($params)) {
                     //
 
                     var count = true;
-                    
+
                     $("div.like").click(function(){
                         var heart = $('<div class="post_animated_heart post_poof"><span class="heart_left"></span><span class="heart_right"></span></div>').toggleClass("unliked", count = !count);
 
