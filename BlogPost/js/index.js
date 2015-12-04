@@ -148,13 +148,18 @@ var app = {
 		var imageLoaded;
 
 		if (path) {
-			var downloadingImage = new Image();
-
-			downloadingImage.onload = function(){
-				imageLoaded = true;
-			};
-
-			downloadingImage.src = path;
+			$.ajax({
+				async: "false",
+				type: "GET",
+				url: path,
+				dataType: "image/jpg",
+				success: function(img) {
+					imageLoaded = true;
+				},
+				error: function(error, txtStatus) {
+					imageLoaded = false;
+				}
+			});
 		} else {
 			imageLoaded = false;
 		}
