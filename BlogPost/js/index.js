@@ -137,7 +137,7 @@ var app = {
 			chosenId = app.DEFAULT_PROFILE_ID;
 		}
 
-		var profileInfoPath = app.profilesInfoLocation + "profile_" + chosenId + ".json";
+		var profileInfoPath = app.getBasePath() + app.profilesInfoLocation + "profile_" + chosenId + ".json";
 
 		var profileLoaded;
 
