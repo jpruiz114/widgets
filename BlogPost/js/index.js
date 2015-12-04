@@ -152,15 +152,10 @@ var app = {
 				async: false,
 				type: "GET",
 				url: path,
-				dataType: "image/jpg",
 				success: function(data) {
-					alert("img loaded");
-
 					imageLoaded = true;
 				},
 				error: function(error, txtStatus) {
-					alert(error);
-
 					imageLoaded = false;
 				}
 			});
@@ -207,7 +202,16 @@ var app = {
 				}
 
 				var profilePic = data.info["profile-pic"];
-				$("#profile-pic").css("background-image", "url(" + app.getBasePath() + app.profilePicsLocation + profilePic + ")");
+
+				var profilePicPath = app.getBasePath() + app.profilePicsLocation + profilePic;
+
+				var profilePicLoaded = app.preloadImage(profilePicPath);
+
+				if (profilePicLoaded) {
+					$("#profile-pic").css("background-image", "url(" + profilePicPath + ")");
+				} else {
+					//@todo: Handle this.
+				}
 
 				var profileName = data.info["profile-name"];
 				$("#author-name").html(profileName);
