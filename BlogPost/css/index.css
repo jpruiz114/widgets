@@ -59,6 +59,7 @@ body {
   border-top-right-radius: 5px;
   float: left;
   height: 204px;
+  overflow: hidden;
   width: 100%; }
 
 /* Import the styles for the circle profile pic. */
