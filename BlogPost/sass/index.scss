@@ -126,16 +126,17 @@ body {
 
 .bottom-anchor {
   	color: $bottom-icons-font-color-normal;
-  	cursor: pointer;
   	display: inline-table;
 
   	i {
+	  	cursor: pointer;
 		display: table-cell;
 		font-size: 1.5em;
 		vertical-align: middle;
   	}
 
 	label {
+	  cursor: pointer;
 	  display: table-cell;
 	  font-family: $bottom-icons-font-family;
 	  font-size: $bottom-icons-font-size;

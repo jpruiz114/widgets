@@ -129,13 +129,14 @@ body {
 
 .bottom-anchor {
   color: #b1a599;
-  cursor: pointer;
   display: inline-table; }
 .bottom-anchor i {
+  cursor: pointer;
   display: table-cell;
   font-size: 1.5em;
   vertical-align: middle; }
 .bottom-anchor label {
+  cursor: pointer;
   display: table-cell;
   font-family: "PT Sans", sans-serif;
   font-size: 16px;
