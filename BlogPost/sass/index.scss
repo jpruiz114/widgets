@@ -142,24 +142,7 @@ body {
 	}
 }
 
-/*.bottom-label {
-	display: table-cell;
-	font-family: $bottom-icons-font-family;
-	font-size: $bottom-icons-font-size;
-	vertical-align: middle;
-}*/
-
 .bottom-anchor:hover {
   	color: $bottom-icons-font-color-over;
   	cursor: pointer;
 }
-
-/* Import the hearth styles */
-/*@import "hearth";*/
-
-/*.post {
-	display: inline-table;
-  	height: 20px;
-  	margin: 0;
-  	width: 25px;
-}*/

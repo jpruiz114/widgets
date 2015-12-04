@@ -147,17 +147,13 @@ if (!empty($params)) {
                     </div>
 
                     <div class="post-option-column corner-option-column">
-                        <!--<div class="post post_full" data-i18n="[title]blog-post.like">
-                            <div class="post_control like unlike"></div>
+                        <div class="bottom-anchor" id="like-anchor" data-i18n="[title]blog-post.like">
+                            <i class="fa fa-heart"></i>
+
+                            &nbsp;
 
                             <label id="like-label">210</label>
-                        </div>-->
-
-                        <i class="fa fa-heart"></i>
-
-                        &nbsp;
-
-                        <label id="like-label">210</label>
+                        </div>
                     </div>
                 </div>
             </div>
