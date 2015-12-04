@@ -147,6 +147,7 @@ body {
   font-size: 16px;
   vertical-align: middle; }
 
+/* Import the hearth styles */
 .post_full .post_control {
   cursor: pointer;
   display: inline-block;
@@ -536,5 +537,13 @@ body {
     margin-top: 0;
     opacity: 0;
     transform: rotate(15deg); } }
+.post {
+  display: inline-table;
+  height: 20px;
+  margin: 0;
+  width: 25px; }
+
+.post_full .post_control {
+  display: block; }
 
 /*# sourceMappingURL=index.css.map */

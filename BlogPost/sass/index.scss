@@ -148,4 +148,16 @@ body {
   	vertical-align: middle;
 }
 
+/* Import the hearth styles */
 @import "hearth";
+
+.post {
+	display: inline-table;
+  	height: 20px;
+  	margin: 0;
+  	width: 25px;
+}
+
+.post_full .post_control {
+	display: block;
+}
