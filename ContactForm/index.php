@@ -32,7 +32,7 @@ if (!empty($params)) {
 		
 		<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
 		
-		<link rel="stylesheet" type="text/css" href="css/index.css">
+		<link rel="stylesheet" type="text/css" href="/frontend-test/ContactForm/css/index.css">
 		
 		<script type="text/javascript" src="components/jquery/dist/jquery.min.js"></script>
 
