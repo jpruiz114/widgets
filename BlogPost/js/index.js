@@ -151,10 +151,10 @@ var app = {
 			},
 			success: function(data) {
 				var postPhoto = data.info["post-photo"];
-				$("#post-pic").attr("src", app.postImagesLocation + postPhoto);
+				$("#post-pic").attr("src", app.getBasePath() + app.postImagesLocation + postPhoto);
 
 				var profilePic = data.info["profile-pic"];
-				$("#profile-pic").css("background-image", "url(" + app.profilePicsLocation + profilePic + ")");
+				$("#profile-pic").css("background-image", "url(" + app.getBasePath() + app.profilePicsLocation + profilePic + ")");
 
 				var profileName = data.info["profile-name"];
 				$("#author-name").html(profileName);
