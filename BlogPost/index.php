@@ -30,7 +30,10 @@ if (!empty($params)) {
 
         <meta name="revisit-after" content="7 days">
 
-        <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
+        <link href="//fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css" />
+
+        <!-- PT Sans is a close match to the popular Myriad Pro -->
+        <link href='//fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
 
         <link rel="stylesheet" type="text/css" href="css/index.css">
 
@@ -122,11 +125,11 @@ if (!empty($params)) {
 
                 <div id="post-options">
                     <div class="post-option-column corner-option-column">
-                        <label>follow</label>
+                        <i class="fa fa-eye"></i>
                     </div>
 
                     <div class="post-option-column central-option-column">
-                        <label>comment</label>
+                        <i class="fa fa-comment"></i>
                     </div>
 
                     <div class="post-option-column corner-option-column">

@@ -128,6 +128,7 @@ body {
   width: calc(34% - 2px); }
 
 .post_full .post_control {
+  cursor: pointer;
   display: inline-block;
   height: 20px;
   margin: 0;
@@ -179,7 +180,7 @@ body {
 
 .post_full .post_poof {
   animation: post_poof .6s ease-out;
-  background: url(http://assets.tumblr.com/images/dashboard_master_sprite.png?b4fdf87b377e8617517587ca626d3c81) no-repeat;
+  background: url(../assets/images/dashboard_master_sprite.png) no-repeat;
   display: block;
   height: 54px;
   left: 50%;
@@ -221,7 +222,7 @@ body {
   webkit-animation: none; }
 
 .post_full .post_animated_heart.unliked span {
-  background: url(http://assets.tumblr.com/images/dashboard_master_sprite.png?b4fdf87b377e8617517587ca626d3c81) no-repeat;
+  background: url(../assets/images/dashboard_master_sprite.png) no-repeat;
   display: block;
   height: 100%;
   left: 50%;
@@ -276,19 +277,19 @@ body {
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 21), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
   .post_full .post_info .reblog_icon, .post_full .post_avatar:after, .post_full .post_control:after, .post_full .post_animated_heart, .post_full .post_animated_heart.unliked span, .post_full .post_info .private_label:after, .post_full .post_avatar.show_user_menu .post_avatar_link:after, .share_options a:before, #posts .post .post_controls .photo_reply_placeholder, #posts .post .post_control.photo_reply .photo_reply_icon_base {
-    background-image: url(http://assets.tumblr.com/images/dashboard_master_sprite_2x.png?40bb91af2f67599b07b50eec80abbce0);
+    background-image: url(../assets/images/dashboard_master_sprite_2x.png);
     background-size: 972px 471px; }
 
   #blog_url_arrow {
-    background-image: url(http://assets.tumblr.com/images/dashboard_controls/dashboard_controls_sprite_2x.png?88071ca3ddca81e36c2e1d38adb26dd4);
+    background-image: url(../assets/images/dashboard_controls_sprite_2x.png);
     background-size: 473px 2700px; }
 
   .post.post_full .post_permalink {
-    background-image: url(http://assets.tumblr.com/images/posts/dogear_2x.png?2);
+    background-image: url(../assets/images/dogear_2x.png);
     background-size: 23px 23px; }
 
   .post_full .post_answer_avatar:after {
-    background-image: url(http://assets.tumblr.com/images/post_answer_input_nipple_2x.png?bb6c2103d074ea5e4b1265e0fab95b1e);
+    background-image: url(../assets/images/post_answer_input_nipple_2x.png);
     background-size: 30px 20px; } }
 @-webkit-keyframes like_poof {
   0% {
