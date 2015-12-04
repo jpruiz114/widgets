@@ -159,6 +159,8 @@ var app = {
 					imageLoaded = true;
 				},
 				error: function(error, txtStatus) {
+					alert(error);
+
 					imageLoaded = false;
 				}
 			});
