@@ -149,11 +149,11 @@ var app = {
 
 		if (path) {
 			$.ajax({
-				async: "false",
+				async: false,
 				type: "GET",
 				url: path,
 				dataType: "image/jpg",
-				success: function(img) {
+				success: function(data) {
 					imageLoaded = true;
 				},
 				error: function(error, txtStatus) {
