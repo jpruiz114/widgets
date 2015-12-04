@@ -132,7 +132,7 @@ if (!empty($params)) {
 
                             &nbsp;
 
-                            <label class="bottom-label" id="follow-label">172</label>
+                            <label id="follow-label">172</label>
                         </div>
                     </div>
 
@@ -142,16 +142,22 @@ if (!empty($params)) {
 
                             &nbsp;
 
-                            <label class="bottom-label" id="comment-label">34</label>
+                            <label id="comment-label">34</label>
                         </div>
                     </div>
 
                     <div class="post-option-column corner-option-column">
-                        <div class="post post_full" data-i18n="[title]blog-post.like">
+                        <!--<div class="post post_full" data-i18n="[title]blog-post.like">
                             <div class="post_control like unlike"></div>
 
-                            <label class="bottom-label" id="like-label">210</label>
-                        </div>
+                            <label id="like-label">210</label>
+                        </div>-->
+
+                        <i class="fa fa-heart"></i>
+
+                        &nbsp;
+
+                        <label id="like-label">210</label>
                     </div>
                 </div>
             </div>
