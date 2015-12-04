@@ -54,7 +54,7 @@ var app = {
 	 *
 	 */
 	handleFollowAnchorClick: function() {
-		var currentValue = parseInt($("#follow-anchor").val());
+		var currentValue = parseInt($("#follow-label").val());
 
 		if ($("#follow-anchor").hasClass("active")) {
 			currentValue += 1;
@@ -76,7 +76,7 @@ var app = {
 	 *
 	 */
 	handleLikeAnchorClick: function() {
-		var currentValue = $("#like-anchor").val();
+		var currentValue = $("#like-label").val();
 
 		if ($("#like-anchor").hasClass("active")) {
 			currentValue += 1;
