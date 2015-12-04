@@ -68,9 +68,19 @@ var app = {
 	 *
 	 */
 	loadConfig: function() {
-		$.getJSON(
-			"config.json",
-			function(data) {
+		$.ajax({
+			async: false,
+			global: false,
+			url: "config.json",
+			dataType: "json",
+			error: function() {
+				app.profilesInfoLocation = app.PROFILES_INFO_LOCATION_DEFAULT;
+
+				app.postImagesLocation = app.POST_IMAGES_LOCATION_DEFAULT;
+
+				app.profilePicsLocation = app.PROFILE_PICS_LOCATION_DEFAULT;
+			},
+			success: function(data) {
 				$.each(
 					data.config,
 					function(index, element) {
@@ -100,15 +110,7 @@ var app = {
 					app.profilePicsLocation = app.PROFILE_PICS_LOCATION_DEFAULT;
 				}
 			}
-		).error(
-			function() {
-				app.profilesInfoLocation = app.PROFILES_INFO_LOCATION_DEFAULT;
-
-				app.postImagesLocation = app.POST_IMAGES_LOCATION_DEFAULT;
-
-				app.profilePicsLocation = app.PROFILE_PICS_LOCATION_DEFAULT;
-			}
-		);
+		});
 	},
 
 	/**
