@@ -20,7 +20,7 @@ var app = {
 		// Setup the click handler for the bottom links.
 		app.setupBottomLinkHandlers();
 
-		// Gracefuly show the post container.
+		// Gracefully show the post container.
 		$("#post-container").fadeIn();
 	},
 
