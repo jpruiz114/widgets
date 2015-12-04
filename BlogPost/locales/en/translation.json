@@ -1,8 +1,10 @@
 {
   "blog-post": {
-	"english-website": "English",
-	"spanish-website": "Spanish",
+    "english-website": "English",
+    "spanish-website": "Spanish",
 
+    "follow": "Follow",
+    "comment": "Comment",
     "like": "Like"
   }
 }
