@@ -133,14 +133,13 @@ body {
 		font-size: 1.5em;
 		vertical-align: middle;
   	}
+}
 
-  	.bottom-label {
-		/*color: $bottom-icons-font-color-normal;*/
-		display: table-cell;
-		font-family: $bottom-icons-font-family;
-		font-size: $bottom-icons-font-size;
-		vertical-align: middle;
-  	}
+.bottom-label {
+	display: table-cell;
+	font-family: $bottom-icons-font-family;
+	font-size: $bottom-icons-font-size;
+	vertical-align: middle;
 }
 
 .bottom-anchor:hover {

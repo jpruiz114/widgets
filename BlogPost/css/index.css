@@ -134,8 +134,8 @@ body {
   display: table-cell;
   font-size: 1.5em;
   vertical-align: middle; }
-.bottom-anchor .bottom-label {
-  /*color: $bottom-icons-font-color-normal;*/
+
+.bottom-label {
   display: table-cell;
   font-family: "PT Sans", sans-serif;
   font-size: 16px;
