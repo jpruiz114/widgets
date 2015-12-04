@@ -10,6 +10,10 @@ $lang = "";
 if (!empty($params)) {
     if (sizeof($params) >= 1) {
         $lang = $params[0];
+
+        if (sizeof($params) >= 2) {
+            $id = $params[1];
+        }
     }
 }
 ?>
@@ -53,7 +57,9 @@ if (!empty($params)) {
                 function() {
                     var chosenLang = "<?php echo($lang); ?>";
 
-                    app.initialize(chosenLang);
+                    var chosenId = "<?php echo($id); ?>";
+
+                    app.initialize(chosenLang, chosenId);
                 } // End of the function.
             );
         </script>
