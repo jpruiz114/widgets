@@ -145,4 +145,8 @@ body {
 .bottom-anchor:hover {
   color: #928f8c; }
 
+.bottom-anchor.active {
+  color: #e86741;
+  font-weight: bold; }
+
 /*# sourceMappingURL=index.css.map */

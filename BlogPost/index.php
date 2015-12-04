@@ -56,37 +56,6 @@ if (!empty($params)) {
                     var chosenLang = "<?php echo($lang); ?>";
 
                     app.initialize(chosenLang);
-
-                    //
-
-                    var count = true;
-
-                    $("div.like").click(
-                        function() {
-                            var hearthCode = "";
-                            hearthCode += '<div class="post_animated_heart post_poof">';
-                                hearthCode += '<span class="heart_left">';
-                                hearthCode += '</span>';
-
-                                hearthCode += '<span class="heart_right">';
-                                hearthCode += '</span>';
-                            hearthCode += '</div>';
-
-                            var heart = $(hearthCode).toggleClass("unliked", count = !count);
-
-                            $(this).toggleClass("liked").append(heart);
-
-                            setTimeout(
-                                function() {
-                                    heart.fadeOut(
-                                        200, function() {
-                                            heart.remove()
-                                        }
-                                    )
-                                }, 300
-                            );
-                        } // End of the click handler.
-                    );
                 } // End of the function.
             );
         </script>
