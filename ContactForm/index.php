@@ -1,6 +1,8 @@
 <?php
+$basePath = "/frontend-test/ContactForm/";
+
 // Remove the directory path we don't want
-$request = str_replace("/frontend-test/ContactForm/", "", $_SERVER["REQUEST_URI"]);
+$request = str_replace($basePath, "", $_SERVER["REQUEST_URI"]);
 
 // Split the path by "/"
 $params = explode("/", $request);
@@ -32,39 +34,39 @@ if (!empty($params)) {
 		
 		<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
 		
-		<link rel="stylesheet" type="text/css" href="/frontend-test/ContactForm/css/index.css">
+		<link rel="stylesheet" type="text/css" href="<?php echo $basePath; ?>css/index.css">
 		
-		<script type="text/javascript" src="components/jquery/dist/jquery.min.js"></script>
+		<script type="text/javascript" src="<?php echo $basePath; ?>components/jquery/dist/jquery.min.js"></script>
 
-		<script type="text/javascript" src="components/jqueryui/jquery-ui.min.js"></script>
+		<script type="text/javascript" src="<?php echo $basePath; ?>components/jqueryui/jquery-ui.min.js"></script>
 
-		<link rel="stylesheet" type="text/css" href="components/jqueryui/themes/start/jquery-ui.min.css">
+		<link rel="stylesheet" type="text/css" href="<?php echo $basePath; ?>components/jqueryui/themes/start/jquery-ui.min.css">
 
-		<link rel="stylesheet" type="text/css" href="components/fontawesome/css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="<?php echo $basePath; ?>components/fontawesome/css/font-awesome.min.css">
 
-		<script type="text/javascript" src="components/toastr/toastr.min.js"></script>
+		<script type="text/javascript" src="<?php echo $basePath; ?>components/toastr/toastr.min.js"></script>
 
-		<link rel="stylesheet" type="text/css" href="components/toastr/toastr.min.css">
+		<link rel="stylesheet" type="text/css" href="<?php echo $basePath; ?>components/toastr/toastr.min.css">
 
-		<script type="text/javascript" src="components/i18next/i18next.min.js"></script>
+		<script type="text/javascript" src="<?php echo $basePath; ?>components/i18next/i18next.min.js"></script>
 
-		<link href="assets/components/bootstrap-tokenizer/bootstrap.css" rel="stylesheet">
+		<link href="<?php echo $basePath; ?>assets/components/bootstrap-tokenizer/bootstrap.css" rel="stylesheet">
 
-		<link href="assets/components/bootstrap-tokenizer/bootstrap-tokenizer.css" rel="stylesheet">
+		<link href="<?php echo $basePath; ?>assets/components/bootstrap-tokenizer/bootstrap-tokenizer.css" rel="stylesheet">
 
 		<script type="text/javascript" src="assets/components/bootstrap-tokenizer/bootstrap-tokenizer.js"></script>
 
-		<link href="components/iCheck/skins/minimal/green.css" rel="stylesheet">
+		<link href="<?php echo $basePath; ?>components/iCheck/skins/minimal/green.css" rel="stylesheet">
 
-		<script type="text/javascript" src="components/iCheck/icheck.min.js"></script>
+		<script type="text/javascript" src="<?php echo $basePath; ?>components/iCheck/icheck.min.js"></script>
 
-		<link href="components/ladda/dist/ladda.min.css" rel="stylesheet">
+		<link href="<?php echo $basePath; ?>components/ladda/dist/ladda.min.css" rel="stylesheet">
 
-		<script type="text/javascript" src="components/ladda/dist/spin.min.js"></script>
+		<script type="text/javascript" src="<?php echo $basePath; ?>components/ladda/dist/spin.min.js"></script>
 
-		<script type="text/javascript" src="components/ladda/dist/ladda.min.js"></script>
+		<script type="text/javascript" src="<?php echo $basePath; ?>components/ladda/dist/ladda.min.js"></script>
 
-		<script type="text/javascript" src="js/dist/index.js"></script>
+		<script type="text/javascript" src="<?php echo $basePath; ?>js/dist/index.js"></script>
 
 		<script type="text/javascript">
 			/**
@@ -87,11 +89,11 @@ if (!empty($params)) {
 			<div id="top-bar">
 				<ul class="langs">
 					<li class="langs-item">
-						<a class="langs-link" href="/frontend-test/ContactForm/en" id="go-to-en-page" target="_self" data-i18n="[title]contact-form.english-website;contact-form.english-website"></a>
+						<a class="langs-link" href="<?php echo $basePath; ?>en" id="go-to-en-page" target="_self" data-i18n="[title]contact-form.english-website;contact-form.english-website"></a>
 					</li>
 
 					<li class="langs-item">
-						<a class="langs-link" href="/frontend-test/ContactForm/es" id="go-to-es-page" target="_self" data-i18n="[title]contact-form.spanish-website;contact-form.spanish-website"></a>
+						<a class="langs-link" href="<?php echo $basePath; ?>es" id="go-to-es-page" target="_self" data-i18n="[title]contact-form.spanish-website;contact-form.spanish-website"></a>
 					</li>
 				</ul>
 			</div>
