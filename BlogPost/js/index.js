@@ -195,6 +195,7 @@ var app = {
 				var postPhotoPath = app.getBasePath() + app.postImagesLocation + postPhoto;
 
 				var postPhotoLoaded = app.preloadImage(postPhotoPath);
+				alert("postPhotoLoaded" + " = " + postPhotoLoaded);
 
 				if (postPhotoLoaded) {
 					$("#post-pic").attr("src", postPhotoPath);
