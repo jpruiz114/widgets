@@ -56,18 +56,33 @@ if (!empty($params)) {
 
                     var count = true;
 
-                    $("div.like").click(function(){
-                        var heart = $('<div class="post_animated_heart post_poof"><span class="heart_left"></span><span class="heart_right"></span></div>').toggleClass("unliked", count = !count);
+                    $("div.like").click(
+                        function() {
+                            var hearthCode = "";
+                            hearthCode += '<div class="post_animated_heart post_poof">';
+                                hearthCode += '<span class="heart_left">';
+                                hearthCode += '</span>';
 
-                        $(this).toggleClass("liked").append(heart);
+                                hearthCode += '<span class="heart_right">';
+                                hearthCode += '</span>';
+                            hearthCode += '</div>';
 
-                        setTimeout(function() {
-                            heart.fadeOut(200, function() {
-                                heart.remove()
-                            })
-                        }, 300);
-                    });
-                }
+                            var heart = $(hearthCode).toggleClass("unliked", count = !count);
+
+                            $(this).toggleClass("liked").append(heart);
+
+                            setTimeout(
+                                function() {
+                                    heart.fadeOut(
+                                        200, function() {
+                                            heart.remove()
+                                        }
+                                    )
+                                }, 300
+                            );
+                        } // End of the click handler.
+                    );
+                } // End of the function.
             );
         </script>
 
