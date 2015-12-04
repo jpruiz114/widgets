@@ -123,6 +123,8 @@ var app = {
 	 * @param chosenId
 	 */
 	loadProfile: function(chosenId) {
+		alert("chosenId" + " = " + chosenId);
+
 		if(!chosenId){
 			chosenId = app.DEFAULT_PROFILE_ID;
 		}
