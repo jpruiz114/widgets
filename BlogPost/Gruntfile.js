@@ -8,8 +8,14 @@ module.exports = function(grunt) {
 			checkBowerJSON: {
 				src: ["bower.json"]
 			},
+			checkModuleConfig: {
+				src: ["config.json"]
+			},
+			checkProfilesInfo: {
+				src: ["info/profile_1.json", "info/profile_2.json", "info/profile_3.json"]
+			},
 			checkLocales: {
-				src: ["locales/en/translation.json", "locales/es/translation.json"]
+				src: ["locales/dev/translation.json", "locales/en/translation.json", "locales/es/translation.json"]
 			}
 		},
 		jsvalidate: {

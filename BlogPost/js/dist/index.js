@@ -30,7 +30,7 @@ var app = {
 			// Gracefully show the post container.
 			$("#post-container").fadeIn();
 		} else {
-			
+
 		}
 	},
 
