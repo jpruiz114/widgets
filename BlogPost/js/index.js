@@ -129,13 +129,15 @@ var app = {
 
 		var profileInfoPath = app.profilesInfoLocation + "profile_" + chosenId + ".json";
 
+		var profileLoaded;
+
 		$.ajax({
 			async: false,
 			global: false,
 			url: profileInfoPath,
 			dataType: "json",
 			error: function() {
-				return false;
+				profileLoaded = false;
 			},
 			success: function(data) {
 				var postPhoto = data.info["post-photo"];
@@ -150,9 +152,11 @@ var app = {
 				var postContent = data.info["post-content"];
 				$("#author-comment").html(postContent);
 
-				return true;
+				profileLoaded = true;
 			}
 		});
+
+		return profileLoaded;
 	},
 
 	/**
