@@ -1,20 +1,19 @@
-Group of four widgets.
+# Group of four widgets.
 
 By Jean Paul Ruiz :smiley_cat: <jpruiz114@gmail.com>
 
-# Blog Post
+## Blog Post
 
 :octocat: https://github.com/jpruiz114/widgets/tree/master/BlogPost
 
-# Contact Form
+## Contact Form
 
 :octocat: https://github.com/jpruiz114/widgets/tree/master/ContactForm
 
-# Menu
+## Menu
 
 :octocat: https://github.com/jpruiz114/widgets/tree/master/Menu
 
-# Profile
+## Profile
 
 :octocat: https://github.com/jpruiz114/widgets/tree/master/Profile
-
