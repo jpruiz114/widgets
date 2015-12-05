@@ -52,11 +52,11 @@ li a {
   text-decoration: none;
   text-transform: uppercase; }
 
-li a:first-child {
+li:first-child a {
   border-bottom-left-radius: 10px;
   border-top-left-radius: 10px; }
 
-li a:last-child {
+li:last-child a {
   border-bottom-right-radius: 10px;
   border-top-right-radius: 10px; }
 
