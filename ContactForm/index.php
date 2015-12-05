@@ -22,7 +22,7 @@ if (!empty($params)) {
 
 		<title>Contact Form</title>
 
-		<meta name="viewport" content="width=device-width, initial-scale=0.75">
+		<meta name="viewport" content="width=device-width, initial-scale=0.8">
 
 		<meta name="author" content="Jean Paul Ruiz">
 		
