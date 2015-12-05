@@ -3,6 +3,10 @@ html {
   width: 100%; }
 
 body {
+  height: 100%;
+  width: 100%; }
+
+body {
   background-attachment: fixed;
   background-color: #d4b48e;
   background-image: url("../assets/images/background-image.jpg");
