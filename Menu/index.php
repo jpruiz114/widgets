@@ -20,8 +20,6 @@ $basePath = "/frontend-test/Menu/";
 
         <meta name="revisit-after" content="7 days">
 
-        <link href="//fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css" />
-
         <!-- PT Sans is a close match to the popular Myriad Pro -->
         <link href='//fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
 
