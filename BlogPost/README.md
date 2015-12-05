@@ -19,3 +19,8 @@ http://jeanpaulruizvallejo.com/frontend-test/BlogPost/es/1
 http://jeanpaulruizvallejo.com/frontend-test/BlogPost/es/2
 http://jeanpaulruizvallejo.com/frontend-test/BlogPost/es/3
 
+A post that doesn't exist will give a default message. For example:
+
+http://jeanpaulruizvallejo.com/frontend-test/BlogPost/1234
+http://jeanpaulruizvallejo.com/frontend-test/BlogPost/en/1234
+http://jeanpaulruizvallejo.com/frontend-test/BlogPost/es/1234

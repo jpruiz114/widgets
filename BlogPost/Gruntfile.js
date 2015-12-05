@@ -30,12 +30,12 @@ module.exports = function(grunt) {
 				}
 			}
 		},
-		removelogging: {
+		/*removelogging: {
 			dist: {
 				src: "js/index.js",
 				dest: "js/dist/index.js"
 			}
-		},
+		},*/
 		sass: {
 			dist: {
 				options: {

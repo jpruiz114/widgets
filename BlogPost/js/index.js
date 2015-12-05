@@ -4,8 +4,12 @@ var app = {
 	 */
 	initialize: function(chosenLang, chosenId) {
 		if (chosenLang) {
+			console.log("chosenLang" + " = " + chosenLang);
+
 			// Verify if the requested lang is actually supported. If not, use the default one.
 			chosenLang = app.failSafeChosenLang(chosenLang);
+
+			console.log("chosenLang" + " = " + chosenLang);
 
 			// It wont make any sense to show the link for the current lang.
 			app.hideLanguageLinkNotNeeded(chosenLang);
