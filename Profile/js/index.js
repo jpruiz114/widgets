@@ -202,7 +202,7 @@ var app = {
 
                 var textObject = app.getTextObject();
 
-                $("#followers-number").html(textObject["followers"] + " " + data.info["followers"]);
+                $("#followers-number").html(textObject("profile.followers") + " " + data.info["followers"]);
 
                 profileLoaded = true;
             }
