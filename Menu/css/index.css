@@ -14,14 +14,14 @@ body {
   margin-right: 10px; }
 
 .notification-counter {
-  position: absolute;
-  top: -2px;
-  left: 12px;
-  background-color: #d4130d;
+  background-color: red;
+  border-radius: 10px;
   color: #fff;
-  border-radius: 3px;
-  padding: 1px 3px;
-  font: 8px Verdana; }
+  font: 8px Verdana;
+  padding: 3px 6px;
+  position: relative;
+  right: -10px;
+  top: -15px; }
 
 /* Strip the ul of padding and list styling */
 ul {
