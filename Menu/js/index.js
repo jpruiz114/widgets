@@ -48,7 +48,7 @@ var app = {
                 var newOption;
 
                 $.each(
-                    data.option,
+                    data.options,
                     function(index, currentOption) {
                         console.dir(currentOption);
 
