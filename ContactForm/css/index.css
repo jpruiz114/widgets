@@ -16,6 +16,12 @@ body {
 @media only screen and (max-width: 767px) {
   body {
     background-image: url("../assets/images/background-image-for-mobile.jpg"); } }
+@viewport {
+  width: extend-to-zoom;
+  zoom: 1.0; }
+@-ms-viewport {
+  width: extend-to-zoom;
+  zoom: 1.0; }
 body {
   margin: 0; }
 
