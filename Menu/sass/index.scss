@@ -14,12 +14,6 @@ body {
 	width: 100%;
 }
 
-#menu-container {
-  	margin: 0 auto;
-  	padding-top: 20px;
-  	width: $menu-width;
-}
-
 @import "_background";
 
 @import "_colors";
@@ -27,6 +21,12 @@ body {
 @import "_measures";
 
 @import "_typos";
+
+#menu-container {
+	margin: 0 auto;
+	padding-top: 20px;
+	width: $menu-width;
+}
 
 /* Override for the font awesome icons */
 
@@ -161,7 +161,7 @@ input[type=checkbox]:checked ~ #menu{
 
 /* Responsive Styles */
 
-@media screen and (max-width: 845px){
+@media screen and (max-width: $menu-width){
   	#menu-container {
 		margin: initial;
 		padding-top: 0;
