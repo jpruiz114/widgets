@@ -3,6 +3,11 @@
 //
 // The content of this file holds the styles for the blog post.
 
+html {
+	height: 100%;
+	width: 100%;
+}
+
 // Import the background styles.
 @import "_background";
 
@@ -14,9 +19,6 @@
 
 // Import the typography's.
 @import "_typos";
-
-// Import the mobile view port feature.
-@import "mobile-viewport";
 
 body {
 	margin: 0;
