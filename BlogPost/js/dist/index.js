@@ -83,7 +83,7 @@ var app = {
 	/**
 	 *
 	 */
-	PROFILES_INFO_LOCATION_DEFAULT: "info/",
+	POSTS_INFO_LOCATION_DEFAULT: "info/",
 
 	/**
 	 *
@@ -115,7 +115,7 @@ var app = {
 			url: app.getBasePath() + "/config.json",
 			dataType: "json",
 			error: function() {
-				app.postsInfoLocation = app.PROFILES_INFO_LOCATION_DEFAULT;
+				app.postsInfoLocation = app.POSTS_INFO_LOCATION_DEFAULT;
 
 				app.postImagesLocation = app.POST_IMAGES_LOCATION_DEFAULT;
 
@@ -140,7 +140,7 @@ var app = {
 				);
 
 				if (!app.postsInfoLocation) {
-					app.postsInfoLocation = app.PROFILES_INFO_LOCATION_DEFAULT;
+					app.postsInfoLocation = app.POSTS_INFO_LOCATION_DEFAULT;
 				}
 
 				if (!app.postImagesLocation) {
