@@ -57,7 +57,11 @@ $basePath = "/frontend-test/Menu/";
 
             <ul id="menu">
                 <li>
-                    <a href="#"><i class="fa fa-map-marker"></i>Check in</a>
+                    <a href="#">
+                        <i class="fa fa-map-marker"></i>
+                        Check in
+                        <div class="circle">3</div>
+                    </a>
                 </li>
 
                 <li>
