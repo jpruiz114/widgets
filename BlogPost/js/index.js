@@ -4,12 +4,8 @@ var app = {
 	 */
 	initialize: function(chosenLang, chosenId) {
 		if (chosenLang) {
-			alert("chosenLang" + " = " + chosenLang);
-
 			// Verify if the requested lang is actually supported. If not, use the default one.
 			chosenLang = app.failSafeChosenLang(chosenLang);
-
-			alert("chosenLang" + " = " + chosenLang);
 
 			// It wont make any sense to show the link for the current lang.
 			app.hideLanguageLinkNotNeeded(chosenLang);
@@ -49,9 +45,13 @@ var app = {
 	failSafeChosenLang: function(chosenLang) {
 		var resultLang;
 
+		alert("chosenLang" + " = " + chosenLang);
+
 		if (chosenLang != app.LANGUAGE_CODE_FOR_ENGLISH && chosenLang != app.LANGUAGE_CODE_FOR_SPANISH) {
 			resultLang = app.DEFAULT_LANGUAGE;
 		}
+
+		alert("resultLang" + " = " + resultLang);
 
 		return resultLang;
 	},
