@@ -134,7 +134,7 @@ if (!empty($params)) {
             </div>
 
             <div class="info-container" id="post-not-found">
-                <i class="fa fa-alert"></i>
+                <i class="fa fa-exclamation-triangle"></i>
 
                 <p data-i18n="blog-post.post-not-found"></p>
             </div>

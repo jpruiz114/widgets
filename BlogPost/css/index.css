@@ -164,6 +164,7 @@ body {
   user-select: none; }
 
 #post-not-found {
+  font-family: "PT Sans", sans-serif;
   text-align: center; }
 #post-not-found .fa {
   font-size: 4em; }
