@@ -43,7 +43,10 @@ li a {
 
 /* Hover state for top level links */
 li:hover a {
-  background: #f8f3f0; }
+  background: #f8f3f0;
+  border-bottom-width: 3px;
+  border-bottom-style: solid;
+  border-bottom-color: #4daf7b; }
 
 /* Style for dropdown links */
 li:hover ul a {

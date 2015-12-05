@@ -6,6 +6,8 @@
 
 @import "_colors";
 
+@import "_measures";
+
 @import "_typos";
 
 /* Override for the font awesome icons */
@@ -48,6 +50,9 @@ li a {
 /* Hover state for top level links */
 li:hover a {
   	background: $menu-item-background-hover-color;
+    border-bottom-width: $menu-item-bottom-border-size;
+    border-bottom-style: solid;
+    border-bottom-color: $menu-item-bottom-border-color;
 }
 
 /* Style for dropdown links */
