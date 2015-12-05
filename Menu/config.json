@@ -2,16 +2,16 @@
   "config": {
     "options": {
       "option": {
-        "name": "check-in", "text": "CHECK IN", "icon": "fa-map-marker"
+        "name": "check-in", "text": "CHECK IN", "icon": "fa-map-marker", "notifications": 3, "target": "_self"
       },
       "option": {
-        "name": "events", "text": "EVENTS", "icon": "fa-heart"
+        "name": "events", "text": "EVENTS", "icon": "fa-heart", "notifications": 0, "target": "_self"
       },
       "option": {
-        "name": "account", "text": "ACCOUNT", "icon": "fa-user"
+        "name": "account", "text": "ACCOUNT", "icon": "fa-user", "notifications": 0, "target": "_self"
       },
       "option": {
-        "name": "settings", "text": "SETTINGS", "icon": "fa-cog"
+        "name": "settings", "text": "SETTINGS", "icon": "fa-cog", "notifications": 0, "target": "_self"
       }
     }
   }

@@ -8,6 +8,8 @@ $basePath = "/frontend-test/Menu/";
 
         <title>Menu</title>
 
+        <meta name="viewport" content="width=device-width, initial-scale=0.8">
+
         <meta name="author" content="Jean Paul Ruiz">
 
         <meta name="description" content="This is an example of a menu">
@@ -37,6 +39,8 @@ $basePath = "/frontend-test/Menu/";
              */
             $(window).load(
                 function() {
+                    app.setBasePath("<?php echo $basePath; ?>");
+
                     app.initialize();
                 } // End of the function.
             );
@@ -46,8 +50,28 @@ $basePath = "/frontend-test/Menu/";
     </head>
 
     <body>
-        <div id="wrapper">
+        <div id="menu-container">
+            <label for="show-menu" class="show-menu">Show Menu</label>
 
+            <input type="checkbox" id="show-menu" role="button">
+
+            <ul id="menu">
+                <li>
+                    <a href="#">Home</a>
+                </li>
+
+                <li>
+                    <a href="#">About &#65516;</a>
+                </li>
+
+                <li>
+                    <a href="#">Portfolio &#65516;</a>
+                </li>
+
+                <li>
+                    <a href="#">News</a>
+                </li>
+            </ul>
         </div>
     </body>
 </html>
