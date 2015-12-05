@@ -4,7 +4,7 @@ var app = {
 	 */
 	initialize: function(chosenLang, chosenId) {
 		if (chosenLang) {
-			alert"chosenLang" + " = " + chosenLang);
+			alert("chosenLang" + " = " + chosenLang);
 
 			// Verify if the requested lang is actually supported. If not, use the default one.
 			chosenLang = app.failSafeChosenLang(chosenLang);
