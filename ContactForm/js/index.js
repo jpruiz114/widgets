@@ -62,6 +62,8 @@ var app = {
 
 		if (chosenLang != app.LANGUAGE_CODE_FOR_ENGLISH && chosenLang != app.LANGUAGE_CODE_FOR_SPANISH) {
 			resultLang = app.DEFAULT_LANGUAGE;
+		} else {
+			resultLang = chosenLang;
 		}
 
 		return resultLang;
