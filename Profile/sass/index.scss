@@ -63,30 +63,30 @@ body {
     }
 
     #profile-pic-container {
-        width: 33.33%;
+        width: 40%;
     }
 
     #profile-data {
         padding-left: 10px;
         padding-right: 10px;
-        width: calc(66.67% - 20px);
+        width: calc(60% - 20px);
 
-        /*label {
-            color: $profile-name-font-color;
-            display: block;
-            font-family: $open-sans-typography;
-			font-size: $profile-name-font-size;
-			text-align: left;
-		}
-
-		p {
+        p {
             color: $profile-comment-font-color;
             display: block;
 			font-family: $open-sans-typography;
 			font-size: $profile-comment-font-size;
 			margin: 0;
             text-align: left;
-        }*/
+        }
+
+        label {
+            color: $profile-name-font-color;
+            display: block;
+            font-family: $open-sans-typography;
+            font-size: $profile-name-font-size;
+            text-align: left;
+        }
     }
 }
 
