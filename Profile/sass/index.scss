@@ -112,10 +112,10 @@ li a {
     user-select: none;
 }
 
-#post-not-found {
+#profile-not-found {
     font-family: $open-sans-typography;
-    height: $post-height - $padding-top-post-not-found;
-    padding-top: $padding-top-post-not-found;
+    height: $post-height - $padding-top-profile-not-found;
+    padding-top: $padding-top-profile-not-found-found;
     text-align: center;
 
     .fa {
