@@ -42,7 +42,7 @@ body {
   font-size: 12px;
   text-decoration: none; }
 
-#info-container {
+.info-container {
   background-color: #ffffff;
   border-radius: 5px;
   display: none;

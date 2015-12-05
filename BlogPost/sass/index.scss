@@ -27,7 +27,7 @@ body {
 /* Import the "top bar" styles. */
 @import "top-bar";
 
-#info-container {
+.info-container {
   	background-color: $post-background-color;
   	border-radius: $post-border-radius;
   	display: none;
