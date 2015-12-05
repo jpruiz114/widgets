@@ -394,8 +394,6 @@ var app = {
 
 		// Save the text object for later usage.
 		app.setTextObject(t);
-
-		//var appName = t("app.name");
 	},
 
 	/**
