@@ -7,6 +7,11 @@ body {
   margin: 0;
   width: 100%; }
 
+#menu-container {
+  margin: 0 auto;
+  padding-top: 20px;
+  width: 845px; }
+
 body {
   background-attachment: fixed;
   background-color: #d4b48e;
