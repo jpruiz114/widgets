@@ -13,11 +13,9 @@ body {
   background-color: #d6c49c; }
 
 /* For mobile devices */
-/*@media only screen and (max-width: 767px) {
-	body {
-		background-image: url("../assets/images/background-image-for-mobile.jpg");
-	}
-}*/
+@media only screen and (max-width: 767px) {
+  body {
+    background-image: url("../assets/images/background-image-for-mobile.jpg"); } }
 /*@import "mobile-viewport";*/
 body {
   margin: 0; }
