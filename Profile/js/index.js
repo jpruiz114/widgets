@@ -200,7 +200,7 @@ var app = {
 
                 $("#profile-name").html(data.info["profile-name"]);
 
-                
+
 
                 profileLoaded = true;
             }
