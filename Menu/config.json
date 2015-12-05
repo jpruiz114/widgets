@@ -4,7 +4,7 @@
     {"name": "events", "text": "EVENTS", "icon": "fa-heart", "notifications": 0, "target": "_self", "go-to-location": "#"},
     {"name": "account", "text": "ACCOUNT", "icon": "fa-user", "notifications": 0, "target": "_self", "go-to-location": "#"},
     {"name": "settings", "text": "SETTINGS", "icon": "fa-cog", "notifications": 0, "target": "_self", "go-to-location": "#"},
-    {"name": "google", "text": "Google", "icon": "fa-google", "notifications": 0, "target": "_blank", "go-to-location": "https://www.google.com"},
-    {"name": "facebook", "text": "Facebook", "icon": "fa-facebook-square", "notifications": 0, "target": "_blank", "go-to-location": "https://www.facebook.com"}
+    {"name": "facebook", "text": "Facebook", "icon": "fa-facebook-square", "notifications": 0, "target": "_blank", "go-to-location": "https://www.facebook.com"},
+    {"name": "google", "text": "Google", "icon": "fa-google", "notifications": 0, "target": "_blank", "go-to-location": "https://www.google.com"}
   ]
 }
