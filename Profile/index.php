@@ -67,7 +67,31 @@ if (!empty($params)) {
 
     <body>
         <div id="wrapper">
+            <div id="profile">
+                <div id="profile-header">
 
+                </div>
+
+                <div class="profile-options">
+                    <ul class="vertical">
+                        <li>
+                            <a href="#"">Edit user</a>
+                        </li>
+
+                        <li>
+                            <a href="#"">Web statistics</a>
+                        </li>
+
+                        <li>
+                            <a href="#"">Upload settings</a>
+                        </li>
+
+                        <li>
+                            <a href="#"">Events</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </body>
 </html>
