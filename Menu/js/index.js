@@ -87,7 +87,7 @@ var app = {
         var html;
 
         for (i = 0; i<app.listOfOptions.length; i++) {
-            currentOption = listOfOptions[i];
+            currentOption = app.listOfOptions[i];
 
             name = currentOption["name"];
             text = currentOption["text"];
