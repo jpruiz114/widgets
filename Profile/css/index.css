@@ -42,7 +42,7 @@ body {
   text-decoration: none; }
 
 .info-container {
-  background-color: #b1a599;
+  background-color: #ffffff;
   border-radius: 5px;
   display: none;
   height: 310px;
@@ -69,6 +69,7 @@ body {
   width: 90px; }
 
 #profile-header {
+  background-color: #b1a599;
   display: table;
   float: left;
   height: 125px;

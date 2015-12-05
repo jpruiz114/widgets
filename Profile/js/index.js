@@ -28,7 +28,7 @@ var app = {
 
         if (profileLoaded) {
             // Gracefully show the post container.
-            $("#profile-container").fadeIn();
+            $("#profile").fadeIn();
         } else {
             // Show a message indicating that the requested post could not be found.
             $("#profile-not-found").fadeIn();

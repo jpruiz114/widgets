@@ -35,7 +35,7 @@ body {
 @import "top-bar";
 
 .info-container {
-    background-color: $post-background-color;
+    background-color: $profile-background-color;
     border-radius: $post-border-radius;
     display: none;
     height: $post-height;
@@ -51,6 +51,7 @@ body {
 @import "circle-profile-pic";
 
 #profile-header {
+    background-color: $profile-header-background-color;
     display: table;
     float: left;
     height: 125px;
