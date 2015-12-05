@@ -95,13 +95,13 @@ ul li a:hover + .hidden, .hidden:hover {
 
 /* Style 'show menu' label button and hide it by default */
 .show-menu {
-  	font-family: $menu-item-font-family;
-  	text-decoration: none;
+  	background: $menu-item-bottom-border-color;
   	color: #fff;
-  	background: $menu-item-background-hover-color;
-  	text-align: center;
-  	padding: 10px 0;
   	display: none;
+  	font-family: $menu-item-font-family;
+  	padding: 10px 0;
+  	text-align: center;
+  	text-decoration: none;
 }
 
 /* Hide checkbox */

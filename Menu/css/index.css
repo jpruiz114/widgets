@@ -82,13 +82,13 @@ ul li a:hover + .hidden, .hidden:hover {
 
 /* Style 'show menu' label button and hide it by default */
 .show-menu {
-  font-family: "PT Sans", sans-serif;
-  text-decoration: none;
+  background: #4daf7b;
   color: #fff;
-  background: #f8f3f0;
-  text-align: center;
+  display: none;
+  font-family: "PT Sans", sans-serif;
   padding: 10px 0;
-  display: none; }
+  text-align: center;
+  text-decoration: none; }
 
 /* Hide checkbox */
 input[type=checkbox] {
