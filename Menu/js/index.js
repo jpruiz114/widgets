@@ -39,7 +39,7 @@ var app = {
         $.ajax({
             async: false,
             global: false,
-            url: app.getBasePath() + "/config.json",
+            url: app.getBasePath() + "/config.json" + "?" + new Date().getTime(),
             dataType: "json",
             error: function() {
                 // @todo
