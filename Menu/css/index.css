@@ -132,6 +132,12 @@ input[type=checkbox]:checked ~ #menu {
   li {
     margin-bottom: 1px; }
 
+  li:first-child a {
+    border: none; }
+
+  li:last-child a {
+    border: none; }
+
   /* Make all menu links full width */
   ul li, li a {
     width: 100%; }
