@@ -161,7 +161,7 @@ input[type=checkbox]:checked ~ #menu{
 
 /* Responsive Styles */
 
-@media screen and (max-width : $menu-width){
+@media screen and (max-width: 845px){
   	#menu-container {
 		margin: initial;
 		padding-top: 0;
