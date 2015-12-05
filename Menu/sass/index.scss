@@ -8,6 +8,7 @@
 
 /* Strip the ul of padding and list styling */
 ul {
+    background-color: $menu-item-separator-color;
   	list-style-type: none;
   	margin: 0;
   	padding: 0;
@@ -27,11 +28,13 @@ li a {
     color: $menu-item-font-color;
     display: block;
     font-family: $menu-item-font-family;
+    font-weight: bold;
     height: 50px;
     line-height: 50px;
     min-width: 140px;
   	text-align: center;
     text-decoration: none;
+    text-transform: uppercase;
 }
 
 /* Hover state for top level links */

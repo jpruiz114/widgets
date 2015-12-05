@@ -1,5 +1,6 @@
 /* Strip the ul of padding and list styling */
 ul {
+  background-color: #f6f0ec;
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -17,11 +18,13 @@ li a {
   color: #8e8071;
   display: block;
   font-family: "PT Sans", sans-serif;
+  font-weight: bold;
   height: 50px;
   line-height: 50px;
   min-width: 140px;
   text-align: center;
-  text-decoration: none; }
+  text-decoration: none;
+  text-transform: uppercase; }
 
 /* Hover state for top level links */
 li:hover a {
