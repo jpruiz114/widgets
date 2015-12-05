@@ -1,0 +1,24 @@
+#top-bar {
+  	background-color: $top-bar-background-color;
+    float: left;
+  	padding-bottom: 5px;
+  	padding-top: 5px;
+    width: 100%;
+
+  	.langs {
+  	  	margin: 0;
+  	  	padding: 0;
+  	}
+
+  	.langs-item {
+  	  	display: inline;
+  	  	list-style: none;
+  	}
+
+  	.langs-link {
+  	  	color: $top-bar-links-color;
+  	  	font-family: $open-sans-typography;
+  	  	font-size: 12px;
+  	  	text-decoration: none;
+  	}
+}

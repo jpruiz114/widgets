@@ -67,9 +67,17 @@ if (!empty($params)) {
 
     <body>
         <div id="wrapper">
-            <div id="profile">
+            <div class="info-container" id="profile-container">
                 <div id="profile-header">
+                    <div class="col" id="profile-pic">
+                        <div class="circle" id="profile-pic"></div>
+                    </div>
 
+                    <div class="col" id="profile-data">
+                        <label class="unselectable-text" id="profile-name" unselectable="on"></label>
+
+                        <p class="unselectable-text" id="followers-number" unselectable="on"></p>
+                    </div>
                 </div>
 
                 <div class="profile-options">

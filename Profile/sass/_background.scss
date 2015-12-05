@@ -1,0 +1,14 @@
+body {
+  	background-attachment: fixed;
+  	background-color: #d4b48e;
+  	background-image: url("../assets/images/background-image.jpg");
+  	background-position: center center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+@media only screen and (max-width: 767px) {
+  	body {
+		background-image: url("../assets/images/background-image-for-mobile.jpg");
+  	}
+}

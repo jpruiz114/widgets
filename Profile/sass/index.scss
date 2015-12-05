@@ -1,11 +1,102 @@
+// Profile
+// ============
+//
+// The content of this file holds the styles for the profile.
+
+html {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	height: 100%;
+	margin: 0;
+	width: 100%;
+}
+
+// Import the background styles.
+@import "_background";
+
+// Import the colors.
+@import "_colors";
+
+// Import the measures.
+@import "_measures";
+
+// Import the typography's.
+@import "_typos";
+
+#wrapper {
+    text-align: center;
+    width: 100%;
+}
+
+/* Import the "top bar" styles. */
+@import "top-bar";
+
+.info-container {
+    background-color: $post-background-color;
+    border-radius: $post-border-radius;
+    display: none;
+    height: $post-height;
+    left: 50%;
+    margin-left: -1 * ($post-width / 2);
+    margin-top: -1 * $post-height / 2;
+    position: absolute;
+    top: 50%;
+    width: $post-width;
+}
+
+/* Import the styles for the circle profile pic. */
+@import "circle-profile-pic";
+
+#profile-header {
+    display: table;
+    float: left;
+    height: 140px;
+    width: 100%;
+
+    .col {
+        display: table-cell;
+        vertical-align: middle;
+    }
+
+    #profile-pic {
+        width: 33.33%;
+    }
+
+    #profile-data {
+        padding-left: 10px;
+        padding-right: 10px;
+        width: calc(66.67% - 20px);
+
+        label {
+            color: $profile-name-font-color;
+            display: block;
+            font-family: $open-sans-typography;
+			font-size: $profile-name-font-size;
+			text-align: left;
+		}
+
+		p {
+            color: $profile-comment-font-color;
+            display: block;
+			font-family: $open-sans-typography;
+			font-size: $profile-comment-font-size;
+			margin: 0;
+            text-align: left;
+        }
+    }
+}
+
 ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
 }
 
 li a {
-  display: block;
-  width: 60px;
-  background-color: #dddddd;
+	display: block;
+	width: 60px;
+	background-color: #dddddd;
 }
