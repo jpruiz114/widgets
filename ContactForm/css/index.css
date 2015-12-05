@@ -1,21 +1,10 @@
-body {
-  /* Location of the image */
-  background-image: url("../assets/images/background-image.jpg");
-  /* Image is centered vertically and horizontally at all times */
-  background-position: center center;
-  /* Image doesn't repeat */
-  background-repeat: no-repeat;
-  /* Makes the image fixed in the viewport so that it doesn't move when the content height is greater than the image height */
-  background-attachment: fixed;
-  /* This is what makes the background image rescale based on its container's size */
-  background-size: cover;
-  /* Pick a solid background color that will be displayed while the background image is loading */
-  background-color: #d6c49c; }
+html {
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  background: url("../assets/images/background-image.jpg") no-repeat center center fixed;
+  background-size: cover; }
 
-/* For mobile devices */
-@media only screen and (max-width: 767px) {
-  body {
-    background-image: url("../assets/images/background-image-for-mobile.jpg"); } }
 /*@import "mobile-viewport";*/
 body {
   margin: 0; }
