@@ -58,8 +58,6 @@ if (!empty($params)) {
                     app.setBasePath("<?php echo $basePath; ?>");
 
                     app.initialize(chosenLang);
-
-                    
                 } // End of the function.
             );
         </script>
