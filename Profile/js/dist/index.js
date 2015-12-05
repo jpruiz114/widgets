@@ -17,6 +17,9 @@ var app = {
             app.defineLanguage();
         }
 
+        // Load the defined language.
+        app.loadLanguage();
+
         $("#profile-container").show();
     },
 
