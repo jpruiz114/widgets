@@ -24,7 +24,7 @@ var app = {
         app.loadConfig();
 
         // Load the given profile.
-        var postLoaded = app.loadPost(chosenId);
+        var postLoaded = app.loadProfile(chosenId);
 
         if (postLoaded) {
             // Gracefully show the post container.
@@ -161,6 +161,50 @@ var app = {
         }
 
         return imageLoaded;
+    },
+
+    /**
+     *
+     * @param chosenId
+     * @returns {*}
+     */
+    loadProfile: function(chosenId) {
+        if(!chosenId){
+            chosenId = app.DEFAULT_POST_ID;
+        }
+
+        var postInfoPath = app.getBasePath() + app.profilesInfoLocation + "profile_" + chosenId + ".json";
+
+        var postLoaded;
+
+        $.ajax({
+            async: false,
+            global: false,
+            url: postInfoPath,
+            dataType: "json",
+            error: function() {
+                postLoaded = false;
+            },
+            success: function(data) {
+                var profilePic = data.info["profile-pic"];
+
+                var profilePicPath = app.getBasePath() + app.profilePicsLocation + profilePic;
+
+                var profilePicLoaded = app.preloadImage(profilePicPath);
+
+                if (profilePicLoaded) {
+                    $("#profile-pic").css("background-image", "url(" + profilePicPath + ")");
+                } else {
+                    //@todo: Handle this.
+                }
+
+                
+
+                postLoaded = true;
+            }
+        });
+
+        return postLoaded;
     },
 
     /**
