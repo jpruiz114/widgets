@@ -1,6 +1,6 @@
 body {
   background-attachment: fixed;
-  background-color: #464646;
+  background-color: #d4b48e;
   background-image: url("../assets/images/background-image.jpg");
   background-position: center center;
   background-repeat: no-repeat;
@@ -8,7 +8,8 @@ body {
 
 @media only screen and (max-width: 767px) {
   body {
-    background-image: url("../assets/images/background-image-for-mobile.jpg"); } }
+    background-color: #d4b48e;
+    background-image: none; } }
 /*@import "mobile-viewport";*/
 body {
   margin: 0; }
