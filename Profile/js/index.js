@@ -28,10 +28,10 @@ var app = {
 
         if (profileLoaded) {
             // Gracefully show the post container.
-            $("#post-container").fadeIn();
+            $("#profile-container").fadeIn();
         } else {
             // Show a message indicating that the requested post could not be found.
-            $("#post-not-found").fadeIn();
+            $("#profile-not-found").fadeIn();
         }
     },
 
