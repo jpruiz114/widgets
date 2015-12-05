@@ -50,6 +50,8 @@ var app = {
                 $.each(
                     data.options,
                     function(index, currentOption) {
+                        
+
                         newOption = [];
 
                         newOption["name"] = currentOption["name"];
