@@ -27,7 +27,7 @@ ul {
 
 /* Create a horizontal list with spacing */
 li {
-  	display:inline-block;
+  	display: inline-block;
   	float: left;
   	margin-right: 1px;
 }
@@ -39,7 +39,7 @@ li a {
     display: block;
     font-family: $menu-item-font-family;
     font-weight: bold;
-    height: 50px;
+    height: $menu-item-height;
     line-height: 50px;
     min-width: 140px;
   	text-align: center;
@@ -50,9 +50,10 @@ li a {
 /* Hover state for top level links */
 li:hover a {
   	background: $menu-item-background-hover-color;
-    border-bottom-width: $menu-item-bottom-border-size;
-    border-bottom-style: solid;
     border-bottom-color: $menu-item-bottom-border-color;
+    border-bottom-style: solid;
+    border-bottom-width: $menu-item-bottom-border-size;
+    height: $menu-item-height - $menu-item-bottom-border-size;
 }
 
 /* Style for dropdown links */
