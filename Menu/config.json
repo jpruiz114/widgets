@@ -1,8 +1,8 @@
 {
   "options": [
-    {"name": "check-in", "text": "CHECK IN", "icon": "fa-map-marker", "notifications": 3, "target": "_self"},
-    {"name": "events", "text": "EVENTS", "icon": "fa-heart", "notifications": 0, "target": "_self"},
-    {"name": "account", "text": "ACCOUNT", "icon": "fa-user", "notifications": 0, "target": "_self"},
-    {"name": "settings", "text": "SETTINGS", "icon": "fa-cog", "notifications": 0, "target": "_self"}
+    {"name": "check-in", "text": "CHECK IN", "icon": "fa-map-marker", "notifications": 3, "target": "_self", "location": "#"},
+    {"name": "events", "text": "EVENTS", "icon": "fa-heart", "notifications": 0, "target": "_self", "location": "#"},
+    {"name": "account", "text": "ACCOUNT", "icon": "fa-user", "notifications": 0, "target": "_self", "location": "#"},
+    {"name": "settings", "text": "SETTINGS", "icon": "fa-cog", "notifications": 0, "target": "_self", "location": "#"}
   ]
 }

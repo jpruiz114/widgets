@@ -4,6 +4,8 @@ var app = {
      */
     initialize: function () {
         app.loadConfiguration();
+
+        app.buildMenu();
     },
 
     /**
@@ -59,11 +61,59 @@ var app = {
                         newOption["icon"] = currentOption["icon"];
                         newOption["notifications"] = currentOption["notifications"];
                         newOption["target"] = currentOption["target"];
+                        newOption["location"] = currentOption["location"];
 
                         app.listOfOptions[index] = newOption;
                     }
                 );
             }
         });
+    },
+
+    /**
+     * Function that builds the menu.
+     */
+    buildMenu: function() {
+        var i;
+
+        var currentOption;
+
+        var name;
+        var text;
+        var icon;
+        var notifications;
+        var target;
+
+        var html;
+
+        for (i = 0; i<app.listOfOptions.length; i++) {
+            currentOption = listOfOptions[i];
+
+            name = currentOption["name"];
+            text = currentOption["text"];
+            icon = currentOption["icon"];
+            notifications = currentOption["notifications"];
+            target = currentOption["target"];
+            location = currentOption["location"];
+
+            html = "";
+            html += "<li>";
+                html += "<a href='" + (location) + "' name='" + (name ? name : "element_" + i) + "' target='" + (target ? target : "_self") + "'>";
+
+                if (icon) {
+                    html += "<i class='fa " + icon + "'></i>";
+                }
+
+                html += text;
+
+                if (notifications) {
+                    html += "<span class='notification-counter'>" + notifications + "</span>";
+                }
+
+                html += "</a>";
+            html += "</li>";
+
+            $("#menu").append(html);
+        }
     }
 };

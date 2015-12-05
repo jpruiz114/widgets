@@ -48,5 +48,5 @@ module.exports = function(grunt) {
 		}
 	});
 	
-	grunt.registerTask("default", ["jsonlint", "jsvalidate", /*"removelogging",*/ "sass"]);
+	grunt.registerTask("default", ["jsonlint", "jsvalidate", "removelogging", "sass"]);
 };
