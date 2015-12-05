@@ -8,6 +8,12 @@
 
 @import "_typos";
 
+/* Override for the font awesome icons */
+
+.fa {
+    margin-right: 10px;
+}
+
 /* Strip the ul of padding and list styling */
 ul {
     background-color: $menu-item-separator-color;

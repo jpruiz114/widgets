@@ -9,6 +9,10 @@ body {
 @media only screen and (max-width: 767px) {
   body {
     background-image: url("../assets/images/background-image-for-mobile.jpg"); } }
+/* Override for the font awesome icons */
+.fa {
+  margin-right: 10px; }
+
 /* Strip the ul of padding and list styling */
 ul {
   background-color: #f6f0ec;
