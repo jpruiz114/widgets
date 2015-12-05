@@ -91,7 +91,7 @@ if (!empty($params)) {
 
             <div class="info-container" id="profile-container">
                 <div id="profile-header">
-                    <div class="col" id="profile-pic">
+                    <div class="col" id="profile-pic-container">
                         <div class="circle" id="profile-pic"></div>
                     </div>
 

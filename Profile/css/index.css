@@ -76,7 +76,7 @@ body {
 #profile-header .col {
   display: table-cell;
   vertical-align: middle; }
-#profile-header #profile-pic {
+#profile-header #profile-pic-container {
   width: 33.33%; }
 #profile-header #profile-data {
   padding-left: 10px;
