@@ -7,6 +7,8 @@
     "unfollow": "Dejar de seguir",
     "comment": "Comentar",
     "like": "Me gusta",
-    "unlike": "Ya no me gusta"
+    "unlike": "Ya no me gusta",
+
+    "post-not-found": ":( La publicación indicada no pudo ser cargada."
   }
 }

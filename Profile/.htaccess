@@ -1,0 +1,8 @@
+# This will allow to hide the index.php from the URL and pass the language for SEO purposes.
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^ index.php [QSA,L]
+
+# This adds a MIME Type to handle SVG files
+AddType image/svg+xml svg
+AddType image/svg+xml svgz

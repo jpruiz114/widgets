@@ -7,6 +7,8 @@
     "unfollow": "Unollow",
     "comment": "Comment",
     "like": "Like",
-    "unlike": "Unlike"
+    "unlike": "Unlike",
+
+    "post-not-found": ":( The requested post could not be found."
   }
 }

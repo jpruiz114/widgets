@@ -42,7 +42,7 @@ body {
   font-size: 12px;
   text-decoration: none; }
 
-#post-container {
+#info-container {
   background-color: #ffffff;
   border-radius: 5px;
   display: none;
@@ -162,5 +162,10 @@ body {
   /* Rules below not implemented in browsers yet */
   -o-user-select: none;
   user-select: none; }
+
+#post-not-found {
+  text-align: center; }
+#post-not-found .fa {
+  font-size: 4em; }
 
 /*# sourceMappingURL=index.css.map */

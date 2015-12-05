@@ -4,6 +4,9 @@ var app = {
 	 */
 	initialize: function(chosenLang, chosenId) {
 		if (chosenLang) {
+			// Verify if the requested lang is actually supported. If not, use the default one.
+			chosenLang = app.failSafeChosenLang(chosenLang);
+
 			// It wont make any sense to show the link for the current lang.
 			app.hideLanguageLinkNotNeeded(chosenLang);
 
@@ -24,14 +27,29 @@ var app = {
 		app.setupBottomLinkHandlers();
 
 		// Load the given profile.
-		var profileLoaded = app.loadProfile(chosenId);
+		var postLoaded = app.loadPost(chosenId);
 
-		if (profileLoaded) {
+		if (postLoaded) {
 			// Gracefully show the post container.
 			$("#post-container").fadeIn();
 		} else {
-
+			// Show a message indicating that the requested post could not be found.
+			$("#post-not-found").fadeIn();
 		}
+	},
+
+	/**
+	 * Function that validates if the requested language is actually supported. If not, provides the default one.
+	 * @param chosenLang
+	 */
+	failSafeChosenLang: function(chosenLang) {
+		var resultLang;
+
+		if (chosenLang != app.LANGUAGE_CODE_FOR_ENGLISH && chosenLang != app.LANGUAGE_CODE_FOR_SPANISH) {
+			resultLang = app.DEFAULT_LANGUAGE;
+		}
+
+		return resultLang;
 	},
 
 	/**
@@ -58,7 +76,7 @@ var app = {
 	/**
 	 *
 	 */
-	profilesInfoLocation: "",
+	postsInfoLocation: "",
 
 	/**
 	 *
@@ -95,7 +113,7 @@ var app = {
 			url: app.getBasePath() + "/config.json",
 			dataType: "json",
 			error: function() {
-				app.profilesInfoLocation = app.PROFILES_INFO_LOCATION_DEFAULT;
+				app.postsInfoLocation = app.PROFILES_INFO_LOCATION_DEFAULT;
 
 				app.postImagesLocation = app.POST_IMAGES_LOCATION_DEFAULT;
 
@@ -105,8 +123,8 @@ var app = {
 				$.each(
 					data.config,
 					function(index, element) {
-						if (element.name == "profiles-info-location") {
-							app.profilesInfoLocation = element.value;
+						if (element.name == "posts-info-location") {
+							app.postsInfoLocation = element.value;
 						}
 
 						if (element.name == "post-images-location") {
@@ -119,8 +137,8 @@ var app = {
 					}
 				);
 
-				if (!app.profilesInfoLocation) {
-					app.profilesInfoLocation = app.PROFILES_INFO_LOCATION_DEFAULT;
+				if (!app.postsInfoLocation) {
+					app.postsInfoLocation = app.PROFILES_INFO_LOCATION_DEFAULT;
 				}
 
 				if (!app.postImagesLocation) {
@@ -137,7 +155,7 @@ var app = {
 	/**
 	 *
 	 */
-	DEFAULT_PROFILE_ID: "1",
+	DEFAULT_POST_ID: "1",
 
 	/**
 	 * Function that preloads an image.
@@ -171,22 +189,22 @@ var app = {
 	 * @param chosenId
 	 * @returns {*}
 	 */
-	loadProfile: function(chosenId) {
+	loadPost: function(chosenId) {
 		if(!chosenId){
-			chosenId = app.DEFAULT_PROFILE_ID;
+			chosenId = app.DEFAULT_POST_ID;
 		}
 
-		var profileInfoPath = app.getBasePath() + app.profilesInfoLocation + "profile_" + chosenId + ".json";
+		var postInfoPath = app.getBasePath() + app.postsInfoLocation + "post_" + chosenId + ".json";
 
-		var profileLoaded;
+		var postLoaded;
 
 		$.ajax({
 			async: false,
 			global: false,
-			url: profileInfoPath,
+			url: postInfoPath,
 			dataType: "json",
 			error: function() {
-				profileLoaded = false;
+				postLoaded = false;
 			},
 			success: function(data) {
 				var postPhoto = data.info["post-photo"];
@@ -228,11 +246,11 @@ var app = {
 				var likesNumber = data.info["likes-number"];
 				$("#like-label").html(likesNumber);
 
-				profileLoaded = true;
+				postLoaded = true;
 			}
 		});
 
-		return profileLoaded;
+		return postLoaded;
 	},
 
 	/**

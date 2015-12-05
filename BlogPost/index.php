@@ -89,7 +89,7 @@ if (!empty($params)) {
                 </ul>
             </div>
 
-            <div id="post-container">
+            <div class="info-container" id="post-container">
                 <div id="post-picture">
                     <img alt="Post picture" id="post-pic" />
                 </div>
@@ -131,6 +131,12 @@ if (!empty($params)) {
                         </div>
                     </div>
                 </div>
+            </div>
+
+            <div class="info-container" id="post-not-found">
+                <i class="fa fa-alert"></i>
+
+                <p data-i18n="blog-post.post-not-found"></p>
             </div>
         </div>
     </body>

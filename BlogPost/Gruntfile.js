@@ -12,7 +12,7 @@ module.exports = function(grunt) {
 				src: ["config.json"]
 			},
 			checkProfilesInfo: {
-				src: ["info/profile_1.json", "info/profile_2.json", "info/profile_3.json"]
+				src: ["info/post_1.json", "info/post_2.json", "info/post_3.json"]
 			},
 			checkLocales: {
 				src: ["locales/dev/translation.json", "locales/en/translation.json", "locales/es/translation.json"]

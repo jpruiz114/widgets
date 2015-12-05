@@ -18,3 +18,4 @@ http://jeanpaulruizvallejo.com/frontend-test/BlogPost/es/
 http://jeanpaulruizvallejo.com/frontend-test/BlogPost/es/1
 http://jeanpaulruizvallejo.com/frontend-test/BlogPost/es/2
 http://jeanpaulruizvallejo.com/frontend-test/BlogPost/es/3
+

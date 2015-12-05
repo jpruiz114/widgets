@@ -27,7 +27,7 @@ body {
 /* Import the "top bar" styles. */
 @import "top-bar";
 
-#post-container {
+#info-container {
   	background-color: $post-background-color;
   	border-radius: $post-border-radius;
   	display: none;
@@ -164,4 +164,12 @@ body {
 	/* Rules below not implemented in browsers yet */
 	-o-user-select: none;
 	user-select: none;
+}
+
+#post-not-found {
+  	text-align: center;
+
+	.fa {
+	  	font-size: 4em;
+	}
 }

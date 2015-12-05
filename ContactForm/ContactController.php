@@ -11,6 +11,8 @@ $subject = $_POST["subject"];
 $message = $_POST["message"];
 
 // Create a new mandrill instance with the api key.
+
+// @todo: Move this key to a config file.
 $mandrill = new Mandrill("mn2dUPYU9HebzLC4q3_NXQ");
 
 // Convert the string of addresses to an array.

@@ -4,6 +4,9 @@ var app = {
 	 */
 	initialize: function(chosenLang) {
 		if (chosenLang) {
+			// Verify if the requested lang is actually supported. If not, use the default one.
+			chosenLang = app.failSafeChosenLang(chosenLang);
+
 			// It wont make any sense to show the link for the current lang.
 			app.hideLanguageLinkNotNeeded(chosenLang);
 
@@ -48,6 +51,20 @@ var app = {
 
 		// Gracefully show the form.
 		$("#form-container").fadeIn("slow");
+	},
+
+	/**
+	 * Function that validates if the requested language is actually supported. If not, provides the default one.
+	 * @param chosenLang
+	 */
+	failSafeChosenLang: function(chosenLang) {
+		var resultLang;
+
+		if (chosenLang != app.LANGUAGE_CODE_FOR_ENGLISH && chosenLang != app.LANGUAGE_CODE_FOR_SPANISH) {
+			resultLang = app.DEFAULT_LANGUAGE;
+		}
+
+		return resultLang;
 	},
 
 	/**

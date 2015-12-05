@@ -1,0 +1,5 @@
+# Exclude the sass cache folder generated when the scss files are compiled
+.sass-cache
+
+# Exclude the node_modules folder
+node_modules
