@@ -1,3 +1,18 @@
+// Menu
+// ============
+//
+// The content of this file holds the styles for the menu.
+
+html {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	height: 100%;
+	width: 100%;
+}
+
 #menu-container {
 
 }
@@ -156,11 +171,11 @@ input[type=checkbox]:checked ~ #menu{
   	}
 
   	li:first-child a {
-		border: none;
+		border-radius: 0;
   	}
 
   	li:last-child a {
-		border: none;
+		border-radius: 0;
   	}
 
   	/* Make all menu links full width */

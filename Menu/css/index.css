@@ -1,3 +1,11 @@
+html {
+  height: 100%;
+  width: 100%; }
+
+body {
+  height: 100%;
+  width: 100%; }
+
 body {
   background-attachment: fixed;
   background-color: #d4b48e;
@@ -133,10 +141,10 @@ input[type=checkbox]:checked ~ #menu {
     margin-bottom: 1px; }
 
   li:first-child a {
-    border: none; }
+    border-radius: 0; }
 
   li:last-child a {
-    border: none; }
+    border-radius: 0; }
 
   /* Make all menu links full width */
   ul li, li a {
