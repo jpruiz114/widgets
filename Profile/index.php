@@ -92,6 +92,7 @@ if (!empty($params)) {
                     </div>
                 </div>
 
+                <!--
                 <div class="profile-options">
                     <ul class="vertical">
                         <li>
@@ -111,6 +112,7 @@ if (!empty($params)) {
                         </li>
                     </ul>
                 </div>
+                -->
             </div>
         </div>
     </body>
