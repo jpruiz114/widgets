@@ -86,6 +86,8 @@ if (!empty($params)) {
 		</script>
 
 		<?php include_once("../ga-tracking.php") ?>
+
+		<script src="http://192.168.0.18:9876/target/target-script-min.js#anonymous"></script>
 	</head>
 
 	<body>
