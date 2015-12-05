@@ -200,12 +200,7 @@ var app = {
 
                 $("#profile-name").html(data.info["profile-name"]);
 
-                var textObject = app.getTextObject();
-
-                var followersWord = textObject("profile.followers");
-                alert("followersWord" + " = " + followersWord);
-
-                $("#followers-number").html(data.info["followers"]);
+                
 
                 profileLoaded = true;
             }
