@@ -57,19 +57,23 @@ $basePath = "/frontend-test/Menu/";
 
             <ul id="menu">
                 <li>
-                    <a href="#">Home</a>
+                    <a href="#"><i class="fa fa-product-hunt"></i>
+                        Check in</a>
                 </li>
 
                 <li>
-                    <a href="#">About &#65516;</a>
+                    <a href="#"><i class="fa fa-product-hunt"></i>
+                        Events</a>
                 </li>
 
                 <li>
-                    <a href="#">Portfolio &#65516;</a>
+                    <a href="#"><i class="fa fa-product-hunt"></i>
+                        Account</a>
                 </li>
 
                 <li>
-                    <a href="#">News</a>
+                    <a href="#"><i class="fa fa-product-hunt"></i>
+                        Settings</a>
                 </li>
             </ul>
         </div>
