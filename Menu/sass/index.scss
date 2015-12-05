@@ -35,10 +35,6 @@ ul {
   	position: absolute;
 }
 
-ul:last-child li {
-	border-right: none;
-}
-
 /* Create a horizontal list with spacing */
 li {
   	border-right-color: $menu-item-separator-color;
@@ -46,6 +42,10 @@ li {
   	border-right-width: 1px;
   	display: inline-block;
   	float: left;
+}
+
+li:last-child {
+	border-right: none;
 }
 
 /* Style for menu links */

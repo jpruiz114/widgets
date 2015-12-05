@@ -30,9 +30,6 @@ ul {
   padding: 0;
   position: absolute; }
 
-ul:last-child li {
-  border-right: none; }
-
 /* Create a horizontal list with spacing */
 li {
   border-right-color: #f6f0ec;
@@ -40,6 +37,9 @@ li {
   border-right-width: 1px;
   display: inline-block;
   float: left; }
+
+li:last-child {
+  border-right: none; }
 
 /* Style for menu links */
 li a {
