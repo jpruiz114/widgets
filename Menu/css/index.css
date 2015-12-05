@@ -25,7 +25,6 @@ body {
 
 /* Strip the ul of padding and list styling */
 ul {
-  background-color: #f6f0ec;
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -33,9 +32,11 @@ ul {
 
 /* Create a horizontal list with spacing */
 li {
+  border-right-color: #f6f0ec;
+  border-right-style: solid;
+  border-right-width: 1px;
   display: inline-block;
-  float: left;
-  margin-right: 1px; }
+  float: left; }
 
 /* Style for menu links */
 li a {
@@ -50,6 +51,14 @@ li a {
   text-align: center;
   text-decoration: none;
   text-transform: uppercase; }
+
+li a:first-child {
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px; }
+
+li a:last-child {
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px; }
 
 /* Hover state for top level links */
 li:hover a {
