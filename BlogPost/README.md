@@ -138,9 +138,7 @@ Inside the **tasks** folder other shell scripts can be found.
 There are several shell scripts for:
 
 * Bower
-* Composer
 * git
-* recess
 
 The shell scripts for **Bower** allow to:
 
@@ -148,20 +146,9 @@ The shell scripts for **Bower** allow to:
 * List the current dependencies
 * Install & update dependencies
 
-The shell scripts for **Composer** allow to:
-
-* Download the phar file
-* Install the dependencies
-* Update the dependencies
-
 The shell scripts for **git** allow to:
 
 * Push the current changes to the repo with a custom or generic comment.
-
-The shell scripts for **recess** allow to:
-
-* Compile the less files for the bootstrap tokenizer
-* See the current less compiler version
 
 ## Accessibility Evaluation
 
