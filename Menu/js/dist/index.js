@@ -45,12 +45,10 @@ var app = {
                 // @todo
             },
             success: function(data) {
-                var options = data.options;
-
                 var newOption;
 
                 $.each(
-                    options,
+                    data.options,
                     function(index, currentOption) {
                         newOption = [];
 
