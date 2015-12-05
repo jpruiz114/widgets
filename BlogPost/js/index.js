@@ -155,11 +155,6 @@ var app = {
 	},
 
 	/**
-	 *
-	 */
-	DEFAULT_POST_ID: "1",
-
-	/**
 	 * Function that preloads an image.
 	 * @param path
 	 * @returns {boolean}
@@ -185,6 +180,11 @@ var app = {
 
 		return imageLoaded;
 	},
+
+	/**
+	 *
+	 */
+	DEFAULT_POST_ID: "1",
 
 	/**
 	 *

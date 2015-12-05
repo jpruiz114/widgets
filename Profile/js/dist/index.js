@@ -132,11 +132,6 @@ var app = {
     },
 
     /**
-     *
-     */
-    DEFAULT_POST_ID: "1",
-
-    /**
      * Function that preloads an image.
      * @param path
      * @returns {boolean}
@@ -165,12 +160,17 @@ var app = {
 
     /**
      *
+     */
+    DEFAULT_PROFILE_ID: "1",
+
+    /**
+     *
      * @param chosenId
      * @returns {*}
      */
     loadProfile: function(chosenId) {
         if(!chosenId){
-            chosenId = app.DEFAULT_POST_ID;
+            chosenId = app.DEFAULT_PROFILE_ID;
         }
 
         var postInfoPath = app.getBasePath() + app.profilesInfoLocation + "profile_" + chosenId + ".json";
