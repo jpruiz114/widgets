@@ -33,8 +33,9 @@ if (!empty($params)) {
 		<meta name="robots" content="index, follow">
 		
 		<meta name="revisit-after" content="7 days">
-		
-		<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
+
+		<!-- PT Sans is a close match to the popular Myriad Pro -->
+		<link href='//fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
 		
 		<link rel="stylesheet" type="text/css" href="<?php echo $basePath; ?>css/index.css">
 		

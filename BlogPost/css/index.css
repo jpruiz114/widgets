@@ -39,7 +39,7 @@ body {
   list-style: none; }
 #top-bar .langs-link {
   color: #636363;
-  font-family: "Open Sans";
+  font-family: "PT Sans", sans-serif;
   font-size: 12px;
   text-decoration: none; }
 
@@ -95,13 +95,13 @@ body {
 #post-author #post-author-data label {
   color: #5c5146;
   display: block;
-  font-family: "Open Sans";
+  font-family: "PT Sans", sans-serif;
   font-size: 28px;
   text-align: left; }
 #post-author #post-author-data p {
   color: #8e8071;
   display: block;
-  font-family: "Open Sans";
+  font-family: "PT Sans", sans-serif;
   font-size: 13px;
   margin: 0;
   text-align: left; }
