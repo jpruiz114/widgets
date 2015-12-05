@@ -1,5 +1,18 @@
 {
   "config": {
-    
+    "options": {
+      "option": {
+        "name": "check-in", "text": "CHECK IN", "icon": "fa-map-marker"
+      },
+      "option": {
+        "name": "events", "text": "EVENTS", "icon": "fa-heart"
+      },
+      "option": {
+        "name": "account", "text": "ACCOUNT", "icon": "fa-user"
+      },
+      "option": {
+        "name": "settings", "text": "SETTINGS", "icon": "fa-cog"
+      }
+    }
   }
 }
