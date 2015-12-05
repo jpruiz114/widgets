@@ -6,43 +6,43 @@ Live links:
 
 Not indicating the language and the post id will load the post 1 and will detect the language from the browser:
 
-http://jeanpaulruizvallejo.com/frontend-test/BlogPost/
+:link: http://jeanpaulruizvallejo.com/frontend-test/BlogPost/
 
 Not indicating the language but indicating the id will load the given post with the browser language:
 
-http://jeanpaulruizvallejo.com/frontend-test/BlogPost/1
+:link: http://jeanpaulruizvallejo.com/frontend-test/BlogPost/1
 
-http://jeanpaulruizvallejo.com/frontend-test/BlogPost/2
+:link: http://jeanpaulruizvallejo.com/frontend-test/BlogPost/2
 
-http://jeanpaulruizvallejo.com/frontend-test/BlogPost/3
+:link: http://jeanpaulruizvallejo.com/frontend-test/BlogPost/3
 
 Not indicating the post id but the language will load the post 1 with the given language:
 
-http://jeanpaulruizvallejo.com/frontend-test/BlogPost/en/
+:us: http://jeanpaulruizvallejo.com/frontend-test/BlogPost/en/
 
-http://jeanpaulruizvallejo.com/frontend-test/BlogPost/es/
+:es: http://jeanpaulruizvallejo.com/frontend-test/BlogPost/es/
 
 Indicating the language and the post id will load the given post with the given language:
 
-http://jeanpaulruizvallejo.com/frontend-test/BlogPost/en/1
+:us: http://jeanpaulruizvallejo.com/frontend-test/BlogPost/en/1
 
-http://jeanpaulruizvallejo.com/frontend-test/BlogPost/en/2
+:us: http://jeanpaulruizvallejo.com/frontend-test/BlogPost/en/2
 
-http://jeanpaulruizvallejo.com/frontend-test/BlogPost/en/3
+:us: http://jeanpaulruizvallejo.com/frontend-test/BlogPost/en/3
 
-http://jeanpaulruizvallejo.com/frontend-test/BlogPost/es/1
+:es: http://jeanpaulruizvallejo.com/frontend-test/BlogPost/es/1
 
-http://jeanpaulruizvallejo.com/frontend-test/BlogPost/es/2
+:es: http://jeanpaulruizvallejo.com/frontend-test/BlogPost/es/2
 
-http://jeanpaulruizvallejo.com/frontend-test/BlogPost/es/3
+:es: http://jeanpaulruizvallejo.com/frontend-test/BlogPost/es/3
 
 A post that doesn't exist will give a default message. For example:
 
-http://jeanpaulruizvallejo.com/frontend-test/BlogPost/1234
+:link: http://jeanpaulruizvallejo.com/frontend-test/BlogPost/1234
 
-http://jeanpaulruizvallejo.com/frontend-test/BlogPost/en/1234
+:us: http://jeanpaulruizvallejo.com/frontend-test/BlogPost/en/1234
 
-http://jeanpaulruizvallejo.com/frontend-test/BlogPost/es/1234
+:es: http://jeanpaulruizvallejo.com/frontend-test/BlogPost/es/1234
 
 If a non supported language is provided, english will be used as default.
 
