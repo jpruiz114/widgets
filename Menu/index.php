@@ -60,7 +60,7 @@ $basePath = "/frontend-test/Menu/";
                     <a href="#">
                         <i class="fa fa-map-marker"></i>
                         Check in
-                        <div class="circle">3</div>
+                        <div class="circle-bubble">3</div>
                     </a>
                 </li>
 
