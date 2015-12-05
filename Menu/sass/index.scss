@@ -35,6 +35,10 @@ ul {
   	position: absolute;
 }
 
+ul:last-child li {
+	border-right: none;
+}
+
 /* Create a horizontal list with spacing */
 li {
   	border-right-color: $menu-item-separator-color;
