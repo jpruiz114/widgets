@@ -168,6 +168,8 @@ body {
 
 #post-not-found {
   	font-family: $bottom-icons-font-family;
+  	height: $post-height - $padding-top-post-not-found;
+  	padding-top: $padding-top-post-not-found;
   	text-align: center;
 
 	.fa {

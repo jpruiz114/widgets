@@ -165,6 +165,8 @@ body {
 
 #post-not-found {
   font-family: "PT Sans", sans-serif;
+  height: 300px;
+  padding-top: 92px;
   text-align: center; }
 #post-not-found .fa {
   font-size: 4em; }
