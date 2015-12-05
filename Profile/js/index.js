@@ -198,7 +198,11 @@ var app = {
                     //@todo: Handle this.
                 }
 
-                
+                $("#profile-name").html(data.info["profile-name"]);
+
+                var textObject = app.getTextObject();
+
+                $("#followers-number").html(textObject["followers"] + " " + data.info["followers"]);
 
                 profileLoaded = true;
             }

@@ -3,6 +3,8 @@
 	"english-website": "English",
 	"spanish-website": "Spanish",
 
+    "followers": "Followers",
+
     "profile-not-found": ":( The requested profile could not be found."
   }
 }

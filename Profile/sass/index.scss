@@ -72,19 +72,19 @@ body {
         width: calc(60% - 20px);
 
         p {
-            color: $profile-comment-font-color;
+            color: $profile-name-font-color;
             display: block;
-			font-family: $open-sans-typography;
-			font-size: $profile-comment-font-size;
+			font-family: $profile-name-font-family;
+			font-size: $profile-name-font-size;
 			margin: 0;
             text-align: left;
         }
 
         label {
-            color: $profile-name-font-color;
+            color: $profile-followers-font-color;
             display: block;
-            font-family: $open-sans-typography;
-            font-size: $profile-name-font-size;
+            font-family: $profile-followers-font-family;
+            font-size: $profile-followers-font-size;
             text-align: left;
         }
     }
