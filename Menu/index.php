@@ -54,23 +54,7 @@ $basePath = "/frontend-test/Menu/";
             <input type="checkbox" id="show-menu" role="button">
 
             <ul id="menu">
-                <li>
-                    <a href="#">
-                        <i class="fa fa-map-marker"></i>Check in<span class="notification-counter">3</span>
-                    </a>
-                </li>
-
-                <li>
-                    <a href="#"><i class="fa fa-heart"></i>Events</a>
-                </li>
-
-                <li>
-                    <a href="#"><i class="fa fa-user"></i>Account</a>
-                </li>
-
-                <li>
-                    <a href="#"><i class="fa fa-cog"></i>Settings</a>
-                </li>
+                
             </ul>
         </div>
     </body>
