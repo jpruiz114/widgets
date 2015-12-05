@@ -30,6 +30,8 @@ if (!empty($params)) {
 
         <title>Blog Post</title>
 
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
         <meta name="author" content="Jean Paul Ruiz">
 
         <meta name="description" content="This is an example of a blog post">
