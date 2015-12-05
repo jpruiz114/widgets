@@ -10,6 +10,11 @@ cd ContactForm
 grunt
 cd ..
 
+# Validate and build the assets for the Menu
+cd Menu
+grunt
+cd ..
+
 # Wait for 3 seconds
 ping 127.0.0.1 -n 3 > nul
 
