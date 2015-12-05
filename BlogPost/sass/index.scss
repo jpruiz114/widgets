@@ -15,6 +15,9 @@
 // Import the typography's.
 @import "_typos";
 
+// Import the mobile view port feature.
+@import "mobile-viewport";
+
 body {
 	margin: 0;
 }
@@ -84,7 +87,7 @@ body {
 		  	color: $post-author-comment-font-color;
 			display: block;
 		  	font-family: $open-sans-typography;
-		  	font-size: $post-author-comment-font-size;
+			  	font-size: $post-author-comment-font-size;
 		  	margin: 0;
 			text-align: left;
 	  	}
