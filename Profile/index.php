@@ -70,11 +70,11 @@ if (!empty($params)) {
             <div id="top-bar">
                 <ul class="langs">
                     <li class="langs-item">
-                        <a class="langs-link" href="/frontend-test/BlogPost/en" id="go-to-en-page" target="_self" data-i18n="[title]blog-post.english-website;blog-post.english-website"></a>
+                        <a class="langs-link" href="/frontend-test/BlogPost/en" id="go-to-en-page" target="_self" data-i18n="[title]profile.english-website;profile.english-website"></a>
                     </li>
 
                     <li class="langs-item">
-                        <a class="langs-link" href="/frontend-test/BlogPost/es" id="go-to-es-page" target="_self" data-i18n="[title]blog-post.spanish-website;blog-post.spanish-website"></a>
+                        <a class="langs-link" href="/frontend-test/BlogPost/es" id="go-to-es-page" target="_self" data-i18n="[title]profile.spanish-website;profile.spanish-website"></a>
                     </li>
                 </ul>
             </div>
