@@ -24,9 +24,9 @@ var app = {
         app.loadConfig();
 
         // Load the given profile.
-        var postLoaded = app.loadProfile(chosenId);
+        var profileLoaded = app.loadProfile(chosenId);
 
-        if (postLoaded) {
+        if (profileLoaded) {
             // Gracefully show the post container.
             $("#post-container").fadeIn();
         } else {
@@ -175,7 +175,7 @@ var app = {
 
         var postInfoPath = app.getBasePath() + app.profilesInfoLocation + "profile_" + chosenId + ".json";
 
-        var postLoaded;
+        var profileLoaded;
 
         $.ajax({
             async: false,
@@ -183,7 +183,7 @@ var app = {
             url: postInfoPath,
             dataType: "json",
             error: function() {
-                postLoaded = false;
+                profileLoaded = false;
             },
             success: function(data) {
                 var profilePic = data.info["profile-pic"];
@@ -200,11 +200,11 @@ var app = {
 
                 
 
-                postLoaded = true;
+                profileLoaded = true;
             }
         });
 
-        return postLoaded;
+        return profileLoaded;
     },
 
     /**
