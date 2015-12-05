@@ -101,28 +101,6 @@ if (!empty($params)) {
                         <p class="unselectable-text" id="followers-number" unselectable="on"></p>
                     </div>
                 </div>
-
-                <!--
-                <div class="profile-options">
-                    <ul class="vertical">
-                        <li>
-                            <a href="#"">Edit user</a>
-                        </li>
-
-                        <li>
-                            <a href="#"">Web statistics</a>
-                        </li>
-
-                        <li>
-                            <a href="#"">Upload settings</a>
-                        </li>
-
-                        <li>
-                            <a href="#"">Events</a>
-                        </li>
-                    </ul>
-                </div>
-                -->
             </div>
 
             <div class="info-container" id="profile-not-found">

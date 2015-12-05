@@ -71,7 +71,7 @@ body {
 #profile-header {
   display: table;
   float: left;
-  height: 140px;
+  height: 125px;
   width: 100%; }
 #profile-header .col {
   display: table-cell;
