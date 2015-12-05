@@ -61,7 +61,7 @@ var app = {
                         newOption["icon"] = currentOption["icon"];
                         newOption["notifications"] = currentOption["notifications"];
                         newOption["target"] = currentOption["target"];
-                        newOption["location"] = currentOption["location"];
+                        newOption["go-to-location"] = currentOption["go-to-location"];
 
                         app.listOfOptions[index] = newOption;
                     }
@@ -94,11 +94,11 @@ var app = {
             icon = currentOption["icon"];
             notifications = currentOption["notifications"];
             target = currentOption["target"];
-            location = currentOption["location"];
+            goToLocation = currentOption["go-to-location"];
 
             html = "";
             html += "<li>";
-                html += "<a href='" + (location) + "' name='" + (name ? name : "element_" + i) + "' target='" + (target ? target : "_self") + "'>";
+                html += "<a href='" + (goToLocation) + "' name='" + (name ? name : "element_" + i) + "' target='" + (target ? target : "_self") + "'>";
 
                 if (icon) {
                     html += "<i class='fa " + icon + "'></i>";

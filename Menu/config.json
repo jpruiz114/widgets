@@ -1,10 +1,10 @@
 {
   "options": [
-    {"name": "check-in", "text": "CHECK IN", "icon": "fa-map-marker", "notifications": 3, "target": "_self", "location": "#"},
-    {"name": "events", "text": "EVENTS", "icon": "fa-heart", "notifications": 0, "target": "_self", "location": "#"},
-    {"name": "account", "text": "ACCOUNT", "icon": "fa-user", "notifications": 0, "target": "_self", "location": "#"},
-    {"name": "settings", "text": "SETTINGS", "icon": "fa-cog", "notifications": 0, "target": "_self", "location": "#"},
-    {"name": "google", "text": "Google", "icon": "fa-google", "notifications": 0, "target": "_blank", "location": "https://www.google.com"},
-    {"name": "facebook", "text": "Facebook", "icon": "fa-facebook-square", "notifications": 0, "target": "_blank", "location": "https://www.facebook.com"}
+    {"name": "check-in", "text": "CHECK IN", "icon": "fa-map-marker", "notifications": 3, "target": "_self", "go-to-location": "#"},
+    {"name": "events", "text": "EVENTS", "icon": "fa-heart", "notifications": 0, "target": "_self", "go-to-location": "#"},
+    {"name": "account", "text": "ACCOUNT", "icon": "fa-user", "notifications": 0, "target": "_self", "go-to-location": "#"},
+    {"name": "settings", "text": "SETTINGS", "icon": "fa-cog", "notifications": 0, "target": "_self", "go-to-location": "#"},
+    {"name": "google", "text": "Google", "icon": "fa-google", "notifications": 0, "target": "_blank", "go-to-location": "https://www.google.com"},
+    {"name": "facebook", "text": "Facebook", "icon": "fa-facebook-square", "notifications": 0, "target": "_blank", "go-to-location": "https://www.facebook.com"}
   ]
 }
