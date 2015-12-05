@@ -58,6 +58,8 @@ if (!empty($params)) {
                     app.setBasePath("<?php echo $basePath; ?>");
 
                     app.initialize(chosenLang);
+
+                    
                 } // End of the function.
             );
         </script>
@@ -67,6 +69,18 @@ if (!empty($params)) {
 
     <body>
         <div id="wrapper">
+            <div id="top-bar">
+                <ul class="langs">
+                    <li class="langs-item">
+                        <a class="langs-link" href="/frontend-test/BlogPost/en" id="go-to-en-page" target="_self" data-i18n="[title]blog-post.english-website;blog-post.english-website"></a>
+                    </li>
+
+                    <li class="langs-item">
+                        <a class="langs-link" href="/frontend-test/BlogPost/es" id="go-to-es-page" target="_self" data-i18n="[title]blog-post.spanish-website;blog-post.spanish-website"></a>
+                    </li>
+                </ul>
+            </div>
+
             <div class="info-container" id="profile-container">
                 <div id="profile-header">
                     <div class="col" id="profile-pic">
