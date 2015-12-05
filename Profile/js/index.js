@@ -2,7 +2,7 @@ var app = {
     /**
      * Method that initializes the app.
      */
-    initialize: function (chosenLang) {
+    initialize: function(chosenLang, chosenId) {
         if (chosenLang) {
             // Verify if the requested lang is actually supported. If not, use the default one.
             chosenLang = app.failSafeChosenLang(chosenLang);
