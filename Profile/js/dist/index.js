@@ -20,7 +20,19 @@ var app = {
         // Load the defined language.
         app.loadLanguage();
 
-        $("#profile-container").show();
+        // Load the configuration.
+        app.loadConfig();
+
+        // Load the given profile.
+        var postLoaded = app.loadPost(chosenId);
+
+        if (postLoaded) {
+            // Gracefully show the post container.
+            $("#post-container").fadeIn();
+        } else {
+            // Show a message indicating that the requested post could not be found.
+            $("#post-not-found").fadeIn();
+        }
     },
 
     /**
@@ -58,6 +70,97 @@ var app = {
      */
     getBasePath: function() {
         return this.basePath;
+    },
+
+    /**
+     *
+     */
+    profilesInfoLocation: "",
+
+    /**
+     *
+     */
+    PROFILES_INFO_LOCATION_DEFAULT: "info/",
+
+    /**
+     *
+     */
+    profilePicsLocation: "",
+
+    /**
+     *
+     */
+    PROFILE_PICS_LOCATION_DEFAULT: "assets/images/profile-pics/",
+
+    /**
+     *
+     */
+    loadConfig: function() {
+        $.ajax({
+            async: false,
+            global: false,
+            url: app.getBasePath() + "/config.json",
+            dataType: "json",
+            error: function() {
+                app.profilesInfoLocation = app.PROFILES_INFO_LOCATION_DEFAULT;
+
+                app.profilePicsLocation = app.PROFILE_PICS_LOCATION_DEFAULT;
+            },
+            success: function(data) {
+                $.each(
+                    data.config,
+                    function(index, element) {
+                        if (element.name == "profiles-info-location") {
+                            app.profilesInfoLocation = element.value;
+                        }
+
+                        if (element.name == "profile-pics-location") {
+                            app.profilePicsLocation = element.value;
+                        }
+                    }
+                );
+
+                if (!app.profilesInfoLocation) {
+                    app.profilesInfoLocation = app.PROFILES_INFO_LOCATION_DEFAULT;
+                }
+
+                if (!app.profilePicsLocation) {
+                    app.profilePicsLocation = app.PROFILE_PICS_LOCATION_DEFAULT;
+                }
+            }
+        });
+    },
+
+    /**
+     *
+     */
+    DEFAULT_POST_ID: "1",
+
+    /**
+     * Function that preloads an image.
+     * @param path
+     * @returns {boolean}
+     */
+    preloadImage: function(path) {
+        var imageLoaded;
+
+        if (path) {
+            $.ajax({
+                async: false,
+                type: "GET",
+                url: path,
+                success: function(data) {
+                    imageLoaded = true;
+                },
+                error: function(error, txtStatus) {
+                    imageLoaded = false;
+                }
+            });
+        } else {
+            imageLoaded = false;
+        }
+
+        return imageLoaded;
     },
 
     /**

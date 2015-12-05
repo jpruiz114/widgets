@@ -1,5 +1,5 @@
 <?php
-$basePath = "/frontend-test/Profile/";
+$basePath = "/frontend-test/BlogPost/";
 
 // Remove the directory path we don't want
 $request = str_replace($basePath, "", $_SERVER["REQUEST_URI"]);
@@ -11,7 +11,15 @@ $lang = "";
 
 if (!empty($params)) {
     if (sizeof($params) >= 1) {
-        $lang = $params[0];
+        if (is_numeric($params[0])) {
+            $id = $params[0];
+        } else {
+            $lang = $params[0];
+        }
+
+        if (sizeof($params) >= 2) {
+            $id = $params[1];
+        }
     }
 }
 ?>
@@ -55,9 +63,11 @@ if (!empty($params)) {
                 function() {
                     var chosenLang = "<?php echo($lang); ?>";
 
+                    var chosenId = "<?php echo($id); ?>";
+
                     app.setBasePath("<?php echo $basePath; ?>");
 
-                    app.initialize(chosenLang);
+                    app.initialize(chosenLang, chosenId);
                 } // End of the function.
             );
         </script>
@@ -113,6 +123,12 @@ if (!empty($params)) {
                     </ul>
                 </div>
                 -->
+            </div>
+
+            <div class="info-container" id="post-not-found">
+                <i class="fa fa-exclamation-triangle"></i>
+
+                <p data-i18n="profile.profile-not-found"></p>
             </div>
         </div>
     </body>

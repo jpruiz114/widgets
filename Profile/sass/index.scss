@@ -101,3 +101,24 @@ li a {
 	background-color: #dddddd;
 }
 */
+
+.unselectable-text {
+    -webkit-user-select: none; /* Chrome/Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+ */
+
+    /* Rules below not implemented in browsers yet */
+    -o-user-select: none;
+    user-select: none;
+}
+
+#post-not-found {
+    font-family: $bottom-icons-font-family;
+    height: $post-height - $padding-top-post-not-found;
+    padding-top: $padding-top-post-not-found;
+    text-align: center;
+
+    .fa {
+        font-size: 10em;
+    }
+}

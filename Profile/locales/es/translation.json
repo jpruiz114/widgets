@@ -1,6 +1,8 @@
 {
   "profile": {
 	"english-website": "Inglés",
-	"spanish-website": "Español"
+	"spanish-website": "Español",
+
+    "profile-not-found": ":( El perfil solicitado no pudo ser encontrado."
   }
 }
