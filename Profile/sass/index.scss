@@ -87,6 +87,7 @@ body {
             font-family: $profile-followers-font-family;
             font-size: $profile-followers-font-size;
             text-align: left;
+            text-transform: lowercase;
         }
     }
 }

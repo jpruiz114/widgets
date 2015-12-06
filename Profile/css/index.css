@@ -96,7 +96,8 @@ body {
   color: #3a2f24;
   font-family: "PT Sans", sans-serif;
   font-size: 13px;
-  text-align: left; }
+  text-align: left;
+  text-transform: lowercase; }
 
 /*ul {
 	list-style-type: none;
