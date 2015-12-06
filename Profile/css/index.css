@@ -88,8 +88,10 @@ body {
   display: block;
   font-family: "PT Sans", sans-serif;
   font-size: 17px;
+  font-weight: bold;
   margin: 0;
-  text-align: left; }
+  text-align: left;
+  text-transform: uppercase; }
 #profile-header #profile-data label {
   color: #3a2f24;
   font-family: "PT Sans", sans-serif;

@@ -76,8 +76,10 @@ body {
             display: block;
 			font-family: $profile-name-font-family;
 			font-size: $profile-name-font-size;
+            font-weight: bold;
 			margin: 0;
             text-align: left;
+            text-transform: uppercase;
         }
 
         label {
