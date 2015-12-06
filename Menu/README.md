@@ -126,16 +126,16 @@ http://www.vischeck.com/vischeck/vischeckImage.php
 
 **Original image**
 
-![Original image](https://github.com/jpruiz114/widgets/blob/master/Menu/assets/images/color-blindness-analysis/color-blindness-analysis/original.jpg)
+![Original image](https://github.com/jpruiz114/widgets/blob/master/Menu/assets/images/color-blindness-analysis/original.jpg)
 
 **Deuteranope**
 
-![Original image](https://github.com/jpruiz114/widgets/blob/master/Menu/assets/images/color-blindness-analysis/color-blindness-analysis/deuteranope.jpg)
+![Original image](https://github.com/jpruiz114/widgets/blob/master/Menu/assets/images/color-blindness-analysis/deuteranope.jpg)
 
 **Protanope**
 
-![Original image](https://github.com/jpruiz114/widgets/blob/master/Menu/assets/images/color-blindness-analysis/color-blindness-analysis/protanope.jpg)
+![Original image](https://github.com/jpruiz114/widgets/blob/master/Menu/assets/images/color-blindness-analysis/protanope.jpg)
 
 **Tritanope**
 
-![Original image](https://github.com/jpruiz114/widgets/blob/master/Menu/assets/images/color-blindness-analysis/color-blindness-analysis/tritanope.jpg)
+![Original image](https://github.com/jpruiz114/widgets/blob/master/Menu/assets/images/color-blindness-analysis/tritanope.jpg)
