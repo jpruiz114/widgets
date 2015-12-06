@@ -110,18 +110,26 @@ if (!empty($params)) {
                     <ul>
                         <li>
                             <a data-i18n="[title]profile.edit-user;profile.edit-user"></a>
+
+                            <i class="fa fa-user"></i>
                         </li>
 
                         <li>
                             <a data-i18n="[title]profile.web-statistics;profile.web-statistics"></a>
+
+                            <i class="fa fa-bar-chart"></i>
                         </li>
 
                         <li>
                             <a data-i18n="[title]profile.upload-settings;profile.upload-settings"></a>
+
+                            <i class="fa fa-wrench"></i>
                         </li>
 
                         <li>
                             <a data-i18n="[title]profile.events;profile.events"></a>
+
+                            <i class="fa fa-map-marker"></i>
                         </li>
                     </ul>
                 </div>
