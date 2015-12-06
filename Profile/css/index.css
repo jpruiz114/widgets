@@ -125,6 +125,8 @@ body {
 #profile-options li a:hover {
   background-color: #f8f3f0;
   border-left-color: #4daf7b; }
+#profile-options li a:hover .fa {
+  color: #e55f3b; }
 #profile-options label {
   cursor: pointer; }
 #profile-options .fa {

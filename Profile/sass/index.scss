@@ -123,6 +123,10 @@ body {
     li a:hover {
         background-color: $profile-option-hover-color;
         border-left-color: $profile-option-border-left-hover-color;
+
+        .fa {
+            color: $icon-hover-color;
+        }
     }
 
     label {
