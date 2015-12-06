@@ -97,6 +97,12 @@ body {
     float: left;
     width: 100%;
 
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
     li a {
         color: $profile-option-font-color;
         display: block;

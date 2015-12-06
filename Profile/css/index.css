@@ -103,6 +103,10 @@ body {
   display: table;
   float: left;
   width: 100%; }
+#profile-options ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0; }
 #profile-options li a {
   color: #8e8071;
   display: block;
