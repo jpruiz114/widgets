@@ -113,7 +113,7 @@ body {
         margin-right: $list-option-margin-right;
         margin-top: $list-option-margin-top;
         text-align: left;
-        width: calc(80% - #{$list-option-margin-left});
+        width: calc(100% - (#{$list-option-margin-left} + #{$list-option-margin-right}));
     }
 
     .fa {
