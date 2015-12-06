@@ -109,9 +109,10 @@ if (!empty($params)) {
                 <div id="profile-options">
                     <ul>
                         <li>
-                            <a data-i18n="[title]profile.edit-user;profile.edit-user"><i class="fa fa-user"></i></a>
-
-
+                            <a data-i18n="[title]profile.edit-user">
+                                <label data-i18n="profile.edit-user"></label>
+                                <i class="fa fa-user"></i>
+                            </a>
                         </li>
 
                         <li>
