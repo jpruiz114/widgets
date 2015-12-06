@@ -121,7 +121,7 @@ body {
   width: calc(100% - (12px + 12px)); }
 #profile-options li a:hover {
   background-color: #f8f3f0;
-  border-left-color: 4daf7b;
+  border-left-color: #4daf7b;
   border-left-style: solid;
   border-left-width: 3px;
   width: calc(100% - 3px); }
