@@ -124,7 +124,7 @@ body {
   border-left-color: #4daf7b;
   border-left-style: solid;
   border-left-width: 3px;
-  width: calc(100% - 3px); }
+  width: calc(100% - (12px + 12px) + 3px); }
 #profile-options label {
   cursor: pointer; }
 #profile-options .fa {
