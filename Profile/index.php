@@ -109,28 +109,31 @@ if (!empty($params)) {
                 <div id="profile-options">
                     <ul>
                         <li>
-                            <a data-i18n="[title]profile.edit-user">
+                            <a data-i18n="[title]profile.edit-user" href="#">
                                 <label data-i18n="profile.edit-user"></label>
                                 <i class="fa fa-user"></i>
                             </a>
                         </li>
 
                         <li>
-                            <a data-i18n="[title]profile.web-statistics;profile.web-statistics"></a>
-
-                            <i class="fa fa-bar-chart"></i>
+                            <a data-i18n="[title]profile.web-statistics" href="#">
+                                <label data-i18n="profile.web-statistics"></label>
+                                <i class="fa fa-bar-chart"></i>
+                            </a>
                         </li>
 
                         <li>
-                            <a data-i18n="[title]profile.upload-settings;profile.upload-settings"></a>
-
-                            <i class="fa fa-wrench"></i>
+                            <a data-i18n="[title]profile.upload-settings" href="#">
+                                <label data-i18n="profile.upload-settings"></label>
+                                <i class="fa fa-wrench"></i>
+                            </a>
                         </li>
 
                         <li>
-                            <a data-i18n="[title]profile.events;profile.events"></a>
-
-                            <i class="fa fa-map-marker"></i>
+                            <a data-i18n="[title]profile.events" href="#">
+                                <label data-i18n="profile.events"></label>
+                                <i class="fa fa-map-marker"></i>
+                            </a>
                         </li>
                     </ul>
                 </div>
