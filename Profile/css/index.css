@@ -113,18 +113,18 @@ body {
   font-family: "PT Sans", sans-serif;
   font-size: 15px;
   padding-bottom: 12px;
-  padding-left: 12px;
-  padding-right: 12px;
+  padding-left: 20px;
+  padding-right: 20px;
   padding-top: 12px;
   text-align: left;
   text-decoration: none;
-  width: calc(100% - (12px + 12px)); }
+  width: calc(100% - (20px + 20px)); }
 #profile-options li a:hover {
   background-color: #f8f3f0;
   border-left-color: #4daf7b;
   border-left-style: solid;
   border-left-width: 3px;
-  width: calc(100% - (12px + 12px) + 3px); }
+  width: calc(100% - (20px + 20px) + 3px); }
 #profile-options label {
   cursor: pointer; }
 #profile-options .fa {
