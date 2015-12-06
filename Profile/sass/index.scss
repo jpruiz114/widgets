@@ -105,6 +105,9 @@ body {
 
     li a {
         color: $profile-option-font-color;
+        border-left-color: $profile-option-border-left-color;
+        border-left-style: solid;
+        border-left-width: $profile-option-border-left-width;
         display: table;
         font-family: $profile-option-font-family;
         font-size: $profile-option-font-size;
@@ -114,15 +117,12 @@ body {
         padding-top: $list-option-padding-top;
         text-align: left;
         text-decoration: none;
-        width: calc(100% - (#{$list-option-padding-left} + #{$list-option-padding-right}));
+        width: calc(100% - (#{$list-option-padding-left} + #{$list-option-padding-right} + 3));
     }
 
     li a:hover {
         background-color: $profile-option-hover-color;
         border-left-color: $profile-option-border-left-hover-color;
-        border-left-style: solid;
-        border-left-width: $profile-option-border-left-width;
-        width: calc(100% - (#{$list-option-padding-left} + #{$list-option-padding-right}) + #{$profile-option-border-left-width});
     }
 
     label {

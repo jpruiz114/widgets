@@ -109,6 +109,9 @@ body {
   padding: 0; }
 #profile-options li a {
   color: #8e8071;
+  border-left-color: #ffffff;
+  border-left-style: solid;
+  border-left-width: 3px;
   display: table;
   font-family: "PT Sans", sans-serif;
   font-size: 15px;
@@ -118,13 +121,10 @@ body {
   padding-top: 12px;
   text-align: left;
   text-decoration: none;
-  width: calc(100% - (20px + 20px)); }
+  width: calc(100% - (20px + 20px + 3)); }
 #profile-options li a:hover {
   background-color: #f8f3f0;
-  border-left-color: #4daf7b;
-  border-left-style: solid;
-  border-left-width: 3px;
-  width: calc(100% - (20px + 20px) + 3px); }
+  border-left-color: #4daf7b; }
 #profile-options label {
   cursor: pointer; }
 #profile-options .fa {
