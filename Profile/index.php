@@ -105,6 +105,26 @@ if (!empty($params)) {
                         </p>
                     </div>
                 </div>
+
+                <div id="profile-options">
+                    <ul>
+                        <li>
+                            <a></a>
+                        </li>
+
+                        <li>
+
+                        </li>
+
+                        <li>
+
+                        </li>
+
+                        <li>
+
+                        </li>
+                    </ul>
+                </div>
             </div>
 
             <div class="info-container" id="profile-not-found">

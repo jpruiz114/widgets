@@ -99,18 +99,17 @@ body {
   text-align: left;
   text-transform: lowercase; }
 
-/*ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-}
+#profile-options {
+  display: table;
+  float: left;
+  width: 100%; }
+#profile-options li a {
+  color: #8e8071;
+  display: block;
+  font-family: "PT Sans", sans-serif;
+  font-size: 15px;
+  width: 100%; }
 
-li a {
-	display: block;
-	width: 60px;
-	background-color: #dddddd;
-}
-*/
 .unselectable-text {
   -webkit-user-select: none;
   /* Chrome/Safari */

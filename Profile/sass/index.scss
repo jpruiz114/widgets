@@ -92,18 +92,19 @@ body {
     }
 }
 
-/*ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-}
+#profile-options {
+    display: table;
+    float: left;
+    width: 100%;
 
-li a {
-	display: block;
-	width: 60px;
-	background-color: #dddddd;
+    li a {
+        color: $profile-option-font-color;
+        display: block;
+        font-family: $profile-option-font-family;
+        font-size: $profile-option-font-size;
+        width: 100%
+    }
 }
-*/
 
 .unselectable-text {
     -webkit-user-select: none; /* Chrome/Safari */
