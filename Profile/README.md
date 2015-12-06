@@ -86,6 +86,14 @@ With the .bowerrc file we setup the folder where you want to hold the frontend d
 
 * Notice that the **node_modules** folder (Created for Grunt) was excluded from the repository in the **.gitignore** file.
 
+## Multi language support
+
+In order to support multiple languages, in this case english and spanish, the i18n library was used.
+
+http://i18next.com/
+
+:octocat: https://github.com/i18next/i18next
+
 ## Styles Considerations
 
 For the styles [SMACSS](https://smacss.com/book/type-layout) guideline is used.
