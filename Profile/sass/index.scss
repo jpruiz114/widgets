@@ -114,7 +114,7 @@ body {
         padding-top: $list-option-padding-top;
         text-align: left;
         text-decoration: none;
-        width: calc(100% - (#{$list-option-margin-left} + #{$list-option-margin-right}));
+        width: calc(100% - (#{$list-option-padding-left} + #{$list-option-padding-right}));
     }
 
     label {
