@@ -200,7 +200,15 @@ var app = {
 
                 $("#profile-name").html(data.info["profile-name"]);
 
+                /* ***** */
 
+                var langTextObj = app.getTextObject();
+
+                var followersText = langTextObj("profile.followers") + "&nbsp" + data.info["followers"];
+
+                $("#followers-number").html(followersText);
+
+                /* ***** */
 
                 profileLoaded = true;
             }
