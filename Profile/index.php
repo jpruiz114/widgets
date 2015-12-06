@@ -98,9 +98,11 @@ if (!empty($params)) {
                     <div class="col" id="profile-data">
                         <p class="unselectable-text" id="profile-name" unselectable="on"></p>
 
-                        <span class="unselectable-text" data-i18n="profile.followers">
+                        <p class="unselectable-text" unselectable="on">
                             <label class="unselectable-text" id="followers-number" unselectable="on"></label>
-                        </span>
+
+                            <label class="unselectable-text" data-i18n="profile.followers" unselectable="on"></label>
+                        </p>
                     </div>
                 </div>
             </div>
