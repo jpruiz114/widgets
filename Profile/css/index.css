@@ -128,9 +128,13 @@ body {
 #profile-options li a:hover .fa {
   color: #e55f3b; }
 #profile-options label {
-  cursor: pointer; }
+  cursor: pointer;
+  display: table-cell;
+  width: 90%; }
 #profile-options .fa {
-  float: right; }
+  display: table-cell;
+  text-align: center;
+  width: 10%; }
 
 .unselectable-text {
   -webkit-user-select: none;

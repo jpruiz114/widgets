@@ -131,10 +131,14 @@ body {
 
     label {
         cursor: pointer;
+        display: table-cell;
+        width: 90%;
     }
 
     .fa {
-        float: right;
+        display: table-cell;
+        text-align: center;
+        width: 10%;
     }
 }
 
