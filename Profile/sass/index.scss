@@ -117,7 +117,7 @@ body {
         padding-top: $list-option-padding-top;
         text-align: left;
         text-decoration: none;
-        width: calc(100% - (#{$list-option-padding-left} + #{$list-option-padding-right} + 3));
+        width: calc(100% - (#{$list-option-padding-left} + #{$list-option-padding-right} + #{$profile-option-border-left-width}));
     }
 
     li a:hover {

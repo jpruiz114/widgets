@@ -121,7 +121,7 @@ body {
   padding-top: 12px;
   text-align: left;
   text-decoration: none;
-  width: calc(100% - (20px + 20px + 3)); }
+  width: calc(100% - (20px + 20px + 3px)); }
 #profile-options li a:hover {
   background-color: #f8f3f0;
   border-left-color: #4daf7b; }
