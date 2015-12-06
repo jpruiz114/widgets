@@ -122,6 +122,7 @@ body {
         border-left-color: $profile-option-border-left-hover-color;
         border-left-style: solid;
         border-left-width: $profile-option-border-left-width;
+        width: calc(100% - 3px);
     }
 
     label {

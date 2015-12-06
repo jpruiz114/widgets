@@ -123,7 +123,8 @@ body {
   background-color: #f8f3f0;
   border-left-color: 4daf7b;
   border-left-style: solid;
-  border-left-width: 3px; }
+  border-left-width: 3px;
+  width: calc(100% - 3px); }
 #profile-options label {
   cursor: pointer; }
 #profile-options .fa {
