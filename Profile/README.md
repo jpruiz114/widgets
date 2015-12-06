@@ -12,7 +12,7 @@ Live links:
 
 :link: http://jeanpaulruizvallejo.com/frontend-test/Profile/3
 
-View that will show a message letting the user know that this profile couldn't be founnd:
+View that will show a message letting the user know that this profile couldn't be found:
 
 :link: http://jeanpaulruizvallejo.com/frontend-test/Profile/4
 
