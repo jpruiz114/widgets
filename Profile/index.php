@@ -109,19 +109,19 @@ if (!empty($params)) {
                 <div id="profile-options">
                     <ul>
                         <li>
-                            <a></a>
+                            <a data-i18n="[title]profile.edit-user;profile.edit-user"></a>
                         </li>
 
                         <li>
-
+                            <a data-i18n="[title]profile.web-statistics;profile.web-statistics"></a>
                         </li>
 
                         <li>
-
+                            <a data-i18n="[title]profile.upload-settings";profile.upload-settings""></a>
                         </li>
 
                         <li>
-
+                            <a data-i18n="[title]profile.events;profile.events"></a>
                         </li>
                     </ul>
                 </div>

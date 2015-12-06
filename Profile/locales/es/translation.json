@@ -5,6 +5,11 @@
 
     "followers": "Seguidores",
 
+    "edit-user": "Editar usuario",
+    "web-statistics": "Estadísticas web",
+    "upload-settings": "Opciones de subida",
+    "events": "Eventos",
+
     "profile-not-found": ":( El perfil solicitado no pudo ser encontrado."
   }
 }

@@ -5,6 +5,11 @@
 
     "followers": "Followers",
 
+    "edit-user": "Edit user",
+    "web-statistics": "Web statistics",
+    "upload-settings": "Upload settings",
+    "events": "Events",
+
     "profile-not-found": ":( The requested profile could not be found."
   }
 }
