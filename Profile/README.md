@@ -4,24 +4,24 @@ By Jean Paul Ruiz :smiley_cat: <jpruiz114@gmail.com>
 
 Live links:
 
-http://jeanpaulruizvallejo.com/frontend-test/Profile/
+:link: http://jeanpaulruizvallejo.com/frontend-test/Profile/
 
-http://jeanpaulruizvallejo.com/frontend-test/Profile/1
-http://jeanpaulruizvallejo.com/frontend-test/Profile/2
-http://jeanpaulruizvallejo.com/frontend-test/Profile/3
+:link: http://jeanpaulruizvallejo.com/frontend-test/Profile/1
+:link: http://jeanpaulruizvallejo.com/frontend-test/Profile/2
+:link: http://jeanpaulruizvallejo.com/frontend-test/Profile/3
 
 View that will show a message letting the user know that this profile couldn't be founnd:
 
-http://jeanpaulruizvallejo.com/frontend-test/Profile/4
+:link: http://jeanpaulruizvallejo.com/frontend-test/Profile/4
 
-http://jeanpaulruizvallejo.com/frontend-test/Profile/en
-http://jeanpaulruizvallejo.com/frontend-test/Profile/es
+:us: http://jeanpaulruizvallejo.com/frontend-test/Profile/en
+:es: http://jeanpaulruizvallejo.com/frontend-test/Profile/es
 
-http://jeanpaulruizvallejo.com/frontend-test/Profile/en/1
-http://jeanpaulruizvallejo.com/frontend-test/Profile/en/2
-http://jeanpaulruizvallejo.com/frontend-test/Profile/en/3
+:us: http://jeanpaulruizvallejo.com/frontend-test/Profile/en/1
+:us: http://jeanpaulruizvallejo.com/frontend-test/Profile/en/2
+:us: http://jeanpaulruizvallejo.com/frontend-test/Profile/en/3
 
-http://jeanpaulruizvallejo.com/frontend-test/Profile/es/1
-http://jeanpaulruizvallejo.com/frontend-test/Profile/es/2
-http://jeanpaulruizvallejo.com/frontend-test/Profile/es/3
+:es: http://jeanpaulruizvallejo.com/frontend-test/Profile/es/1
+:es: http://jeanpaulruizvallejo.com/frontend-test/Profile/es/2
+:es: http://jeanpaulruizvallejo.com/frontend-test/Profile/es/3
 
