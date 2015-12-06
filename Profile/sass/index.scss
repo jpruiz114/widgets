@@ -105,10 +105,14 @@ body {
 
     li a {
         color: $profile-option-font-color;
-        display: block;
+        display: table;
         font-family: $profile-option-font-family;
         font-size: $profile-option-font-size;
-        width: 100%
+        margin-bottom: $list-option-margin-bottom;
+        margin-left: $list-option-margin-left;
+        margin-top: $list-option-margin-top;
+        text-align: left;
+        width: calc(80% - #{$list-option-margin-left});
     }
 }
 

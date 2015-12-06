@@ -117,7 +117,7 @@ if (!empty($params)) {
                         </li>
 
                         <li>
-                            <a data-i18n="[title]profile.upload-settings";profile.upload-settings""></a>
+                            <a data-i18n="[title]profile.upload-settings;profile.upload-settings"></a>
                         </li>
 
                         <li>
