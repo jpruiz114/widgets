@@ -117,6 +117,13 @@ body {
         width: calc(100% - (#{$list-option-padding-left} + #{$list-option-padding-right}));
     }
 
+    li a:hover {
+        background-color: $profile-option-hover-color;
+        border-left-color: $profile-option-border-left-hover-color;
+        border-left-style: solid;
+        border-left-width: $profile-option-border-left-width;
+    }
+
     label {
         cursor: pointer;
     }
