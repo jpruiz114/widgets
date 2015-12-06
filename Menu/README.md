@@ -10,11 +10,11 @@ Shots:
 
 Desktop:
 
-![Original image](https://raw.githubusercontent.com/jpruiz114/widgets/master/Menu/assets/shots/desktop.jpg)
+![Original image](https://raw.githubusercontent.com/jpruiz114/widgets/master/Menu/assets/shots/desktop.png)
 
 Responsive:
 
-![Original image](https://raw.githubusercontent.com/jpruiz114/widgets/master/Menu/assets/shots/responsive.jpg)
+![Original image](https://raw.githubusercontent.com/jpruiz114/widgets/master/Menu/assets/shots/responsive.png)
 
 Mobile:
 
