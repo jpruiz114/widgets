@@ -108,10 +108,10 @@ body {
         display: table;
         font-family: $profile-option-font-family;
         font-size: $profile-option-font-size;
-        margin-bottom: $list-option-margin-bottom;
-        margin-left: $list-option-margin-left;
-        margin-right: $list-option-margin-right;
-        margin-top: $list-option-margin-top;
+        padding-bottom: $list-option-padding-bottom;
+        padding-left: $list-option-padding-left;
+        padding-right: $list-option-padding-right;
+        padding-top: $list-option-padding-top;
         text-align: left;
         text-decoration: none;
         width: calc(100% - (#{$list-option-margin-left} + #{$list-option-margin-right}));
