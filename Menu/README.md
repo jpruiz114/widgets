@@ -8,3 +8,15 @@ Live links:
 
 Shots:
 
+Desktop:
+
+![Original image](https://raw.githubusercontent.com/jpruiz114/widgets/master/Menu/assets/shots/desktop.jpg)
+
+Responsive:
+
+![Original image](https://raw.githubusercontent.com/jpruiz114/widgets/master/Menu/assets/shots/responsive.jpg)
+
+Mobile:
+
+![Original image](https://raw.githubusercontent.com/jpruiz114/widgets/master/Menu/assets/shots/mobile.jpg)
+
