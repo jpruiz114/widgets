@@ -119,6 +119,8 @@ body {
   text-align: left;
   text-decoration: none;
   width: calc(100% - (20px + 20px)); }
+#profile-options label {
+  cursor: pointer; }
 #profile-options .fa {
   float: right; }
 
