@@ -10,13 +10,13 @@ Shots:
 
 Desktop:
 
-![Original image](https://raw.githubusercontent.com/jpruiz114/widgets/master/Menu/assets/shots/desktop.png =250x)
+![Original image](https://raw.githubusercontent.com/jpruiz114/widgets/master/Menu/assets/shots/desktop.png)
 
 Responsive:
 
-![Original image](https://raw.githubusercontent.com/jpruiz114/widgets/master/Menu/assets/shots/responsive.png =250x)
+![Original image](https://raw.githubusercontent.com/jpruiz114/widgets/master/Menu/assets/shots/responsive.png)
 
 Mobile:
 
-![Original image](https://raw.githubusercontent.com/jpruiz114/widgets/master/Menu/assets/shots/mobile.jpg =250x)
+![Original image](https://raw.githubusercontent.com/jpruiz114/widgets/master/Menu/assets/shots/mobile.jpg)
 
