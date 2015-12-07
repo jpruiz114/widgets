@@ -49,6 +49,7 @@ body {
   left: 50%;
   margin-left: -140px;
   margin-top: -155px;
+  overflow: hidden;
   position: absolute;
   top: 50%;
   width: 280px; }

@@ -42,6 +42,7 @@ body {
     left: 50%;
     margin-left: -1 * ($post-width / 2);
     margin-top: -1 * $post-height / 2;
+    overflow: hidden;
     position: absolute;
     top: 50%;
     width: $post-width;
