@@ -104,25 +104,38 @@ With the .bowerrc file we setup the folder where you want to hold the frontend d
 :bulb: Install the **karma** package
 `npm install karma --save-dev`
 
-:bulb: Install the **mocha** package
-`npm install mocha --save-dev`
+:bulb: Install the **karma-chai** package
+`npm install karma-chai --save-dev`
 
 :bulb: Install the **karma-mocha** package
 `npm install karma-mocha --save-dev`
 
-:bulb: Install the **karma-chai** package
-`npm install karma-chai --save-dev`
+:bulb: Install the **karma-phantomjs-launcher** package
+`npm install karma-phantomjs-launcher --save-dev`
 
 :bulb: Install the **karma-sinon** package
 `npm install karma-sinon --save-dev`
+
+:bulb: Install the **mocha** package
+`npm install mocha --save-dev`
 
 To check that Karma is installed:
 
 `karma --version`
 
-To run Karma:
+To init Karma:
 
 `karma init`
+
+That should create the karma.conf.js
+
+Setup the config file.
+
+Write a test.
+
+Run Karma:
+
+`karma start`
 
 * Notice that the **node_modules** folder (Created for Grunt) was excluded from the repository in the **.gitignore** file.
 
