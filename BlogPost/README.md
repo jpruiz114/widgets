@@ -134,6 +134,10 @@ Inside the **example.test.js** file, you can see an example:
 
 Instead of saying something like assert.equal(2 - 1, 1), you can write your assertions like, expect(2 - 1).to.equal(1).
 
+http://chaijs.com/guide/styles/#should
+http://chaijs.com/guide/styles/#expect
+http://chaijs.com/guide/styles/#assert
+
 ### Sinon
 
 Sinon is another essential part of our toolbox that provides spies, stubs, mocks, and a few additional useful functions for testing:

@@ -1,5 +1,5 @@
 describe(
-    "index.js",
+    "index",
     function() {
         beforeEach(
             function() {
@@ -14,13 +14,46 @@ describe(
         );
 
         it(
-            "should initialize with a given language code and profile id",
+            "preferred language should be null in the beginning",
             function() {
-                var languageCode = "";
+                var preferredLanguage = app.getPreferredLanguage();
 
-                var profileId = "";
+                should.not.exist(preferredLanguage);
+            }
+        );
 
-                expect(true).to.be.true;
+        it(
+            "preferred language shouldn't be null after defined",
+            function() {
+                app.defineLanguage();
+
+                var preferredLanguage = app.getPreferredLanguage();
+
+                should.exist(preferredLanguage);
+
+                expect(preferredLanguage).to.be.a("string");
+            }
+        );
+
+        it(
+            "base path should be null in the beginning",
+            function() {
+                var basePath = app.getBasePath();
+
+                should.not.exist(basePath);
+            }
+        );
+
+        it(
+            "base path shouldn't be null after defined",
+            function() {
+                app.setBasePath("./../");
+
+                var basePath = app.getBasePath();
+
+                should.exist(basePath);
+
+                expect(basePath).to.be.a("string");
             }
         );
     }

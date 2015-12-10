@@ -57,7 +57,7 @@ var app = {
 	/**
 	 *
 	 */
-	basePath: "",
+	basePath: null,
 
 	/**
 	 *
