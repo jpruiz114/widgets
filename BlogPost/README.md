@@ -98,6 +98,24 @@ With the .bowerrc file we setup the folder where you want to hold the frontend d
 
 ### Karma and Mocha Testing
 
+#### Karma
+
+http://karma-runner.github.io/
+
+:octocat: https://github.com/karma-runner/karma
+
+Karma is a test runner. Karma uses your test framework to run tests in several environments of your choice.
+
+"On the AngularJS team, we rely on testing and we always seek better tools to make our life easier. That's why we created Karma - a test runner that fits all our needs."
+
+#### Mocha
+
+http://mochajs.org/
+
+:octocat: https://github.com/mochajs/mocha
+
+Mocha is our framework of choice that takes care of running our test suites.
+
 #### Chai
 
 http://chaijs.com/
@@ -107,8 +125,6 @@ http://chaijs.com/
 Chai adds syntactic sugar to your assertions, some utility functions, as well as a plugin interface for any necessary tweaks you might want to build.
 
 It is framework agnostic, so you don’t need to use it with Mocha specifically.
-
-After using Chai and Mocha together for some time now, I sometimes forget where the line is between the two because they mesh so beautifully.
 
 Inside the **test-example.spec.js** file, you can see an example:
 
@@ -155,6 +171,12 @@ That should create the karma.conf.js Setup the config file. Then write a test.
 To run Karma:
 
 `karma start`
+
+Some useful links:
+
+https://sean.is/writing/client-side-testing-with-mocha-and-karma/
+
+http://karma-runner.github.io/0.13/config/browsers.html
 
 * Notice that the **node_modules** folder (Created for Grunt) was excluded from the repository in the **.gitignore** file.
 
