@@ -96,6 +96,8 @@ With the .bowerrc file we setup the folder where you want to hold the frontend d
 :bulb: Install the **load-grunt-tasks** package
 `npm install load-grunt-tasks --save-dev`
 
+* Notice that the **node_modules** folder (Created for Grunt and Karma) was excluded from the repository in the **.gitignore** file.
+
 ## Karma and Mocha Testing
 
 ### Karma
@@ -178,7 +180,7 @@ https://sean.is/writing/client-side-testing-with-mocha-and-karma/
 
 http://karma-runner.github.io/0.13/config/browsers.html
 
-* Notice that the **node_modules** folder (Created for Grunt) was excluded from the repository in the **.gitignore** file.
+* Notice that the **node_modules** folder (Created for Grunt and Karma) was excluded from the repository in the **.gitignore** file.
 
 ## Multi language support
 
