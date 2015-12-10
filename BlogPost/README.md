@@ -116,11 +116,13 @@ Inside the **test-example.spec.js** file, you can see an example:
 
 Instead of saying something like assert.equal(2 - 1, 1), you can write your assertions like, expect(2 - 1).to.equal(1).
 
-:bulb: Install the **grunt-karma** package
-`npm install grunt-karma --save-dev`
+#### Packages
 
 :bulb: Install the command line interface for Karma
 `npm install -g karma-cli`
+
+:bulb: Install the **grunt-karma** package
+`npm install grunt-karma --save-dev`
 
 :bulb: Install the **karma** package
 `npm install karma --save-dev`
@@ -148,13 +150,9 @@ To init Karma:
 
 `karma init`
 
-That should create the karma.conf.js
+That should create the karma.conf.js Setup the config file. Then write a test.
 
-Setup the config file.
-
-Write a test.
-
-Run Karma:
+To run Karma:
 
 `karma start`
 
