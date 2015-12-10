@@ -98,6 +98,24 @@ With the .bowerrc file we setup the folder where you want to hold the frontend d
 
 ### Karma and Mocha Testing
 
+#### Chai
+
+http://chaijs.com/
+
+:octocat: https://github.com/chaijs/chai
+
+Chai adds syntactic sugar to your assertions, some utility functions, as well as a plugin interface for any necessary tweaks you might want to build.
+
+It is framework agnostic, so you don’t need to use it with Mocha specifically.
+
+After using Chai and Mocha together for some time now, I sometimes forget where the line is between the two because they mesh so beautifully.
+
+Inside the **test-example.spec.js** file, you can see an example:
+
+`expect(true).to.be.false;`
+
+Instead of saying something like assert.equal(2 - 1, 1), you can write your assertions like, expect(2 - 1).to.equal(1).
+
 :bulb: Install the **grunt-karma** package
 `npm install grunt-karma --save-dev`
 

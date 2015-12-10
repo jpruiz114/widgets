@@ -14,7 +14,7 @@ describe(
         );
 
         it(
-            'should fail',
+            "should fail",
             function() {
                 expect(true).to.be.false;
             }
