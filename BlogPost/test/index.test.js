@@ -1,5 +1,5 @@
 describe(
-    "A test suite",
+    "index.js",
     function() {
         beforeEach(
             function() {
@@ -14,9 +14,13 @@ describe(
         );
 
         it(
-            "should fail",
+            "should initialize with a given language code and profile id",
             function() {
-                expect(true).to.be.false;
+                var languageCode = "";
+
+                var profileId = "";
+
+                expect(true).to.be.true;
             }
         );
     }

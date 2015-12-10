@@ -128,16 +128,49 @@ Chai adds syntactic sugar to your assertions, some utility functions, as well as
 
 It is framework agnostic, so you don’t need to use it with Mocha specifically.
 
-Inside the **test-example.spec.js** file, you can see an example:
+Inside the **example.test.js** file, you can see an example:
 
 `expect(true).to.be.false;`
 
 Instead of saying something like assert.equal(2 - 1, 1), you can write your assertions like, expect(2 - 1).to.equal(1).
 
-### Packages
+### Sinon
+
+Sinon is another essential part of our toolbox that provides spies, stubs, mocks, and a few additional useful functions for testing:
+
+#### Spies
+
+Spies are functions that record how many times they have been called and with what arguments.
+
+These are especially useful when testing callbacks.
+
+#### Stubs
+
+Stubs are like spies but with pre-programmed behavior.
+
+Unlike wrapping a function with a spy, when you wrap a function with a stub, that original function is not called.
+
+This can be useful for faking AJAX requests where you might not want the actual request to go out.
+
+Some valid use cases for stubs are altering flow control or testing a branch of your function that throws an error.
+
+#### Mocks
+
+Mocks are similar to stubs because they inherit the spy API and discard the original function implementation.
+
+In addition to pre-programmed behavior there are expectations – you will tell the mock to what to expect and verify, usually before any of the test code is written.
+
+### Dependencies
+
+#### Command Line Interface
 
 :bulb: Install the command line interface for Karma
 `npm install -g karma-cli`
+
+#### Packages
+
+:bulb: Install the **chai** package
+`npm install chai --save-dev`
 
 :bulb: Install the **grunt-karma** package
 `npm install grunt-karma --save-dev`
@@ -148,6 +181,9 @@ Instead of saying something like assert.equal(2 - 1, 1), you can write your asse
 :bulb: Install the **karma-chai** package
 `npm install karma-chai --save-dev`
 
+:bulb: Install the **karma-firefox-launcher** package
+`npm install karma-firefox-launcher --save-dev`
+
 :bulb: Install the **karma-mocha** package
 `npm install karma-mocha --save-dev`
 
@@ -157,8 +193,17 @@ Instead of saying something like assert.equal(2 - 1, 1), you can write your asse
 :bulb: Install the **karma-sinon** package
 `npm install karma-sinon --save-dev`
 
+:bulb: Install the **karma-verbose-reporter** package
+`npm install karma-verbose-reporter --save-dev`
+
 :bulb: Install the **mocha** package
 `npm install mocha --save-dev`
+
+:bulb: Install the **phantomjs** package
+`npm install phantomjs --save-dev`
+
+:bulb: Install the **sinon** package
+`npm install sinon --save-dev`
 
 To check that Karma is installed:
 
