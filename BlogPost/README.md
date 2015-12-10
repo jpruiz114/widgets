@@ -98,6 +98,9 @@ With the .bowerrc file we setup the folder where you want to hold the frontend d
 
 ### Karma and Mocha Testing
 
+:bulb: Install the **grunt-karma** package
+`npm install grunt-karma --save-dev`
+
 :bulb: Install the command line interface for Karma
 `npm install -g karma-cli`
 
