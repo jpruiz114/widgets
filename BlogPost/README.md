@@ -96,9 +96,9 @@ With the .bowerrc file we setup the folder where you want to hold the frontend d
 :bulb: Install the **load-grunt-tasks** package
 `npm install load-grunt-tasks --save-dev`
 
-### Karma and Mocha Testing
+## Karma and Mocha Testing
 
-#### Karma
+### Karma
 
 http://karma-runner.github.io/
 
@@ -108,7 +108,7 @@ Karma is a test runner. Karma uses your test framework to run tests in several e
 
 "On the AngularJS team, we rely on testing and we always seek better tools to make our life easier. That's why we created Karma - a test runner that fits all our needs."
 
-#### Mocha
+### Mocha
 
 http://mochajs.org/
 
@@ -116,7 +116,7 @@ http://mochajs.org/
 
 Mocha is our framework of choice that takes care of running our test suites.
 
-#### Chai
+### Chai
 
 http://chaijs.com/
 
@@ -132,7 +132,7 @@ Inside the **test-example.spec.js** file, you can see an example:
 
 Instead of saying something like assert.equal(2 - 1, 1), you can write your assertions like, expect(2 - 1).to.equal(1).
 
-#### Packages
+### Packages
 
 :bulb: Install the command line interface for Karma
 `npm install -g karma-cli`
