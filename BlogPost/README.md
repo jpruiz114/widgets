@@ -272,6 +272,7 @@ There are several shell scripts for:
 
 * Bower
 * git
+* Karma
 
 The shell scripts for **Bower** allow to:
 
@@ -282,6 +283,10 @@ The shell scripts for **Bower** allow to:
 The shell scripts for **git** allow to:
 
 * Push the current changes to the repo with a custom or generic comment.
+
+The shell scripts for **Karma** allow to:
+
+* Run the unit tests of the module.
 
 ## Accessibility Evaluation
 
