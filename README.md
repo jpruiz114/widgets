@@ -61,16 +61,21 @@ User profile display widget with social links and information cards.
    ```
 
 ### Build Process
-Run the automated build script:
+Each widget can be built individually:
 ```bash
-./push-and-deploy.sh
+cd [WidgetName]
+npm install
+bower install
+grunt
 ```
 
-This script:
-- Builds all widget assets with Grunt
-- Validates code quality
-- Commits changes
-- Pushes to repository
+For testing (BlogPost widget):
+```bash
+cd BlogPost
+npm test
+```
+
+**Note**: Automated deployment scripts have been removed for security reasons. Manual deployment is recommended with proper review processes.
 
 ## Deployment
 
@@ -99,10 +104,6 @@ widgets/
 ├── ContactForm/         # Contact form widget  
 ├── Menu/                # Navigation menu widget
 ├── Profile/             # Profile display widget
-├── Deploy.php           # Deployment helper
-├── ga-tracking.php      # Analytics tracking
-├── pull-changes.sh      # Pull script
-├── push-and-deploy.sh   # Build and deploy script
 └── tests/               # Shared tests
 ```
 
@@ -115,6 +116,17 @@ widgets/
 - **Modular Architecture**: Each widget is self-contained
 - **Build Automation**: Grunt-based build pipeline
 - **Testing**: Karma/Jasmine test suite
+
+## Security
+
+This repository has been cleaned up to remove security vulnerabilities and bad practices:
+
+- **Removed web-accessible deployment scripts** that could execute shell commands without authentication
+- **Eliminated automatic git operations** that committed and pushed changes without user review
+- **Removed scripts downloading code from internet** without verification
+- **Cleaned up hardcoded system paths** that wouldn't work across different environments
+
+All deployment should now be done manually with proper review processes.
 
 ## Contributing
 
