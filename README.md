@@ -99,7 +99,7 @@ Each widget includes:
 
 ```
 widgets/
-├── assets/               # Shared widget assets
+├── assets/              # Shared widget assets
 ├── BlogPost/            # Blog post widget
 ├── ContactForm/         # Contact form widget  
 ├── Menu/                # Navigation menu widget
